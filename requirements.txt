@@ -1,2 +1,2 @@
--e ./sphinx
+#-e ./sphinx
 sphinx-intl==0.9.5
