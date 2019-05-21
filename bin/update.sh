@@ -9,3 +9,6 @@ do
 done
 
 sphinx-intl update -p _build/locale $LANGUAGES
+
+#sphinx-build -b html -D language=en . _build/html/en
+
