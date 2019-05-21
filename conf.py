@@ -35,5 +35,5 @@ locale_dirs = [
 gettext_compact = False
 
 #make gettext
-#sphinx-intl update -p _build/locale fr
+#sphinx-intl update -p locale en
 

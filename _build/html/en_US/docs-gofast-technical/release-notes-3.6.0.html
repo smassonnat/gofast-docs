@@ -1,0 +1,664 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GoFAST : Version 3.6.0 &mdash; gofast-docs latest documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'latest',
+              LANGUAGE:'en_US',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GoFAST : API REST" href="../docs-gofast-development/api-rest.html" />
+    <link rel="prev" title="GoFAST : Version 3.5.2" href="release-notes-3.5.2.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> gofast-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation Technique GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gofast-docs-prerequis-installation-serveur.html">GoFAST :  Pré-requis et installation Serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-community-install.html">GoFAST Community :  Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-exploitation.html">GoFAST : Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-problemes-connus.html">GoFAST : Problèmes connus</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation Utilisateurs GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-guide-utilisateurs.html">GoFAST : Guide Utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-utilisation-avancee.html">GoFAST : Utilisation Avancée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-administration-plateforme.html">GoFAST : Administration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Releases GoFAST</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.0.html">GoFAST :  Version 3.2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.1.html">GoFAST :  Version 3.2.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.2.html">GoFAST :  Version 3.2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.0.html">GoFAST :  Version 3.3.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.1.html">GoFAST :  Version 3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.0.html">GoFAST :  Version 3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.1.html">GoFAST :  Version 3.4.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.0.html">GoFAST :  Version 3.5.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.1.html">GoFAST :  Version 3.5.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.2.html">GoFAST :  Version 3.5.2</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GoFAST :  Version 3.6.0</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#nouvelles-fonctionnalites">New Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-fonctionnelles">Améliorations fonctionnelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-techniques">Améliorations techniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#securite">Sécurité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs">Bugs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-mineurs">Bugs mineurs</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Ressources développeur GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-development/api-rest.html">GoFAST :  API REST</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">gofast-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>GoFAST :  Version 3.6.0</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs-gofast-technical/release-notes-3.6.0.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gofast-version-3-6-0">
+<h1>GoFAST :  Version 3.6.0<a class="headerlink" href="#gofast-version-3-6-0" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="nouvelles-fonctionnalites">
+<h2>New Features<a class="headerlink" href="#nouvelles-fonctionnalites" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4848]</td>
+<td><dl class="first last docutils">
+<dt>Major update of workflow engine BonitaSoft 7.7.4 :</dt>
+<dd><ul class="first simple">
+<li>new ergonomics</li>
+<li>new features</li>
+<li>nouvelles notifications</li>
+<li>meilleures performances</li>
+</ul>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2UZP5Lp">https://bit.ly/2UZP5Lp</a></p>
+</dd>
+</dl>
+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4711]</td>
+<td><p class="first">Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2Xk8ZxV">https://bit.ly/2Xk8ZxV</a></p>
+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4262]</td>
+<td><p class="first">Historique détaillé des actions et commentaires faits dans un workflow en cours</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2Zgf5RL">https://bit.ly/2Zgf5RL</a></p>
+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4713]</td>
+<td><p class="first">Historique détaillé des actions et commentaires faits dans un workflow archivé</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2Xk8ZxV">https://bit.ly/2Xk8ZxV</a></p>
+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4822]</td>
+<td><p class="first">Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2UjWqRn">https://bit.ly/2UjWqRn</a></p>
+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4783]</td>
+<td>Création de widgets GoFAST sur BonitaSoft</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4784]</td>
+<td>Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4820]</td>
+<td>Nouvelles API supplémentaires pour BonitaSoft</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[1640]</td>
+<td><p class="first">Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs et autres fonctionnalités</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2UoTfYC">https://bit.ly/2UoTfYC</a></p>
+</td>
+<td>[Community en v3.6.1][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[3782]</td>
+<td>Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers</td>
+<td>[Community en v3.6.1][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4141]</td>
+<td><p class="first">Gestion en masse des documents depuis le panier documentaire</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2vaO4Bq">https://bit.ly/2vaO4Bq</a></p>
+</td>
+<td>[Community en v3.6.1][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4201]</td>
+<td><p class="first">Création en masse des Publications depuis une séléction de documents de travail</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2UGLORU">https://bit.ly/2UGLORU</a></p>
+</td>
+<td>[Community en v3.6.1][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4202]</td>
+<td><p class="first">Comparatif de versions : écarts entre 2 versions d’un document en les affichant côte-à-côte [BETA]</p>
+<p class="last">Voir : <a class="reference external" href="https://bit.ly/2GrV03u">https://bit.ly/2GrV03u</a></p>
+</td>
+<td>[Community en v3.6.1][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4273]</td>
+<td><p class="first">Extension des fonctionnalités sur GoFAST mobile :</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance,</li>
+<li>Pouvoir renommer un document</li>
+<li>Pouvoir accéder et modifier son profil utilisateur</li>
+<li>Amélioration de l’affichage du menu déroulant (menu principale)</li>
+<li>Amélioration du bouton qui permet d’affichage/masquer le bloc de droite</li>
+</ul>
+</div></blockquote>
+</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4404]</td>
+<td>Création d’une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet ‘Membres’</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4561]</td>
+<td>Synchronisation des informations d’un Espace Collaboratif avec la navigation dans GoFAST File Browser</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4694]</td>
+<td>Persistance des filtres sur le fil d’activité et affichage des filtres appliqués en haut du bloc</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4798]</td>
+<td>Ajout de filtres dans l’annuaire des utilisateurs bloqués</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ameliorations-fonctionnelles">
+<h2>Améliorations fonctionnelles<a class="headerlink" href="#ameliorations-fonctionnelles" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4198]</td>
+<td>Réduction du nombre de clics lors de l’ajout d’une échéance à un document (l’heure et les minutes sont auto-attribuées par défaut)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4234]</td>
+<td>Sélection en masse dans GoFAST File Browser : cocher plusieurs fichiers/dossiers grâce à des cases (et non seulement via les raccourcis clavier)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4282]</td>
+<td>Amélioration des notifications liées aux réunions et Webconférences</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4715]</td>
+<td>Amélioration du mécanisme d’autocomplétions des champs de destinataires de messages : lors de la saisie d’un texte il n’y a plus besoin de cliquer sur la suggestion pour valider le destinataire</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4773]</td>
+<td>Dans le panier documentaire, ajout de la possibilité de supprimer tous les éléments du panier en un clic</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4791]</td>
+<td>Exclusion des utilisateurs bloqués de l’autocomplétions dans les champs</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4835]</td>
+<td>Enlever l’envoi de l’e-mail de notification lorsqu’un utilisateur est débloqué</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4903]</td>
+<td>Amélioration de l’affichage (taille) de certaines popups (commentaires, message privé, partage par e-mail, etc.)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4914]</td>
+<td>Amélioration de l’affichage des Espaces Collaboratifs dont est membre un utilisateur, sur sa page de profil</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4935]</td>
+<td>Amélioration du message explicatif lors de l’affichage de la popup d’installation ITHitEditDocumentOpener</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4952]</td>
+<td>Ajout des rôles finaux des espaces dans le profil de l’utilisateur</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[5002]</td>
+<td>Ajout d’un bouton d’accès à la page d’accueil (fil d’activité/tableau de bord) dans le menu principal (à côté du logo)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ameliorations-techniques">
+<h2>Améliorations techniques<a class="headerlink" href="#ameliorations-techniques" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3742]</td>
+<td>Mise à jour de Bonita 7.7.4</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4774]</td>
+<td>Mise à jour de la Suite OnlyOffice 5.2.8</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4831]</td>
+<td>Implémentation de hooks et altérateurs dans l’activity feed</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4866]</td>
+<td>Ajout de l’anti-virus CLAMAV</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4876]</td>
+<td>Mise à jour de LibreOffice 6.2.0.3 (améliorations des prévisualisations des fichiers Office)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4888]</td>
+<td>Modification de la gestion des traductions des vues associées aux Workflows (Tableau de bord des processus, formulaires, notifications…)</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4922]</td>
+<td>Mise à jour de de Jitsi-Meet r3548+</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4991]</td>
+<td>Supervision Zabbix php-fpm</td>
+<td>[Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4957]</td>
+<td>Augmentation du max_open_file (ulimit) du système</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="securite">
+<h2>Sécurité<a class="headerlink" href="#securite" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4828]</td>
+<td>Mise à jour du thème Bootstrap 7.x-3.23 (Security update Boostrap 3.4.0)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4866]</td>
+<td>Ajout de l’anti-virus CLAMAV avec notification de supervision</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4960]</td>
+<td>Mise à jour de sécurité de Views 7.x-3.21</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs">
+<h2>Bugs<a class="headerlink" href="#bugs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[2913]</td>
+<td>Correction de la recherche de chaîne exacte entre guillemets (“ ”)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[3962]</td>
+<td>Correction du retour sur le fil d’activité (via les boutons du navigateur) pour être ramené sur la bonne page du fil (non la 1ère page par défaut)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4770]</td>
+<td>Permettre l’affichage d’un dossier ayant comme titre ‘Sites’ dans GoFAST File Browser</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4803]</td>
+<td>Correction de l’affichage des dossiers d’un Espace non archivé qui sont affichés comme archivés (dans le formulaire de gestion des emplacements)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4829]</td>
+<td>Permettre le mécanisme d’exclusion de mot clé dans la recherche (via l’utilisation de l’opérateur ‘-‘ )</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4837]</td>
+<td>Correction de l’option ‘Conserver les filtres actuels’ dans la recherche</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4850]</td>
+<td>Contenus filtrés dans les autosuggestions des divers champs (ex : recherche, contenus liés…) selon les droits d’accès (pour éviter de suggérer des documents qui sont non accessibles à l’utilisateur)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4915]</td>
+<td>Correction du problème d’installation de GoFAST Community via image OVA</td>
+<td>[Community]</td>
+</tr>
+<tr class="row-even"><td>[4943]</td>
+<td>Permettre au créateur d’un document de rechercher et filtrer les documents supprimés et les restaurer (dans la limite de conservation dans la corbeille)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[5000]</td>
+<td>Récupération de l’extension de fichier lors de la création d’un document vierge</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-mineurs">
+<h2>Bugs mineurs<a class="headerlink" href="#bugs-mineurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Categorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4769]</td>
+<td>Afficher tous les emplacements existants (fil d’Ariane) sur la page d’un forum</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4787]</td>
+<td>Correction de l’affichage des éléments du bloc ‘lien vers d’autres contenus’ lorsqu’il y a beaucoup de contenus liés</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4800]</td>
+<td>Divers problèmes liés au ‘sélecteur d’emplacements’ dans les formulaires de gestion des emplacements des documents</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4862]</td>
+<td>Correction de l’affichage des filtres appliqués sur le résultat de recherche lorsque qu’il y a beaucoup de critères</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4870]</td>
+<td>Correction du pré-remplissage du champs ‘Titre’ d’un document lors de sa création depuis un modèle (formulaire de création d’un document)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4921]</td>
+<td>“InvalidAccessError : Failed to execute” lors webconference</td>
+<td>[Enterprise][JITSI][CHROME]</td>
+</tr>
+<tr class="row-even"><td>[4939]</td>
+<td>Permettre à l’utilisateur de charger une image supérieure à 1Mb pour sa photo de profil</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4945]</td>
+<td>Site inaccessible si lancement avec options par defaut (à priori security)</td>
+<td>[Community][AWS]</td>
+</tr>
+<tr class="row-even"><td>[4946]</td>
+<td>Champs obligatoires non indiqués comme obligatoires</td>
+<td>[Community]</td>
+</tr>
+<tr class="row-odd"><td>[4947]</td>
+<td>Après soumission config ‘This site cannot be reached’ si pas d’entrée DNS</td>
+<td>[Community][AWS]</td>
+</tr>
+<tr class="row-even"><td>[4948]</td>
+<td>Correction du positionnement de la popup du multi-emplacement sur la page du document</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4974]</td>
+<td>Afficher des icones manquantes dans l’éditeur de texte de l’accueil d’un Espace Collaboratif</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-even"><td>[4977]</td>
+<td>Afficher l’éditeur de texte du microblogging (sur le fil d’activité)</td>
+<td>[Community][Enterprise]</td>
+</tr>
+<tr class="row-odd"><td>[4995]</td>
+<td>Dans GoFAST File Browser, activer les boutons d’actions quand les éléments sont sélectionnés par via les cases à cocher</td>
+<td>[Community][Enterprise]</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt><strong>Note: Mettre à jour GoFAST Community</strong></dt>
+<dd>Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur www.ceo-vision.com en libre téléchargement en 3.6.1 (actuellement v3.5.2).</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../docs-gofast-development/api-rest.html" class="btn btn-neutral float-right" title="GoFAST : API REST" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="release-notes-3.5.2.html" class="btn btn-neutral float-left" title="GoFAST : Version 3.5.2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

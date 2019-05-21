@@ -1,0 +1,504 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GoFAST : Version 3.2.1 &mdash; gofast-docs latest documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'latest',
+              LANGUAGE:'en_US',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GoFAST : Version 3.2.2" href="release-notes-3.2.2.html" />
+    <link rel="prev" title="GoFAST : Version 3.2.0" href="release-notes-3.2.0.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> gofast-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation Technique GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gofast-docs-prerequis-installation-serveur.html">GoFAST :  Pré-requis et installation Serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-community-install.html">GoFAST Community :  Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-exploitation.html">GoFAST : Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-problemes-connus.html">GoFAST : Problèmes connus</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation Utilisateurs GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-guide-utilisateurs.html">GoFAST : Guide Utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-utilisation-avancee.html">GoFAST : Utilisation Avancée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-administration-plateforme.html">GoFAST : Administration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Releases GoFAST</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.0.html">GoFAST :  Version 3.2.0</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GoFAST :  Version 3.2.1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations">Améliorations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#securite">Sécurité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-mineurs">Bugs mineurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-majeurs">Bugs majeurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hotfix">Hotfix</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.2.html">GoFAST :  Version 3.2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.0.html">GoFAST :  Version 3.3.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.1.html">GoFAST :  Version 3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.0.html">GoFAST :  Version 3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.1.html">GoFAST :  Version 3.4.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.0.html">GoFAST :  Version 3.5.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.1.html">GoFAST :  Version 3.5.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.2.html">GoFAST :  Version 3.5.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.6.0.html">GoFAST :  Version 3.6.0</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ressources développeur GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-development/api-rest.html">GoFAST :  API REST</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">gofast-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>GoFAST :  Version 3.2.1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs-gofast-technical/release-notes-3.2.1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gofast-version-3-2-1">
+<h1>GoFAST :  Version 3.2.1<a class="headerlink" href="#gofast-version-3-2-1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ameliorations">
+<h2>Améliorations<a class="headerlink" href="#ameliorations" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[2875]</td>
+<td>Création d’une case <em>Cocher tout</em> dans la vue de gestion en masse des droits d’accès des utilisateurs</td>
+<td>Gestion en masse</td>
+</tr>
+<tr class="row-odd"><td>[3442]</td>
+<td>Amélioration de l’ergonomie de la fonctionnalité de gestion en masse des utilisateurs</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-even"><td>[3736]</td>
+<td>Amélioration des performances de la fonctionnalité de gestion en masse des utilisateurs dans le cas où il y a un grand nombre d’utilisateurs sélectionnés</td>
+<td>Gestion des utilisateurs</td>
+</tr>
+<tr class="row-odd"><td>[3898]</td>
+<td>PDF signé avec certificat maintenant visible dans la prévisualisation</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-even"><td>[3981]</td>
+<td>Accès au téléchargement du module -IT Hit Edit Document Opener- facilité. Ce module permet l’édition en ligne des fichiers non Office</td>
+<td>Edition en ligne</td>
+</tr>
+<tr class="row-odd"><td>[4002]</td>
+<td>Amélioration des performances globale mySQL</td>
+<td>Performance</td>
+</tr>
+<tr class="row-even"><td>[4003]</td>
+<td>Adapter le design pour une résolution mini de 1366x768</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4005]</td>
+<td>Amélioration de la traduction</td>
+<td>Traduction</td>
+</tr>
+<tr class="row-odd"><td>[4024]</td>
+<td>Indenter les groupes dans le filtre du fil d’actualité</td>
+<td>Filtres</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="securite">
+<h2>Sécurité<a class="headerlink" href="#securite" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3918]</td>
+<td>Mise à jour de Drupal <em>core + modules</em></td>
+<td>Sécurité</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-mineurs">
+<h2>Bugs mineurs<a class="headerlink" href="#bugs-mineurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="13%" />
+<col width="75%" />
+<col width="13%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3078]</td>
+<td>Fixer la largeur des colonnes du calendrier</td>
+<td>Calendrier</td>
+</tr>
+<tr class="row-odd"><td>[3569]</td>
+<td>Amélioration du positionnement lors de l’arrivée sur une page : l’utilisateur n’arrivait pas sur le haut de la page</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-even"><td>[3823]</td>
+<td>Manque d’icônes dans l’éditeur de texte formaté</td>
+<td>Editeur de texte formaté</td>
+</tr>
+<tr class="row-odd"><td>[3868]</td>
+<td>Correction du problème de création automatique du dossier <em>TEMPLATES</em> dans les espaces de second niveau</td>
+<td>Templates</td>
+</tr>
+<tr class="row-even"><td>[3911]</td>
+<td>Message d’erreur lors d’un glisser/déposer de la nouvelle version d’un document</td>
+<td>Versionning</td>
+</tr>
+<tr class="row-odd"><td>[3916]</td>
+<td>Correction des invitations ICS envoyées par email pour planifier des webconférences de manière à être acceptées par les agendas de certaines messageries</td>
+<td>Notifications</td>
+</tr>
+<tr class="row-even"><td>[3935]</td>
+<td>Correction du blocage JavaScript dans la fonctionnalité de gestion en masse des utilisateurs</td>
+<td>Gestion des utilisateurs</td>
+</tr>
+<tr class="row-odd"><td>[3967]</td>
+<td>Suite à l’action <em>Ouvrir l’emplacement du document</em>, mauvais emplacement affiché dans l’explorateur de fichiers</td>
+<td>Explorateur web</td>
+</tr>
+<tr class="row-even"><td>[3969]</td>
+<td>Correction de la fonctionnalité de suppression d’un espace qui dysfonctionnait dans le cas où il y a beaucoup de contenus (node) rattachés</td>
+<td>Espace</td>
+</tr>
+<tr class="row-odd"><td>[3992]</td>
+<td>Correction du bug <em>emplacement non trouvé dans l’explorateur de fichiers</em> suite à un clic sur l’espace souhaité</td>
+<td>Emplacement</td>
+</tr>
+<tr class="row-even"><td>[4004]</td>
+<td>Correction des traductions et des workflows sur la version GoFAST mobile</td>
+<td>Mobile</td>
+</tr>
+<tr class="row-odd"><td>[4011]</td>
+<td>Correction de la traduction du Chat qui restait en EN dans la version NL</td>
+<td>Traduction</td>
+</tr>
+<tr class="row-even"><td>[4015]</td>
+<td>La librairie de gestion d’emplacement ne s’instancie pas dans le formulaire de <em>Création de formulaire/forum</em> (non ajax)</td>
+<td>Gestion d’emplacement</td>
+</tr>
+<tr class="row-odd"><td>[4016]</td>
+<td>[IE] Problème d’authentification de l’explorateur de fichiers lors de la connexion</td>
+<td>Explorateur web</td>
+</tr>
+<tr class="row-even"><td>[4025]</td>
+<td>Les fenêtres de profil qui apparaissent (pop-up) au survol dans les modales de workflows, ne passent pas par dessus la fenêtre</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-odd"><td>[4026]</td>
+<td>Les documents .dotx ne sont pas considérés comme des documents Word dans GoFAST</td>
+<td>Extension</td>
+</tr>
+<tr class="row-even"><td>[4027]</td>
+<td>Lors d’une auto-suggestion dans la fenêtre apparente, la taille de la modale (pop-up) se retracte</td>
+<td>Affichage</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-majeurs">
+<h2>Bugs majeurs<a class="headerlink" href="#bugs-majeurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[2468]</td>
+<td>Affichage des espaces en grand nombre (verticalement et profondeur)</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-odd"><td>[3859]</td>
+<td>[ITHIT/Win10] Problème d’édition en ligne d’un document type PDF</td>
+<td>Edition en ligne</td>
+</tr>
+<tr class="row-even"><td>[3936]</td>
+<td>Possibilité d’assigner un document dans un workflow à une personne qui n’y a pas accès</td>
+<td>Workflow</td>
+</tr>
+<tr class="row-odd"><td>[3983]</td>
+<td>Problème de virgule dans le nom d’un espace</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-even"><td>[4014]</td>
+<td>Mauvais chemin lorsque l’on clique sur le dossier à la racine</td>
+<td>Explorateur web</td>
+</tr>
+<tr class="row-odd"><td>[4035]</td>
+<td>Problème d’affichage des contenus type formulaire</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-even"><td>[4041]</td>
+<td>Pas de menu contextuel sur les Forums</td>
+<td>Forum</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="hotfix">
+<h2>Hotfix<a class="headerlink" href="#hotfix" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3951]</td>
+<td>[MacOS] Problème de transparence des métadonnées</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-odd"><td>[3952]</td>
+<td>Problème de pagination dans les commentaires</td>
+<td>Commentaire</td>
+</tr>
+<tr class="row-even"><td>[3955]</td>
+<td>Lenteur du fil d’Ariane (lié à Ajax)</td>
+<td>Fil d’Ariane</td>
+</tr>
+<tr class="row-odd"><td>[3958]</td>
+<td>Amélioration graphique du tableau de bord et du formulaire des workflow</td>
+<td>Ergonomie</td>
+</tr>
+<tr class="row-even"><td>[3995]</td>
+<td>Pas de mise à jour affichée par une fenêtre d’apparition (pop-up) après une validation</td>
+<td>Affichage</td>
+</tr>
+<tr class="row-odd"><td>[3997]</td>
+<td>Lorsqu’un emplacement contient le caractère <em>&amp;</em>, la libraire de gestion d’emplacement doublonne le chemin</td>
+<td>Gestion d’emplacement</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="release-notes-3.2.2.html" class="btn btn-neutral float-right" title="GoFAST : Version 3.2.2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="release-notes-3.2.0.html" class="btn btn-neutral float-left" title="GoFAST : Version 3.2.0" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

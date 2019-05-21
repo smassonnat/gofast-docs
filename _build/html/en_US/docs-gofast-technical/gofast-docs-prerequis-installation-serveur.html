@@ -1,0 +1,1124 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GoFAST : Pré-requis et installation Serveur &mdash; gofast-docs latest documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'latest',
+              LANGUAGE:'en_US',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GoFAST Community : Installation" href="gofast-community-install.html" />
+    <link rel="prev" title="Documentation GoFAST" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> gofast-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation Technique GoFAST</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GoFAST :  Pré-requis et installation Serveur</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#poste-client">Poste Client</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pre-requis">Pré-requis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#composants-et-configurations-optionnels">Composants et configurations optionnels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pre-requis-et-installation-serveur">Pré-requis et installation Serveur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#architecture">Architecture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-requis-serveur">Pré-requis « serveur »</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-requis-machine-virtuelle">Pré-requis Machine Virtuelle</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#evaluation-des-besoins-de-stockage">Évaluation des besoins de stockage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#partitionnement-optionnel">Partitionnement optionnel</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#reseaux-et-securite">Réseaux et Sécurité</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#certificat">Certificat</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#architecture-reseau">Architecture Réseau</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#liste-des-ports">Liste des ports</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ressources-webrtc-enterprise-only">Ressources WebRTC (Enterprise only)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installation-par-import-de-vm">Installation par import de VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installation-par-script-enterprise-only">Installation par script (Enterprise only)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#post-installation-de-la-vm-enterprise-only">Post-installation de la VM (Enterprise only)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuration-du-reseau-par-lexploitant">Configuration du réseau (par l’Exploitant)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configuration-parametrage-par-lexploitant">Configuration / Paramétrage (par l’Exploitant)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configuration-parametrage-par-ceo-vision">Configuration / Paramétrage par CEO-Vision</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installation-des-sondes-apm-en-option-sauf-abonnement-xxl">Installation des sondes APM (en option sauf abonnement XXL)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#installation-de-l-agent-php-monitoring-applicatif">Installation de l’agent PHP (monitoring applicatif)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#installation-de-l-agent-java-monitoring-applicatif-tomcat-alfresco-solr">Installation de l’agent JAVA (monitoring applicatif tomcat - alfresco - solr)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#verifications-post-installation-ceo-vision">Vérifications post-installation CEO-Vision</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuration-initiale-du-reseau">Configuration initiale du réseau</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#verification-des-ports-ouverts">Vérification des ports ouverts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#verification-du-fonctionnement-avec-proxy">Vérification du fonctionnement avec proxy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#verification-basique-des-performances">Vérification basique des performances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#indicateurs-mysql-en-fonctionnement-normal">Indicateurs MySQL en fonctionnement normal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#annexe-i-problemes-courants">ANNEXE I : Problèmes courants</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pas-d-envoi-des-mails-techniques">Pas d’envoi des mails techniques</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#connexion-impossible-a-la-gofast-par-la-messagerie-imaps">Connexion impossible à la GoFAST par la messagerie (IMAPS)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-community-install.html">GoFAST Community :  Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-exploitation.html">GoFAST : Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-problemes-connus.html">GoFAST : Problèmes connus</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation Utilisateurs GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-guide-utilisateurs.html">GoFAST : Guide Utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-utilisation-avancee.html">GoFAST : Utilisation Avancée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-administration-plateforme.html">GoFAST : Administration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Releases GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.0.html">GoFAST :  Version 3.2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.1.html">GoFAST :  Version 3.2.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.2.html">GoFAST :  Version 3.2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.0.html">GoFAST :  Version 3.3.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.1.html">GoFAST :  Version 3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.0.html">GoFAST :  Version 3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.1.html">GoFAST :  Version 3.4.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.0.html">GoFAST :  Version 3.5.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.1.html">GoFAST :  Version 3.5.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.2.html">GoFAST :  Version 3.5.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.6.0.html">GoFAST :  Version 3.6.0</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ressources développeur GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-development/api-rest.html">GoFAST :  API REST</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">gofast-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>GoFAST :  Pré-requis et installation Serveur</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gofast-pre-requis-et-installation-serveur">
+<h1>GoFAST :  Pré-requis et installation Serveur<a class="headerlink" href="#gofast-pre-requis-et-installation-serveur" title="Permalink to this headline">¶</a></h1>
+<div class="figure">
+<img alt="" src="../_images/image1.PNG" />
+</div>
+<div class="section" id="poste-client">
+<h2>Poste Client<a class="headerlink" href="#poste-client" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="pre-requis">
+<h3>Pré-requis<a class="headerlink" href="#pre-requis" title="Permalink to this headline">¶</a></h3>
+<p>Voir <a class="reference external" href="http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast">http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast</a></p>
+</div>
+<div class="section" id="composants-et-configurations-optionnels">
+<h3>Composants et configurations optionnels<a class="headerlink" href="#composants-et-configurations-optionnels" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Montage “Lecteur Réseau” (voir <a class="reference external" href="http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau">http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau</a>)</li>
+<li>ITHitDocumentOpener (pour l’édition en ligne de contenus non-Office/LibreOffice)</li>
+<li>Synchronisation hors-ligne CMISSync (voir <a class="reference external" href="http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync">http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync</a>)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="pre-requis-et-installation-serveur">
+<h2>Pré-requis et installation Serveur<a class="headerlink" href="#pre-requis-et-installation-serveur" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="architecture">
+<h3>Architecture<a class="headerlink" href="#architecture" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="" src="../_images/image7.png" />
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">GoFAST3</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>OS</td>
+<td>CentOS 7 64bits</td>
+</tr>
+<tr class="row-odd"><td>CMS</td>
+<td>Drupal 7</td>
+</tr>
+<tr class="row-even"><td>Serveur Web &amp; Reverse Proxy</td>
+<td>Apache 2.4 (php-fpm)</td>
+</tr>
+<tr class="row-odd"><td>Base de données</td>
+<td>MySQL 5.7</td>
+</tr>
+<tr class="row-even"><td>Annuaire</td>
+<td>OpenLDAP 2.4</td>
+</tr>
+<tr class="row-odd"><td>GED</td>
+<td>Alfresco 5.2 Community</td>
+</tr>
+<tr class="row-even"><td>Recherche</td>
+<td>Apache Solr 5</td>
+</tr>
+<tr class="row-odd"><td>Serveur API</td>
+<td>Apache Tomcat 7</td>
+</tr>
+<tr class="row-even"><td>Workflow (GoFAST 3.6+)</td>
+<td>Bonitasoft Community 7</td>
+</tr>
+<tr class="row-odd"><td>Workflow (&lt;GoFAST 3.6+)</td>
+<td>Bonitasoft Community 6</td>
+</tr>
+</tbody>
+</table>
+<a class="reference internal image-reference" href="../_images/Tag-Enterprise.png"><img alt="../_images/Tag-Enterprise.png" class="align-right" src="../_images/Tag-Enterprise.png" style="width: 85.0px; height: 40.0px;" /></a>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">GoFAST  Comm-Serveur</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Edition collaborative</td>
+<td>OnlyOffice 5</td>
+</tr>
+<tr class="row-odd"><td>Messagerie instantannée</td>
+<td>eJabberd 16</td>
+</tr>
+<tr class="row-even"><td>Webconference</td>
+<td>Jitsi Meet 1.0</td>
+</tr>
+<tr class="row-odd"><td>Reverse Proxy</td>
+<td>nginx 1.12</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="pre-requis-serveur">
+<h3>Pré-requis « serveur »<a class="headerlink" href="#pre-requis-serveur" title="Permalink to this headline">¶</a></h3>
+<p>La plate-forme GoFAST est une application d’entreprise qui nécessite une
+architecture haute performance afin de délivrer une bonne montée en
+charge et des temps de réponse.</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">GoFAST est notamment très sensible à la performance des entrées/sorties (I/O) et au bon dimensionnement de mémoire vive (RAM)</p>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Conséquence de la sensibilité au I/O, une attention particulière doit être portée au stockage distant. Celui-ci doit privilégier le  type SAN. Eviter tout stockage distant WAN et de type NFS.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">GoFAST v3 nécessite par défaut 2 VM.</p>
+</div>
+</div>
+<div class="section" id="pre-requis-machine-virtuelle">
+<h3>Pré-requis Machine Virtuelle<a class="headerlink" href="#pre-requis-machine-virtuelle" title="Permalink to this headline">¶</a></h3>
+<p>La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs
+64 bits suivant :</p>
+<ul class="simple">
+<li>VMWare ESX4+</li>
+<li>Hyper-V</li>
+<li>KVM</li>
+<li>HVM (Amazon Web Services)</li>
+</ul>
+<p>et sans retour d’expérience en exploitation, XEN 6+</p>
+<p>La VM GoFAST doit posséder un datastore dédié (LUN).</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Sous VMWARE, choisir “RedHat Enterprise” et “paravirtualized SCSI adapter” à partir de CentOS 7.4 / GoFAST v3.1.1</p>
+</div>
+<p><a href="#id1"><span class="problematic" id="id2">*</span></a>VM 2 (GF-COMM) n’est compris uniquement dans l’offre Enterprise</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="34%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head">VM 1 (GF)</th>
+<th class="head">VM 2 (GF-COMM)*</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Coeurs</td>
+<td>4+</td>
+<td>2+</td>
+</tr>
+<tr class="row-odd"><td>RAM</td>
+<td>10GB+</td>
+<td>6GB</td>
+</tr>
+<tr class="row-even"><td>Stockage</td>
+<td>200GB+</td>
+<td>50GB</td>
+</tr>
+<tr class="row-odd"><td>IOPS(FIO)</td>
+<td>250+</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Réseau</td>
+<td>100Mpbs</td>
+<td>100Mpbs</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Une webconference avec 6 utilisateurs (dont 5 avec de la
+video) consomme 12Mbps (sortant), 3Mbps (entrant), 50% de CPU</p>
+</div>
+<div class="section" id="evaluation-des-besoins-de-stockage">
+<h4>Évaluation des besoins de stockage<a class="headerlink" href="#evaluation-des-besoins-de-stockage" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>15 GB d’espace disque pour l’application et le système (partition
+<code class="docutils literal"><span class="pre">/</span></code>)</li>
+<li>Espace de stockage de données (partition <code class="docutils literal"><span class="pre">/var</span></code>)</li>
+</ul>
+<p><em>Utilisation normale</em></p>
+<ul class="simple">
+<li>2 à 3 GB d’espace disque par utilisateurs ‘débutants’ pour leurs
+contenus personnels</li>
+<li>4 à 6 GB par Groupes et Organisations prévus</li>
+</ul>
+<p><em>Utilisation intensive</em></p>
+<ul class="simple">
+<li>5 à 10 GB d’espace disque par utilisateurs ‘débutants’ pour leurs
+contenus personnels</li>
+<li>10 à 20 GB par Groupes et Organisations prévus</li>
+</ul>
+<p>Simulation d’espace disque pour 100 utilisateurs (x5GB), 10
+organisations(x10GB), 15 groupes (x10GB) soit un total de 765 GB</p>
+</div>
+<div class="section" id="partitionnement-optionnel">
+<h4>Partitionnement optionnel<a class="headerlink" href="#partitionnement-optionnel" title="Permalink to this headline">¶</a></h4>
+<p>Les données sont stockées dans <code class="docutils literal"><span class="pre">/var</span></code></p>
+<p>Il est très recommandé mais non obligatoire de créer une partition pour
+<code class="docutils literal"><span class="pre">/var</span></code>.</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Si la partition <code class="docutils literal"><span class="pre">/var</span></code> est sur un stockage distant (NAS/NFS …) ceci ne doit
+entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local. Tout stockage WAN doit être évité</p>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Il est recommandé mais non obligatoire de créer une partition pour
+<code class="docutils literal"><span class="pre">/var/backup</span></code> pour la sauvegarde des données applicatives et ce point de
+montage devant être déporté</p>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">La partition <code class="docutils literal"><span class="pre">swap</span></code> doit être au moins égale à 50% de la mémoire physique de la machine</p>
+</div>
+</div>
+</div>
+<div class="section" id="reseaux-et-securite">
+<h3>Réseaux et Sécurité<a class="headerlink" href="#reseaux-et-securite" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="certificat">
+<h4>Certificat<a class="headerlink" href="#certificat" title="Permalink to this headline">¶</a></h4>
+<p>La <strong>plate-forme GoFAST ne fonctionne qu’avec un certificat « serveur »
+délivré par une autorité de certification.</strong> Le certificat doit être au
+format <code class="docutils literal"><span class="pre">.pem</span></code>, ou<code class="docutils literal"><span class="pre">.crt</span></code> et <code class="docutils literal"><span class="pre">.key</span></code></p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Le certificat doit être de type « wildcard »</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Si GoFAST n’est accessible qu’en Intranet, le certificat peut
+être généré par les « Certificate Services » d’ Active Directory.</p>
+</div>
+</div>
+<div class="section" id="architecture-reseau">
+<h4>Architecture Réseau<a class="headerlink" href="#architecture-reseau" title="Permalink to this headline">¶</a></h4>
+<p>La plate-forme GoFAST peut s’installer :</p>
+<ul class="simple">
+<li>préférablement sur une DMZ pour que la plate-forme soit accessible de
+l’extérieur (extranet, utilisation en mobilité, …)</li>
+<li>soit sur le réseau (LAN) de l’entreprise</li>
+<li>soit sur un autre réseau accessible par Internet (attention dans ce
+cas aux performances, débit, routage, …)</li>
+</ul>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Si l’organisation utilise un Proxy pour l’accès à Internet des configurations particulières doivent être effectuées</p>
+</div>
+</div>
+<div class="section" id="liste-des-ports">
+<h4>Liste des ports<a class="headerlink" href="#liste-des-ports" title="Permalink to this headline">¶</a></h4>
+<p>Voici la liste des ports qui doivent pouvoir être accessibles en entrée
+et en sortie.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="53%" />
+<col width="8%" />
+<col width="8%" />
+<col width="18%" />
+<col width="12%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head">VM1</th>
+<th class="head">VM2</th>
+<th class="head">Ports entrants</th>
+<th class="head">Ports sortants</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Installation de la plate-forme, mise à jour, flux RSS externes,
+import de page Web, supervision</td>
+<td>x</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>80</td>
+</tr>
+<tr class="row-odd"><td>Accès à la plate-forme en HTTPS et WebDav</td>
+<td>x</td>
+<td>&#160;</td>
+<td>443</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Accès à la plate-forme en IMAPS</td>
+<td>x</td>
+<td>&#160;</td>
+<td>993</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Optionnel: import d’emails extrérieures</td>
+<td>x</td>
+<td>&#160;</td>
+<td>25</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Accès à l’annuaire LDAP GoFAST par le S.I de l’entreprise
+et par VM2</td>
+<td>x</td>
+<td>&#160;</td>
+<td>636</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Envoi des mails de notification</td>
+<td>x</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>25 | 465</td>
+</tr>
+<tr class="row-even"><td>Collecte de la supervision</td>
+<td>x</td>
+<td>x</td>
+<td>&#160;</td>
+<td>443</td>
+</tr>
+<tr class="row-odd"><td>Télé-administration (SSH)</td>
+<td>x</td>
+<td>x</td>
+<td>22</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Supervision Zabbix</td>
+<td>x</td>
+<td>x</td>
+<td>&#160;</td>
+<td>10051</td>
+</tr>
+<tr class="row-odd"><td>Optionnel: import de l’AD vers la GoFAST et/ou
+authentification par l’AD</td>
+<td>x</td>
+<td>x</td>
+<td>&#160;</td>
+<td>636</td>
+</tr>
+<tr class="row-even"><td>OnlyOffice (Co-édition)</td>
+<td>&#160;</td>
+<td>x</td>
+<td>443</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td rowspan="5">Messagerie instantanée / Webconference</td>
+<td rowspan="5">&#160;</td>
+<td>x</td>
+<td>443</td>
+<td rowspan="5">&#160;</td>
+</tr>
+<tr class="row-even"><td>x</td>
+<td>5222/TCP</td>
+</tr>
+<tr class="row-odd"><td>x</td>
+<td>3478/TCP***</td>
+</tr>
+<tr class="row-even"><td>(x)</td>
+<td>80/TCP*</td>
+</tr>
+<tr class="row-odd"><td>x</td>
+<td>10000-20000/UDP**</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">* si les ports udp ne peuvent être ouverts</div>
+<div class="line">** au minimum le port 10000 (un changement de configuration peut permettre éventuellement la plage 49152-65535/UDP comme Skype)</div>
+<div class="line">*** pour la video/desktopsharing dans le chat</div>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Si le participant n’est pas sur le LAN, <em>son accès Internet doit laisser passer le trafic sur le port 10000/udp</em>. Ceci peut poser des problèmes sur certains réseaux InternetPro par exemple des sites distants connectés au siège où se trouve le serveur GoFAST. A noter qu’il est rare que ce problème se retrouve sur les réseaux 4G.</p>
+</div>
+<div class="figure">
+<img alt="" src="../_images/image6.PNG" />
+</div>
+</div>
+</div>
+<div class="section" id="ressources-webrtc-enterprise-only">
+<h3>Ressources WebRTC (Enterprise only)<a class="headerlink" href="#ressources-webrtc-enterprise-only" title="Permalink to this headline">¶</a></h3>
+<dl class="class">
+<dt>
+<code class="descname">Enterprise only</code></dt>
+<dd></dd></dl>
+
+<p>Le fonctionnement Webrtc est décrit ici : <a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture">https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture</a></p>
+<p>Un diagnostic réseau est possible ici : <a class="reference external" href="https://www.netscan.co/">https://www.netscan.co/</a>  (cliquer sur “Scan my Network”, le diagnostic est stocké sous forme d’une URL <a class="reference external" href="https://www.netscan.co/r/ayiIL">https://www.netscan.co/r/ayiIL</a> )</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN.</p>
+</div>
+<div class="figure">
+<img alt="" src="../_images/jitsi-meet-diagram.png" />
+</div>
+</div>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="installation-par-import-de-vm">
+<h3>Installation par import de VM<a class="headerlink" href="#installation-par-import-de-vm" title="Permalink to this headline">¶</a></h3>
+<p>CEO-Vision peut fournir une image de la VM sous forme OVA (format
+universel), VHD (VHD), VMDK (VMWare).</p>
+<p>Dans le cas du format OVA, une machine virtuelle avec des prérequis
+standards est fournie.</p>
+<p>Dans le cas d’image VHD ou VMDK, la machine virtuelle doit être créée au
+préalable suivant les prérequis et l’image disque rattachée à cette
+machine virtuelle.</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Pour VMWare, vérifier que le “PVSCSI adapter” est bien utilisé</p>
+</div>
+<p>Pour information, l’image VMDK de VirtualBox a été au préalable
+convertie pour VMWare à l’aide des commandes suivantes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># vmware-vdiskmanager ‑r GoFAST-VirtualBox.VMDK -t 0 GoFAST-ESX.VMDK</span>
+<span class="c1"># vmware-vdiskmanager -d GoFAST-ESX.VMDK</span>
+<span class="c1"># vmware-vdiskmanager -k GoFAST-ESX.VMDK</span>
+</pre></div>
+</div>
+<p>Reste ensuite une configuration de la VM définissant quelques
+caractéristiques réseaux (nom de domaine, …)</p>
+<p>Dans certains cas la machine virtuelle peut avoir un espace disque
+alloué supérieur au partitionnement de la VM. Dans ce cas les opérations
+suivantes sont à effectuer:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># fdisk -l /dev/sda</span>
+<span class="n">Disk</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda</span><span class="p">:</span> <span class="mf">68.7</span> <span class="n">GB</span><span class="p">,</span> <span class="mi">68719476736</span> <span class="nb">bytes</span>
+<span class="mi">255</span> <span class="n">heads</span><span class="p">,</span> <span class="mi">63</span> <span class="n">sectors</span><span class="o">/</span><span class="n">track</span><span class="p">,</span> <span class="mi">10443</span> <span class="n">cylinders</span>
+<span class="n">Units</span> <span class="o">=</span> <span class="n">cylinders</span> <span class="n">of</span> <span class="mi">16065</span> <span class="o">*</span> <span class="mi">512</span> <span class="o">=</span> <span class="mi">8225280</span> <span class="nb">bytes</span>
+<span class="n">Device</span> <span class="n">Boot</span> <span class="n">Start</span> <span class="n">End</span> <span class="n">Blocks</span> <span class="n">Id</span> <span class="n">System</span>
+<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda1</span> <span class="o">*</span> <span class="mi">1</span> <span class="mi">13</span> <span class="mi">104391</span> <span class="mi">83</span> <span class="n">Linux</span>
+<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda2</span> <span class="mi">14</span> <span class="mi">8354</span> <span class="mi">66999082</span><span class="o">+</span> <span class="mi">8</span><span class="n">e</span> <span class="n">Linux</span> <span class="n">LVM</span>
+
+<span class="c1"># fdisk /dev/sda</span>
+<span class="n">n</span>                                       <span class="p">{</span><span class="n">new</span> <span class="n">partition</span><span class="p">}</span>
+<span class="n">p</span>                                       <span class="p">{</span><span class="n">primary</span> <span class="n">partition</span><span class="p">}</span>
+<span class="mi">3</span>                                       <span class="p">{</span><span class="n">new</span> <span class="n">partition</span> <span class="n">number</span><span class="p">}</span>
+<span class="n">t</span>                                       <span class="p">{</span><span class="n">change</span> <span class="n">partition</span> <span class="nb">id</span><span class="p">}</span>
+<span class="mi">8</span><span class="n">e</span>                                      <span class="p">{</span><span class="n">Linux</span> <span class="n">LVM</span> <span class="n">partition</span><span class="p">}</span>
+<span class="n">w</span>
+
+<span class="n">reboot</span>
+
+<span class="c1"># fdisk -l /dev/sda</span>
+<span class="n">Disk</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda</span><span class="p">:</span> <span class="mf">85.8</span> <span class="n">GB</span><span class="p">,</span> <span class="mi">85899345920</span> <span class="nb">bytes</span>
+<span class="mi">255</span> <span class="n">heads</span><span class="p">,</span> <span class="mi">63</span> <span class="n">sectors</span><span class="o">/</span><span class="n">track</span><span class="p">,</span> <span class="mi">10443</span> <span class="n">cylinders</span>
+<span class="n">Units</span> <span class="o">=</span> <span class="n">cylinders</span> <span class="n">of</span> <span class="mi">16065</span> <span class="o">*</span> <span class="mi">512</span> <span class="o">=</span> <span class="mi">8225280</span> <span class="nb">bytes</span>
+<span class="n">Device</span> <span class="n">Boot</span> <span class="n">Start</span> <span class="n">End</span> <span class="n">Blocks</span> <span class="n">Id</span> <span class="n">System</span>
+<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda1</span> <span class="o">*</span> <span class="mi">1</span> <span class="mi">13</span> <span class="mi">104391</span> <span class="mi">83</span> <span class="n">Linux</span>
+<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda2</span> <span class="mi">14</span> <span class="mi">8354</span> <span class="mi">66999082</span><span class="o">+</span> <span class="mi">8</span><span class="n">e</span> <span class="n">Linux</span> <span class="n">LVM</span>
+<span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sda3</span> <span class="mi">8355</span> <span class="mi">10443</span> <span class="mi">16779892</span><span class="o">+</span> <span class="mi">8</span><span class="n">e</span> <span class="n">Linux</span> <span class="n">LVM</span>
+
+<span class="c1"># pvcreate /dev/sda3</span>
+<span class="c1"># vgdisplay</span>
+<span class="c1"># vgextend VolGroup00 /dev/sda3 {change VolGroup00 by vgdisplay result</span>
+<span class="c1"># lvextend /dev/VolGroup00/LogVol00 /dev/sda3 {change accordingly by vgdisplay result</span>
+
+<span class="c1"># resize2fs /dev/VolGroup00/LogVol00 {for ext4 and change VolGroup00 accordingly by vgdisplay result}</span>
+<span class="o">**</span><span class="n">OR</span><span class="o">**</span>
+<span class="c1"># xfs-growthfs /dev/VolGroup00/LogVol00 {for xfs and change VolGroup00 accordingly by vgdisplay result}</span>
+</pre></div>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To</p>
+</div>
+</div>
+<div class="section" id="installation-par-script-enterprise-only">
+<h3>Installation par script (Enterprise only)<a class="headerlink" href="#installation-par-script-enterprise-only" title="Permalink to this headline">¶</a></h3>
+<dl class="class">
+<dt>
+<code class="descname">Enterprise only</code></dt>
+<dd></dd></dl>
+
+<p>A noter que ce type d’installation engendre un coût supplémentaire
+(facturation en régie).</p>
+<p>Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision
+qui fait ensuite une installation par script.</p>
+</div>
+</div>
+<div class="section" id="post-installation-de-la-vm-enterprise-only">
+<h2>Post-installation de la VM (Enterprise only)<a class="headerlink" href="#post-installation-de-la-vm-enterprise-only" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt>
+<code class="descname">Enterprise only</code></dt>
+<dd></dd></dl>
+
+<div class="section" id="configuration-du-reseau-par-lexploitant">
+<h3>Configuration du réseau (par l’Exploitant)<a class="headerlink" href="#configuration-du-reseau-par-lexploitant" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Se connecter en SSH à la VM et lancer <code class="docutils literal"><span class="pre">nmtui</span></code></li>
+<li>Choisir <code class="docutils literal"><span class="pre">Edit</span> <span class="pre">a</span> <span class="pre">connection</span></code> puis l’interface, normalement <code class="docutils literal"><span class="pre">ems33</span></code></li>
+</ul>
+<div class="figure">
+<img alt="" src="../_images/nmtui-select-edit-connection.png" />
+</div>
+<ul class="simple">
+<li>Cliquer sur <code class="docutils literal"><span class="pre">Show</span></code> au niveau de <code class="docutils literal"><span class="pre">IP</span> <span class="pre">v4</span> <span class="pre">Configuration</span></code></li>
+<li>Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)</li>
+</ul>
+<div class="figure">
+<img alt="" src="../_images/nmtui-edit-connection.png" />
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Si votre GoFAST est accessible d’Internet, l’adresse est une IP publique</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Dans un environnement virtualisé, la passerelle (gateway) est l’adresse IP du host avec la fin remplacée par .254</p>
+</div>
+<ul class="simple">
+<li>Sélectionner <code class="docutils literal"><span class="pre">OK</span></code></li>
+<li>Choisir <code class="docutils literal"><span class="pre">Set</span> <span class="pre">system</span> <span class="pre">hostname</span></code> normalement le même nom que celui ensuite entré dans les DNS</li>
+<li>Sortir de l’application</li>
+<li><code class="docutils literal"><span class="pre">reboot</span></code></li>
+<li>A la reconnection, vérifier qu’internet est accessible <code class="docutils literal"><span class="pre">ping</span> <span class="pre">8.8.8.8</span></code></li>
+</ul>
+</div>
+<div class="section" id="configuration-parametrage-par-lexploitant">
+<h3>Configuration / Paramétrage (par l’Exploitant)<a class="headerlink" href="#configuration-parametrage-par-lexploitant" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces étapes sont très importantes et doivent etre faite le plus
+tot possible par l’exploitant/infogerant</p>
+</div>
+<ul class="simple">
+<li>Déposer sur le serveur le certificat SSL « wildcard » (clef publique
+et privée correspondant à <code class="docutils literal"><span class="pre">*.mydomain.tld</span></code>, ex.
+<code class="docutils literal"><span class="pre">gofast.ceo-vision.com</span></code>)</li>
+<li>Entrer l’adresse IP et le nom de domaine de la GoFAST dans le DNS de
+l’entreprise</li>
+<li>Créer des entrées DNS :<ul>
+<li>Vers IP VM1<ul>
+<li><code class="docutils literal"><span class="pre">gofast.mydomain.tld</span></code> (ex. : <code class="docutils literal"><span class="pre">gofast.ceo-vision.com</span></code>)</li>
+<li><code class="docutils literal"><span class="pre">gofast-mobile.mydomain.tld</span></code> (ex. :
+<code class="docutils literal"><span class="pre">gofast-mobile.ceo-vision.com</span></code>)</li>
+</ul>
+</li>
+<li>Vers IP VM2<ul>
+<li><code class="docutils literal"><span class="pre">gofast-comm.mydomain.tld</span></code> (ex. :
+<code class="docutils literal"><span class="pre">gofast-comm.ceo-vision.com</span></code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Vérifier que la plate-forme GoFAST a bien accès à Internet</li>
+<li>Vérifier que toutes les interconnexions entre le VM fonctionnent sur
+les ports listés au paragraphe « Liste des ports »</li>
+<li>Fournir des informations d’accès en télé-administration (SSH,
+passerelle SMTP …) à CEO-Vision</li>
+</ul>
+</div>
+<div class="section" id="configuration-parametrage-par-ceo-vision">
+<h3>Configuration / Paramétrage par CEO-Vision<a class="headerlink" href="#configuration-parametrage-par-ceo-vision" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Vérification des pré-requis</li>
+<li>Benchmark</li>
+<li>OPTIONNEL : Configuration avec le proxy</li>
+<li>OPTIONNEL : Couplage à l’annuaire OpenLDAP ou ActiveDirectory
+(optionnel)</li>
+<li>OPTIONNEL : Configuration de la délégation d’authentification</li>
+<li>Configuration smtp</li>
+<li>Installation de la charte graphique</li>
+<li>Activation des sondes de supervision</li>
+<li>Installation des sondes APM (édition XXL)</li>
+</ul>
+</div>
+<div class="section" id="installation-des-sondes-apm-en-option-sauf-abonnement-xxl">
+<h3>Installation des sondes APM (en option sauf abonnement XXL)<a class="headerlink" href="#installation-des-sondes-apm-en-option-sauf-abonnement-xxl" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="installation-de-l-agent-php-monitoring-applicatif">
+<h4>Installation de l’agent PHP (monitoring applicatif)<a class="headerlink" href="#installation-de-l-agent-php-monitoring-applicatif" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># rpm -Uvh http://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm</span>
+<span class="c1"># yum install newrelic-php5</span>
+<span class="c1"># newrelic-install</span>
+<span class="c1"># yum update newrelic-php5</span>
+<span class="c1"># vi /etc/php.d/newrelic.ini</span>
+
+      <span class="n">newrelic</span><span class="o">.</span><span class="n">appname</span> <span class="o">=</span> <span class="s2">&quot;CUSTOMER-GoFAST v3 (PHP)&quot;</span>
+      <span class="n">newrelic</span><span class="o">.</span><span class="n">daemon</span><span class="o">.</span><span class="n">port</span> <span class="o">=</span> <span class="s2">&quot;@newrelic-daemon&quot;</span>
+
+<span class="c1"># killall newrelic-daemon</span>
+<span class="c1"># service php-fpm restart</span>
+</pre></div>
+</div>
+<p>Dans les logs  <code class="docutils literal"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">/var/log/newrelic/php_agent.log</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">2017</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">08</span> <span class="mi">11</span><span class="p">:</span><span class="mi">08</span><span class="p">:</span><span class="mf">32.184</span> <span class="o">+</span><span class="mi">0200</span> <span class="p">(</span><span class="mi">30630</span> <span class="mi">30630</span><span class="p">)</span> <span class="n">info</span><span class="p">:</span> <span class="n">New</span> <span class="n">Relic</span> <span class="mf">7.5</span><span class="o">.</span><span class="mf">0.199</span> <span class="p">(</span><span class="s2">&quot;vaughan&quot;</span> <span class="o">-</span> <span class="s2">&quot;00258123e757&quot;</span><span class="p">)</span> <span class="p">[</span><span class="n">daemon</span><span class="o">=</span><span class="s1">&#39;@newrelic-daemon&#39;</span>           <span class="n">php</span><span class="o">=</span><span class="s1">&#39;5.6.31&#39;</span> <span class="n">zts</span><span class="o">=</span><span class="n">no</span> <span class="n">sapi</span><span class="o">=</span><span class="s1">&#39;fpm-fcgi&#39;</span>  <span class="n">pid</span><span class="o">=</span><span class="mi">30630</span> <span class="n">ppid</span><span class="o">=</span><span class="mi">1</span> <span class="n">uid</span><span class="o">=</span><span class="mi">0</span> <span class="n">euid</span><span class="o">=</span><span class="mi">0</span> <span class="n">gid</span><span class="o">=</span><span class="mi">0</span> <span class="n">egid</span><span class="o">=</span><span class="mi">0</span> <span class="n">backtrace</span><span class="o">=</span><span class="n">yes</span> <span class="n">startup</span><span class="o">=</span><span class="n">agent</span> <span class="n">os</span><span class="o">=</span><span class="s1">&#39;Linux&#39;</span> <span class="n">rel</span><span class="o">=</span><span class="s1">&#39;3.10.0-     693.2.2.el7.x86_64&#39;</span> <span class="n">mach</span><span class="o">=</span><span class="s1">&#39;x86_64&#39;</span> <span class="n">ver</span><span class="o">=</span><span class="s1">&#39;#1 SMP Tue Sep 12 22&#39;</span> <span class="n">node</span><span class="o">=</span><span class="s1">&#39;BSGOFASTPROD02.botanic.com&#39;</span><span class="p">]</span>
+<span class="mi">2017</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">08</span> <span class="mi">11</span><span class="p">:</span><span class="mi">08</span><span class="p">:</span><span class="mf">32.185</span> <span class="o">+</span><span class="mi">0200</span> <span class="p">(</span><span class="mi">30630</span> <span class="mi">30630</span><span class="p">)</span> <span class="n">info</span><span class="p">:</span> <span class="n">spawned</span> <span class="n">daemon</span> <span class="n">child</span> <span class="n">pid</span><span class="o">=</span><span class="mi">30631</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installation-de-l-agent-java-monitoring-applicatif-tomcat-alfresco-solr">
+<h4>Installation de l’agent JAVA (monitoring applicatif tomcat - alfresco - solr)<a class="headerlink" href="#installation-de-l-agent-java-monitoring-applicatif-tomcat-alfresco-solr" title="Permalink to this headline">¶</a></h4>
+<p>Procédure de mise en place :
+<a class="reference external" href="https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-platform">https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-platform</a></p>
+</div>
+</div>
+<div class="section" id="verifications-post-installation-ceo-vision">
+<h3>Vérifications post-installation CEO-Vision<a class="headerlink" href="#verifications-post-installation-ceo-vision" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="configuration-initiale-du-reseau">
+<h4>Configuration initiale du réseau<a class="headerlink" href="#configuration-initiale-du-reseau" title="Permalink to this headline">¶</a></h4>
+<p>Par défaut le fichier <code class="docutils literal"><span class="pre">/etc/sysconfig/network-scripts/ifcfg-eth0</span></code>
+contient les lignes suivantes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">DEVICE</span><span class="o">=</span><span class="s2">&quot;eth0&quot;</span>
+<span class="n">HWADDR</span><span class="o">=</span> <span class="n">ADRESSE</span> <span class="n">MAC</span>
+<span class="n">NM_CONTROLLED</span><span class="o">=</span><span class="s2">&quot;yes&quot;</span>
+<span class="n">ONBOOT</span><span class="o">=</span><span class="s2">&quot;no&quot;</span>
+</pre></div>
+</div>
+<p>Vérifier que les lignes suivantes sont présentes et correctement
+remplies</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">DEVICE</span><span class="o">=</span><span class="s2">&quot;eth0&quot;</span>
+<span class="n">HWADDR</span><span class="o">=</span> <span class="n">ADRESSE</span> <span class="n">MAC</span>
+<span class="n">NM_CONTROLLED</span><span class="o">=</span><span class="s2">&quot;no&quot;</span>
+<span class="n">ONBOOT</span><span class="o">=</span><span class="s2">&quot;yes&quot;</span>
+<span class="n">BOOTPROTO</span><span class="o">=</span><span class="s2">&quot;static&quot;</span>
+<span class="n">IPADDR</span><span class="o">=</span> <span class="n">adresse</span> <span class="n">IP</span> <span class="n">choisie</span>
+<span class="n">NETMASK</span><span class="o">=</span><span class="mf">255.255</span><span class="o">.</span><span class="mf">255.0</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># cat /etc/sysconfig/network</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">NETWORKING</span><span class="o">=</span><span class="n">yes</span>
+<span class="n">HOSTNAME</span><span class="o">=</span><span class="n">gofast</span><span class="o">.</span><span class="n">MASOCIETE</span><span class="o">.</span><span class="n">COM</span><span class="o">|</span><span class="n">NET</span><span class="o">|</span><span class="n">FR</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># cat/etc/resolv.conf</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nameserver</span> <span class="mf">8.8</span><span class="o">.</span><span class="mf">8.8</span>
+<span class="n">nameserver</span> <span class="mf">8.8</span><span class="o">.</span><span class="mf">4.4</span>
+</pre></div>
+</div>
+<p>Redémarrer le réseau.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># /etc/init.d/network restart</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="verification-des-ports-ouverts">
+<h4>Vérification des ports ouverts<a class="headerlink" href="#verification-des-ports-ouverts" title="Permalink to this headline">¶</a></h4>
+<p>D’une machine autre que le serveur GoFAST, effectuer un scan des ports:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># nmap 80.245.17.76</span>
+
+<span class="n">Starting</span> <span class="n">Nmap</span> <span class="mf">4.11</span><span class="p">(</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">insecure</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">nmap</span><span class="o">/</span> <span class="p">)</span> <span class="n">at</span> <span class="mi">2012</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">06</span> <span class="mi">21</span><span class="p">:</span><span class="mi">03</span> <span class="n">CEST</span>
+<span class="n">Interesting</span> <span class="n">ports</span> <span class="n">on</span> <span class="mf">80.245</span><span class="o">.</span><span class="mf">17.76</span><span class="p">:</span>
+<span class="n">Not</span> <span class="n">shown</span><span class="p">:</span> <span class="mi">1674</span> <span class="n">filtered</span> <span class="n">ports</span>
+<span class="n">PORT</span>                <span class="n">STATE</span>   <span class="n">SERVICE</span>
+<span class="mi">22</span><span class="o">/</span><span class="n">tcp</span>              <span class="nb">open</span>    <span class="n">ssh</span>
+<span class="mi">443</span><span class="o">/</span><span class="n">tcp</span>     <span class="nb">open</span>    <span class="n">https</span>
+<span class="mi">993</span><span class="o">/</span><span class="n">tcp</span>     <span class="nb">open</span>    <span class="n">imaps</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="verification-du-fonctionnement-avec-proxy">
+<h4>Vérification du fonctionnement avec proxy<a class="headerlink" href="#verification-du-fonctionnement-avec-proxy" title="Permalink to this headline">¶</a></h4>
+<p>Si l’entreprise dispose d’un proxy pour les connexions vers internet, le
+paramétrage suivant doit être réalisé</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo vi ~/.bashrc
+export http_proxy=&quot;http://proxy.com:8000&quot;
+export no_proxy=&quot;127.0.0.1, localhost&quot;
+</pre></div>
+</div>
+</div>
+<div class="section" id="verification-basique-des-performances">
+<h4>Vérification basique des performances<a class="headerlink" href="#verification-basique-des-performances" title="Permalink to this headline">¶</a></h4>
+<p>Installation de l’outil:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>GoFAST v1.x et 2.x
+$ sudo yum install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+
+GoFAST v3.x et +
+$ sudo yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+
+$ sudo yum install sysbench
+</pre></div>
+</div>
+<p>Commandes pour obtenir l’environnement logiciel et matériel lors du bechmark:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># sudo dmidecode | egrep -i &#39;product name&#39;</span>
+<span class="c1"># lscpu</span>
+<span class="c1"># more /etc/centos-release</span>
+<span class="c1"># df -T</span>
+<span class="c1"># sudo lshw -class disk -class storage</span>
+<span class="c1"># lsblk</span>
+</pre></div>
+</div>
+<div class="section" id="cpu">
+<h5>CPU<a class="headerlink" href="#cpu" title="Permalink to this headline">¶</a></h5>
+<p>Mesurer les performances de votre CPU en exécutant ce qui suit:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Pour</span> <span class="n">sysbench</span> <span class="mf">1.0</span><span class="o">+</span><span class="p">:</span>
+<span class="n">sysbench</span> <span class="n">cpu</span> <span class="o">--</span><span class="n">time</span><span class="o">=</span><span class="mi">0</span> <span class="o">--</span><span class="n">events</span><span class="o">=</span><span class="mi">10000</span> <span class="o">--</span><span class="n">threads</span><span class="o">=</span><span class="mi">4</span> <span class="n">run</span>
+</pre></div>
+</div>
+<p>Exemple de résultat (en secondes, le plus petit le mieux):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">execution</span> <span class="n">time</span> <span class="p">(</span><span class="n">avg</span><span class="o">/</span><span class="n">stddev</span><span class="p">):</span> <span class="mf">21.4200</span><span class="o">/</span><span class="mf">0.00</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="file-io-benchmark">
+<h5>File IO Benchmark<a class="headerlink" href="#file-io-benchmark" title="Permalink to this headline">¶</a></h5>
+<p>Pour mesurer les performances des E/S (entrées/sorties) il est
+nécessaire de créer un fichier beaucoup plus grand que la mémoire vive
+(RAM) disponible car sinon le système utilise la mémoire comme cache ce
+qui fausse les résultats - 150GB est une bonne valeur pas toujours
+utilisable (manque d’espace disque):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sysbench</span> <span class="o">--</span><span class="n">test</span><span class="o">=</span><span class="n">fileio</span> <span class="o">--</span><span class="n">file</span><span class="o">-</span><span class="n">total</span><span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="n">G</span> <span class="n">prepare</span>
+</pre></div>
+</div>
+<p>Ensuite, exécuter le benchmark:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Pour</span> <span class="n">sysbench</span> <span class="mf">1.0</span><span class="o">+</span><span class="p">:</span>
+<span class="n">sysbench</span> <span class="n">fileio</span> <span class="o">--</span><span class="n">file</span><span class="o">-</span><span class="n">total</span><span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="n">G</span> <span class="o">--</span><span class="n">file</span><span class="o">-</span><span class="n">test</span><span class="o">-</span><span class="n">mode</span><span class="o">=</span><span class="n">rndrw</span> <span class="o">--</span><span class="n">time</span><span class="o">=</span><span class="mi">300</span> <span class="o">--</span><span class="nb">max</span><span class="o">-</span><span class="n">requests</span><span class="o">=</span><span class="mi">0</span> <span class="o">--</span><span class="n">threads</span><span class="o">=</span><span class="mi">4</span> <span class="n">run</span>
+</pre></div>
+</div>
+<p>Exemple de résultat:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Read</span> <span class="mf">595.16</span><span class="n">Mb</span> <span class="n">Written</span> <span class="mf">396.77</span><span class="n">Mb</span> <span class="n">Total</span> <span class="n">transferred</span> <span class="mf">991.92</span><span class="n">Mb</span> <span class="p">(</span><span class="mf">3.3056</span><span class="n">Mb</span><span class="o">/</span><span class="n">sec</span><span class="p">)</span><span class="mf">211.56</span> <span class="n">Requests</span><span class="o">/</span><span class="n">sec</span> <span class="n">executed</span>
+</pre></div>
+</div>
+<p>Puis vous pouvez effacer le fichier de test:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sysbench</span> <span class="o">--</span><span class="n">test</span><span class="o">=</span><span class="n">fileio</span> <span class="o">--</span><span class="n">file</span><span class="o">-</span><span class="n">total</span><span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="n">G</span> <span class="n">cleanup</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="file-io-benchmark-fio">
+<h5>File IO Benchmark (FIO)<a class="headerlink" href="#file-io-benchmark-fio" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">yum</span> <span class="n">install</span> <span class="n">fio</span>
+
+<span class="n">fio</span> <span class="o">-</span><span class="n">filename</span><span class="o">=/</span><span class="n">var</span><span class="o">/</span><span class="n">TESTIO</span> <span class="o">-</span><span class="n">iodepth</span><span class="o">=</span><span class="mi">64</span> <span class="o">-</span><span class="n">ioengine</span><span class="o">=</span><span class="n">libaio</span> <span class="o">-</span><span class="n">direct</span><span class="o">=</span><span class="mi">1</span> <span class="o">-</span><span class="n">rw</span><span class="o">=</span><span class="n">randrw</span> <span class="o">-</span><span class="n">bs</span><span class="o">=</span><span class="mi">4</span><span class="n">k</span> <span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">5</span><span class="n">G</span> <span class="o">-</span><span class="n">numjobs</span><span class="o">=</span><span class="mi">4</span> <span class="o">-</span><span class="n">runtime</span><span class="o">=</span><span class="mi">30</span> <span class="o">-</span><span class="n">group_reporting</span> <span class="o">-</span><span class="n">name</span><span class="o">=</span><span class="n">test</span><span class="o">-</span><span class="n">randwrite</span> <span class="o">--</span><span class="n">rwmixread</span><span class="o">=</span><span class="mi">30</span>
+
+<span class="n">Nb</span><span class="p">:</span> <span class="n">ajouter</span> <span class="o">--</span><span class="n">unified_rw_reporting</span><span class="o">=</span><span class="mi">1</span> <span class="n">si</span> <span class="n">l</span><span class="s1">&#39;on veut un résultat aggloméré pour Read et Write</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mysql-benchmark">
+<h5>MySQL Benchmark<a class="headerlink" href="#mysql-benchmark" title="Permalink to this headline">¶</a></h5>
+<p>Pour mesurer la performance de la base de données MySQL, nous devons
+d’abord créer une table <strong>test</strong> dans la base de données <strong>test</strong> (crée
+manuellement) avec 1,000,000 lignes de données:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">mysql</span> <span class="o">-</span><span class="n">u</span> <span class="n">root</span> <span class="o">-</span><span class="n">p</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;CREATE DATABASE test;&quot;</span>
+
+<span class="n">Pour</span> <span class="n">sysbench</span> <span class="mf">1.0</span><span class="o">+</span><span class="p">:</span>
+<span class="n">sysbench</span> <span class="o">--</span><span class="n">test</span><span class="o">=</span><span class="s2">&quot;/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua&quot;</span> <span class="o">--</span><span class="n">db</span><span class="o">-</span><span class="n">driver</span><span class="o">=</span><span class="n">mysql</span> <span class="o">--</span><span class="n">oltp</span><span class="o">-</span><span class="n">table</span><span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">1000000</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">db</span><span class="o">=</span><span class="n">test</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">user</span><span class="o">=</span><span class="n">root</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">password</span><span class="o">=</span><span class="n">mypassword</span> <span class="n">prepare</span>
+</pre></div>
+</div>
+<p>Ensuite, exécuter le benchmark:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sysbench</span> <span class="o">--</span><span class="n">test</span><span class="o">=</span><span class="s2">&quot;/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua&quot;</span> <span class="o">--</span><span class="n">db</span><span class="o">-</span><span class="n">driver</span><span class="o">=</span><span class="n">mysql</span> <span class="o">--</span><span class="n">oltp</span><span class="o">-</span><span class="n">table</span><span class="o">-</span><span class="n">size</span><span class="o">=</span><span class="mi">1000000</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">db</span><span class="o">=</span><span class="n">test</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">user</span><span class="o">=</span><span class="n">root</span> <span class="o">--</span><span class="n">mysql</span><span class="o">-</span><span class="n">password</span><span class="o">=</span><span class="n">YOURDBPWD</span> <span class="o">--</span><span class="n">time</span><span class="o">=</span><span class="mi">90</span> <span class="o">--</span><span class="n">oltp</span><span class="o">-</span><span class="n">read</span><span class="o">-</span><span class="n">only</span><span class="o">=</span><span class="n">off</span> <span class="o">--</span><span class="nb">max</span><span class="o">-</span><span class="n">requests</span><span class="o">=</span><span class="mi">0</span> <span class="o">--</span><span class="n">threads</span><span class="o">=</span><span class="mi">4</span> <span class="n">run</span>
+</pre></div>
+</div>
+<p>Exemple de résultat:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">transactions</span><span class="p">:</span>                       <span class="mi">28235</span> <span class="p">(</span><span class="mf">871.01</span> <span class="n">per</span> <span class="n">sec</span><span class="o">.</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="indicateurs-mysql-en-fonctionnement-normal">
+<h4>Indicateurs MySQL en fonctionnement normal<a class="headerlink" href="#indicateurs-mysql-en-fonctionnement-normal" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default"><div class="highlight"><pre><span></span>gofast.ceo-vision.com ~# mysqltuner -u root
+
+&gt;&gt; MySQLTuner 1.1.1 - Major Hayden &lt;major@mhtx.net&gt;
+&gt;&gt; Bug reports, feature requests, and downloads at http://mysqltuner.com/
+&gt;&gt; Run with &#39;--help&#39; for additional options and output filtering
+Please enter your MySQL administrative login: root
+Please enter your MySQL administrative password:
+
+-------- General Statistics --------------------------------------------------
+[--] Skipped version check for MySQLTuner script
+[OK] Currently running supported MySQL version 5.5.28-log
+[OK] Operating on 64-bit architecture
+
+-------- Storage Engine Statistics -------------------------------------------
+[--] Status: -Archive -BDB -Federated +InnoDB -ISAM -NDBCluster
+[--] Data in InnoDB tables: 84M (Tables: 298)
+[--] Data in PERFORMANCE_SCHEMA tables: 0B (Tables: 17)
+[!!] Total fragmented tables: 301
+
+-------- Security Recommendations -------------------------------------------
+
+[OK] All database users have passwords assigned
+
+-------- Performance Metrics -------------------------------------------------
+[--] Up for: 9m 6s (83K q [153.229 qps], 143 conn, TX: 69M, RX: 21M)
+[--] Reads / Writes: 81% / 19%
+[--] Total buffers: 544.0M global + 15.5M per thread (150 max threads)
+[OK] Maximum possible memory usage: 2.8G (49% of installed RAM)
+[OK] Slow queries: 0% (12/83K)
+[OK] Highest usage of available connections: 6% (9/150)
+[OK] Key buffer size / total MyISAM indexes: 128.0M/1.5M
+[OK] Key buffer hit rate: 100.0% (56K cached / 0 reads)
+[OK] Query cache efficiency: 74.0% (25K cached / 34K selects)
+[OK] Query cache prunes per day: 0
+[OK] Sorts requiring temporary tables: 0% (0 temp sorts / 2K sorts)
+[!!] Joins performed without indexes: 8
+[!!] Temporary tables created on disk: 39% (217 on disk / 550 total)
+[OK] Thread cache hit rate: 93% (9 created / 143 connections)
+[OK] Table cache hit rate: 98% (455 open / 462 opened)
+[OK] Open file limit used: 6% (263/4K)
+[OK] Table locks acquired immediately: 100% (27K immediate / 27K locks)
+[OK] InnoDB data size / buffer pool: 84.8M/150.0M
+
+-------- Recommendations -----------------------------------------------------
+
+General recommendations:
+    Run OPTIMIZE TABLE to defragment tables for better performance
+    MySQL started within last 24 hours - recommendations may be inaccurate
+    Adjust your join queries to always utilize indexes
+    When making adjustments, make tmp_table_size/max_heap_table_size equal
+    Reduce your SELECT DISTINCT queries without LIMIT clauses
+
+Variables to adjust:
+    join_buffer_size (&gt; 10.0M, or always use indexes with joins)
+    tmp_table_size (&gt; 200M)
+    max_heap_table_size (&gt; 200M)
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="annexe-i-problemes-courants">
+<h2>ANNEXE I : Problèmes courants<a class="headerlink" href="#annexe-i-problemes-courants" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="pas-d-envoi-des-mails-techniques">
+<h3>Pas d’envoi des mails techniques<a class="headerlink" href="#pas-d-envoi-des-mails-techniques" title="Permalink to this headline">¶</a></h3>
+<p>Configurer le relais SMTP dans sendmail (<code class="docutils literal"><span class="pre">/etc/postfix/main.cf</span></code>)</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">relayhost</span> <span class="o">=</span> <span class="n">smtp</span><span class="o">.</span><span class="n">myorganisation</span><span class="o">.</span><span class="n">xxx</span> <span class="c1"># nom du relais</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="connexion-impossible-a-la-gofast-par-la-messagerie-imaps">
+<h3>Connexion impossible à la GoFAST par la messagerie (IMAPS)<a class="headerlink" href="#connexion-impossible-a-la-gofast-par-la-messagerie-imaps" title="Permalink to this headline">¶</a></h3>
+<p>Le test suivant doit fonctionner (fin de message « <strong>* OK IMAP4rev1
+Server GreenMail ready</strong> ») d’un serveur interne ou externe si la GoFAST
+est sur une DMZ</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># openssl s_client -connect gofast.mydomain.tld:993</span>
+</pre></div>
+</div>
+<p>Dans le cas contraire vérifier que :</p>
+<ul class="simple">
+<li>le port 993 est correctement ouvert (voir § sur la vérification des
+ports ouverts)</li>
+<li>que le process « <strong>stunnel</strong>  »fonctionne</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gofast-community-install.html" class="btn btn-neutral float-right" title="GoFAST Community : Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="Documentation GoFAST" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

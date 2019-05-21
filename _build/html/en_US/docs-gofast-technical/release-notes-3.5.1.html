@@ -1,0 +1,420 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GoFAST : Version 3.5.1 &mdash; gofast-docs latest documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'latest',
+              LANGUAGE:'en_US',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GoFAST : Version 3.5.2" href="release-notes-3.5.2.html" />
+    <link rel="prev" title="GoFAST : Version 3.5.0" href="release-notes-3.5.0.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> gofast-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation Technique GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gofast-docs-prerequis-installation-serveur.html">GoFAST :  Pré-requis et installation Serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-community-install.html">GoFAST Community :  Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-exploitation.html">GoFAST : Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-problemes-connus.html">GoFAST : Problèmes connus</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation Utilisateurs GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-guide-utilisateurs.html">GoFAST : Guide Utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-utilisation-avancee.html">GoFAST : Utilisation Avancée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-administration-plateforme.html">GoFAST : Administration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Releases GoFAST</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.0.html">GoFAST :  Version 3.2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.1.html">GoFAST :  Version 3.2.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.2.html">GoFAST :  Version 3.2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.0.html">GoFAST :  Version 3.3.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.1.html">GoFAST :  Version 3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.0.html">GoFAST :  Version 3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.1.html">GoFAST :  Version 3.4.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.0.html">GoFAST :  Version 3.5.0</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GoFAST :  Version 3.5.1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#nouvelles-fonctionnalites">Nouvelles fonctionnalités</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-fonctionnelles">Améliorations fonctionnelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-techniques">Améliorations techniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#securite">Sécurité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hotfix-version-enterprise">HOTFIX (Version Enterprise)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-majeurs">Bugs majeurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-mineurs">Bugs mineurs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.2.html">GoFAST :  Version 3.5.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.6.0.html">GoFAST :  Version 3.6.0</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ressources développeur GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-development/api-rest.html">GoFAST :  API REST</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">gofast-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>GoFAST :  Version 3.5.1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs-gofast-technical/release-notes-3.5.1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gofast-version-3-5-1">
+<h1>GoFAST :  Version 3.5.1<a class="headerlink" href="#gofast-version-3-5-1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="nouvelles-fonctionnalites">
+<h2>Nouvelles fonctionnalités<a class="headerlink" href="#nouvelles-fonctionnalites" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ameliorations-fonctionnelles">
+<h2>Améliorations fonctionnelles<a class="headerlink" href="#ameliorations-fonctionnelles" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4060]</td>
+<td>Action ‘prévisualiser’ pour les images (Fil d’activité, GFB…)</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4409]</td>
+<td>Pouvoir rendre configurable l’abonnement par défaut des users dans les espaces</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4410]</td>
+<td>Changer le fonctionnement de création d’événement depuis le calendrier</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4594]</td>
+<td>Étendre la notion de favoris personnels aux ESPACES ET DOSSIERS</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4667]</td>
+<td>GFB: Action pour arriver vers sur le formulaire de création de document</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4707]</td>
+<td>Pouvoir broadcaster en masse plusieurs documents depuis Gofast file Browser (GFB)</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4736]</td>
+<td>Intégrer la suppression d’espace à l’audit</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4747]</td>
+<td>Lorsqu’on redimensionne une popup, l’éditeur de texte se redimensionne</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4755]</td>
+<td>Pouvoir restaurer des documents même quand l’emplacement n’existe plus</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4740]</td>
+<td>Amélioration de l’affichage des options de recherche</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ameliorations-techniques">
+<h2>Améliorations techniques<a class="headerlink" href="#ameliorations-techniques" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4759]</td>
+<td>Amélioration des performances lors du renommage d’espace de haut niveau</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="securite">
+<h2>Sécurité<a class="headerlink" href="#securite" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4186]</td>
+<td>Mise à jour CKEditor vers 4.11.1</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="hotfix-version-enterprise">
+<h2>HOTFIX (Version Enterprise)<a class="headerlink" href="#hotfix-version-enterprise" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4780]</td>
+<td>[3.5.1_1] Notification pour certains contenus alors qu’on n’est pas membre de l’espace</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-majeurs">
+<h2>Bugs majeurs<a class="headerlink" href="#bugs-majeurs" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="bugs-mineurs">
+<h2>Bugs mineurs<a class="headerlink" href="#bugs-mineurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4579]</td>
+<td>Certaines infos ne sont pas affichées dans la popup ‘à propos’</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4675]</td>
+<td>Après une soumission erronée du formulaire de conférence, les champs date se réinitialisent à leurs valeurs par default</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4724]</td>
+<td>Répondre à un commentaire dans les notifications ne renvoie pas au commentaire</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>[4653]</td>
+<td>Annuaire sans filtre: bloc utilisateur non homogène</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>[4751]</td>
+<td>Ne plus autoriser la transformation PDF lors de la publication d’une image</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="release-notes-3.5.2.html" class="btn btn-neutral float-right" title="GoFAST : Version 3.5.2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="release-notes-3.5.0.html" class="btn btn-neutral float-left" title="GoFAST : Version 3.5.0" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

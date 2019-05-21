@@ -1,0 +1,508 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-US" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GoFAST : Version 3.4.0 &mdash; gofast-docs latest documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'latest',
+              LANGUAGE:'en_US',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GoFAST : Version 3.4.1" href="release-notes-3.4.1.html" />
+    <link rel="prev" title="GoFAST : Version 3.3.1" href="release-notes-3.3.1.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> gofast-docs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation Technique GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gofast-docs-prerequis-installation-serveur.html">GoFAST :  Pré-requis et installation Serveur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-community-install.html">GoFAST Community :  Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gofast-exploitation.html">GoFAST : Exploitation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-problemes-connus.html">GoFAST : Problèmes connus</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation Utilisateurs GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-guide-utilisateurs.html">GoFAST : Guide Utilisateurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-utilisation-avancee.html">GoFAST : Utilisation Avancée</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-users/doc-gofast-administration-plateforme.html">GoFAST : Administration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Releases GoFAST</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.0.html">GoFAST :  Version 3.2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.1.html">GoFAST :  Version 3.2.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.2.2.html">GoFAST :  Version 3.2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.0.html">GoFAST :  Version 3.3.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.3.1.html">GoFAST :  Version 3.3.1</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GoFAST :  Version 3.4.0</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-fonctionnelles">Améliorations fonctionnelles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ameliorations-techniques">Améliorations techniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hotfix-enterprise">HOTFIX (Enterprise)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-majeurs">Bugs majeurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bugs-mineurs">Bugs mineurs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.4.1.html">GoFAST :  Version 3.4.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.0.html">GoFAST :  Version 3.5.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.1.html">GoFAST :  Version 3.5.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.5.2.html">GoFAST :  Version 3.5.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes-3.6.0.html">GoFAST :  Version 3.6.0</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ressources développeur GoFAST</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../docs-gofast-development/api-rest.html">GoFAST :  API REST</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">gofast-docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>GoFAST :  Version 3.4.0</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs-gofast-technical/release-notes-3.4.0.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gofast-version-3-4-0">
+<h1>GoFAST :  Version 3.4.0<a class="headerlink" href="#gofast-version-3-4-0" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ameliorations-fonctionnelles">
+<h2>Améliorations fonctionnelles<a class="headerlink" href="#ameliorations-fonctionnelles" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3673]</td>
+<td>Formules en français dans OnlyOffice</td>
+<td>OnlyOffice</td>
+</tr>
+<tr class="row-odd"><td>[3991]</td>
+<td><em>Données personnelles</em> est sélectionnable comme Importance (RGPD)</td>
+<td>Métadonnées</td>
+</tr>
+<tr class="row-even"><td>[4252]</td>
+<td>Amélioration graphiques d’ergonomie pour la fonctionnalité <em>Messages internes</em></td>
+<td>Message interne</td>
+</tr>
+<tr class="row-odd"><td>[4284]</td>
+<td>Message d’accueil GoFAST configurable</td>
+<td>Page d’accueil</td>
+</tr>
+<tr class="row-even"><td>[4306]</td>
+<td>Amélioration de l’ergonomie du renommage dans GoFAST File Browser</td>
+<td>GoFAST File Browser</td>
+</tr>
+<tr class="row-odd"><td>[4329]</td>
+<td>Prise en charge des documents .bmp comme type d’images</td>
+<td>Extensions</td>
+</tr>
+<tr class="row-even"><td>[4334]</td>
+<td>Prise en charge des documents .xtlm comme un fichier Excel</td>
+<td>Extensions</td>
+</tr>
+<tr class="row-odd"><td>[4337]</td>
+<td>Partager par e-mail : envoi d’un e-mail de confirmation de lecture</td>
+<td>Partage par e-mail</td>
+</tr>
+<tr class="row-even"><td>[4350]</td>
+<td>Mobile : Ajout d’un menu d’actions sur GoFAST File Browser et fil d’actualité</td>
+<td>Mobile</td>
+</tr>
+<tr class="row-odd"><td>[4378]</td>
+<td>Notifier les administrateurs d’Espace d’une <em>Demande d’ajout</em></td>
+<td>Notifications</td>
+</tr>
+<tr class="row-even"><td>[4317]</td>
+<td>Possibilité de spécifier un doc comme Template avec étiquette <em>Template</em></td>
+<td>Etiquettes</td>
+</tr>
+<tr class="row-odd"><td>[3975]</td>
+<td>Augmenter la taille de la zone de commentaire augmente la taille de la popup</td>
+<td>Commentaires</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ameliorations-techniques">
+<h2>Améliorations techniques<a class="headerlink" href="#ameliorations-techniques" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[1641]</td>
+<td>Synchronisation automatique des comptes GF avec Annuaire AD</td>
+<td>Annuaires</td>
+</tr>
+<tr class="row-odd"><td>[3448]</td>
+<td>Mise à jour (majeure) LibreOffice 6.0.4</td>
+<td>Mise à jour</td>
+</tr>
+<tr class="row-even"><td>[3975]</td>
+<td>Augmenter la taille de la zone de commentaire doit augmenter la taille de la modale</td>
+<td>Commentaires</td>
+</tr>
+<tr class="row-odd"><td>[4062]</td>
+<td>Mise à jour (majeure) OnlyOffice 5.1.5</td>
+<td>Mise à jour</td>
+</tr>
+<tr class="row-even"><td>[4063]</td>
+<td>Mise à jour (majeure) de PHP 5.6 vers 7.2</td>
+<td>Mise à jour</td>
+</tr>
+<tr class="row-odd"><td>[4261]</td>
+<td>Renommage du nom de domaine de dev2 pour un nom standardisé (repo-gofast)</td>
+<td>Industrialisation</td>
+</tr>
+<tr class="row-even"><td>[4309]</td>
+<td>Homogénéisation des notifications</td>
+<td>Notifications</td>
+</tr>
+<tr class="row-odd"><td>[4346]</td>
+<td>Auto-démarrage des services de GoFAST COMM</td>
+<td>Système</td>
+</tr>
+<tr class="row-even"><td>[4349]</td>
+<td>Formulaire d’administration GoFAST asynchrone</td>
+<td>Administration</td>
+</tr>
+<tr class="row-odd"><td>[4371]</td>
+<td>Mise à jour de Memcache v7.x-1.6</td>
+<td>Mise à jour</td>
+</tr>
+<tr class="row-even"><td>[4372]</td>
+<td>Mise à jour du module UUID</td>
+<td>Mise à jour</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="hotfix-enterprise">
+<h2>HOTFIX (Enterprise)<a class="headerlink" href="#hotfix-enterprise" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4325]</td>
+<td>Impossible de renommer un document</td>
+<td>GoFAST File Browser</td>
+</tr>
+<tr class="row-odd"><td>[4339]</td>
+<td>Problèmes d’actions contextuelles et multi-emplacement</td>
+<td>GoFAST File Browser</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-majeurs">
+<h2>Bugs majeurs<a class="headerlink" href="#bugs-majeurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[3897]</td>
+<td>Perte des tables de matières lors édition sous OnlyOffice</td>
+<td>OnlyOffice</td>
+</tr>
+<tr class="row-odd"><td>[4109]</td>
+<td>[MacOS] Impossible de co-éditer avec OnlyOffice</td>
+<td>OnlyOffice</td>
+</tr>
+<tr class="row-even"><td>[4268]</td>
+<td>Impossible de créer un commentaire dans la version mobile</td>
+<td>Mobile</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="bugs-mineurs">
+<h2>Bugs mineurs<a class="headerlink" href="#bugs-mineurs" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="17%" />
+<col width="67%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ref.</th>
+<th class="head">Description</th>
+<th class="head">Catégorie</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>[4173]</td>
+<td>Sur certaines fenêtres apparentes, l’action d’ajouter des <em>Etiquettes</em> fait disparaître le bouton VALIDER</td>
+<td>Pop-up</td>
+</tr>
+<tr class="row-odd"><td>[4222]</td>
+<td>Pas de possibilité de modifier la taille des colonnes dans GoFAST File Browser</td>
+<td>GoFAST File Browser</td>
+</tr>
+<tr class="row-even"><td>[4245]</td>
+<td>Impossible d’afficher une nouvelle compétence dans son profil utilisateur</td>
+<td>Profil</td>
+</tr>
+<tr class="row-odd"><td>[4266]</td>
+<td>Impossible de déplacer un document dans un sous répertoire avec GoFAST File Browser</td>
+<td>GoFAST File Browser</td>
+</tr>
+<tr class="row-even"><td>[4285]</td>
+<td>Enlever les langues en trop dans l’onglet <em>Catégorie</em> de la configuration</td>
+<td>Administration</td>
+</tr>
+<tr class="row-odd"><td>[4297]</td>
+<td>Modification de traductions non prises en compte dans la version FR</td>
+<td>Traductions</td>
+</tr>
+<tr class="row-even"><td>[4307]</td>
+<td>Impossible d’afficher les documents dans le Workflow standard lorsque qu’il contient plusieurs documents</td>
+<td>Workflows</td>
+</tr>
+<tr class="row-odd"><td>[4316]</td>
+<td>Le bouton <em>Supprimer fichier</em> dans la fenêtre apparente de confirmation n’a pas la bonne police</td>
+<td>Pop-up</td>
+</tr>
+<tr class="row-even"><td>[4321]</td>
+<td>Evènement sans date dans le fil d’activité</td>
+<td>Fil d’activité</td>
+</tr>
+<tr class="row-odd"><td>[4341]</td>
+<td>L’explorateur en plein page est mal affiché</td>
+<td>GoFAST File Browser</td>
+</tr>
+<tr class="row-even"><td>[4356]</td>
+<td>Le lien vers un document depuis le formulaire Bonita dans un workflow standard n’est plus fonctionnel</td>
+<td>Workflows</td>
+</tr>
+<tr class="row-odd"><td>[4359]</td>
+<td>Le bloc <em>Livres</em> ne s’affiche pas sur la page de l’espace</td>
+<td>Livres</td>
+</tr>
+<tr class="row-even"><td>[4377]</td>
+<td>Pas de transformation de l’extension d’un document xls –&gt; xlsx après édition onlyoffice</td>
+<td>Onlyoffice</td>
+</tr>
+<tr class="row-odd"><td>[4384]</td>
+<td>Les réunions supprimées ne sont plus annulées dans l’agenda</td>
+<td>Réunions</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="release-notes-3.4.1.html" class="btn btn-neutral float-right" title="GoFAST : Version 3.4.1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="release-notes-3.3.1.html" class="btn btn-neutral float-left" title="GoFAST : Version 3.3.1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
