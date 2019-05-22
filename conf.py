@@ -37,6 +37,7 @@ gettext_compact = False
 
 def source_read_handler(app, docname, source):
     print('do something here...')
+	sphinx-build -b html -D language=en . _build/html/en
 
 def setup(app):
     app.connect('env-before-read-docs', source_read_handler)
