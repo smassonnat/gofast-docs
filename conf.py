@@ -36,9 +36,10 @@ locale_dirs = [
 ]
 gettext_compact = False
 
+#BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
 def source_read_handler(app, docname, source):
-    os.system('sphinx-build -b html -D language=en . _build/html/en')
+#    os.system('sphinx-build -b html -D language=en . 'os.path.join(BASEDIR,_build/html/en')
 
 def setup(app):
     app.connect('env-before-read-docs', source_read_handler)
