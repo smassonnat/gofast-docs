@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,423 +17,529 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:3
+# 80d1bafee7f946b49e06aa311221a3d1
 msgid "GoFAST :  Pré-requis et installation Serveur"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:9
+# 2caa1505e7f94aedb55d9ce2f691a0c5
 msgid "Poste Client"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:12
+# 98e5fac32e9c4d518b7a0cf5f3a279bc
 msgid "Pré-requis"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:14
+# 9d162e7c3bc34074bb1261cf514cef9d
 msgid "Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:17
+# ad268375a80b4ae8996d0bb37e980bb9
 msgid "Composants et configurations optionnels"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:19
+# fae32a81b1a64e15adac753d468d87d7
 msgid "Montage \"Lecteur Réseau\" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:20
+# d0452a3369e94c4ba8aa814fb8b68d75
 msgid "ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:21
+# a5638837cf4d45ec821cd3e3adf67313
 msgid "Synchronisation hors-ligne CMISSync (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:24
+# bfb7ce179edc4767b90b45c078c1431c
 msgid "Pré-requis et installation Serveur"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:27
+# 9d3bae3de1c148d2b8bd9764c41bb120
 msgid "Architecture"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:37
+# 9b9afa4bab894128a17485b6213951b0
 msgid "GoFAST3"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
+# b8686ebd604e4e57a8333c05008f5fb2
 msgid "OS"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
+# 1824ce1c12ab424887fc796f5db04848
 msgid "CentOS 7 64bits"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
+# 5a271b5513fa4bdfbbaeda77320fa4cd
 msgid "CMS"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
+# a0f5bb001d4b4e4794f12594af59d31d
 msgid "Drupal 7"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
+# 7b4ab0c2b486420d89b59b188ed549c0
 msgid "Serveur Web & Reverse Proxy"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
+# 537f8dc698b44915b42f9281c693b983
 msgid "Apache 2.4 (php-fpm)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
+# 05a1b5be04bf40e5ba253b20b6743381
 msgid "Base de données"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
+# 68b9bec75b424ce0938b22e253d9c42d
 msgid "MySQL 5.7"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
+# 89879c9ec96040948293fb8709db5577
 msgid "Annuaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
+# e0ff35733fc44b8c8cd147ecbc0a8c5c
 msgid "OpenLDAP 2.4"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
+# 991e74ee2c66479eb59e5c05de6e46a7
 msgid "GED"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
+# 7433c9ab67d04a3ba25cce138da0bcdb
 msgid "Alfresco 5.2 Community"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
+# 8564f931e89f4bc281c350a150549564
 msgid "Recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
+# 7d2b6716e41a4fe583eda9e181292492
 msgid "Apache Solr 5"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
+# f934223e652c45819e5b988164350905
 msgid "Serveur API"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
+# 319d7be1f96f44a29d5aa5c11dae877b
 msgid "Apache Tomcat 7"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
+# 3068299b945446d48b411feef136769a
 msgid "Workflow (GoFAST 3.6+)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
+# 7493ae2755f8488f89e885e82c8dc87a
 msgid "Bonitasoft Community 7"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
+# 477ca6a7dda34dc3953bf970667b8eb0
 msgid "Workflow (<GoFAST 3.6+)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
+# 2c8fb727c1324982975a6e8aaf224aab
 msgid "Bonitasoft Community 6"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:67
+# 8cac7a8497b7423981b2722940821a78
 msgid "GoFAST  Comm-Serveur"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:69
+# 281ca2e403db4468b1981a249c54638b
 msgid "Edition collaborative"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:69
+# 10535a3e51554bc8aaf343b5bd3d9d8d
 msgid "OnlyOffice 5"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:71
+# 74017a67610043e7973117e512f89a50
 msgid "Messagerie instantannée"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:71
+# 4236b4b8e49f4f9eac7787874b2d1bec
 msgid "eJabberd 16"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:73
+# 58d7be06e027418e9eaef45fdb31b064
 msgid "Webconference"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:73
+# 8f2cb73fb0894be987f5cb6d2d17552b
 msgid "Jitsi Meet 1.0"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:75
+# be8d64decde14c48bc781c7c39e7df2b
 msgid "Reverse Proxy"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:75
+# dcdd0bf06c1149a99e27b1fc1f99946e
 msgid "nginx 1.12"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:79
+# 38d67400882b428483bf6b177dac368e
 msgid "Pré-requis « serveur »"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:81
+# ff7de40ee27b49bb8188735c242fe522
 msgid "La plate-forme GoFAST est une application d'entreprise qui nécessite une architecture haute performance afin de délivrer une bonne montée en charge et des temps de réponse."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:86
+# b10d7ef4e00144fea7248baf5e2e7e59
 msgid "GoFAST est notamment très sensible à la performance des entrées/sorties (I/O) et au bon dimensionnement de mémoire vive (RAM)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:89
+# d5fe3ed40526420c8f28b0855e7e7a55
 msgid "Conséquence de la sensibilité au I/O, une attention particulière doit être portée au stockage distant. Celui-ci doit privilégier le  type SAN. Eviter tout stockage distant WAN et de type NFS."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:92
+# 2a44fe8e83f84142a1e0bef928dff745
 msgid "GoFAST v3 nécessite par défaut 2 VM."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:95
+# 98d8dcac277042ed8ae2899b57d865e0
 msgid "Pré-requis Machine Virtuelle"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:97
+# 0db89f50d0684a6888828a76e1462b60
 msgid "La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs 64 bits suivant :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:100
+# dc42e85552104d32b9629137da7ed1ad
 msgid "VMWare ESX4+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:102
+# ef03b7eac2dd4186b6850937b347d1c3
 msgid "Hyper-V"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:104
+# 108c0259cc304c2695be90159326fe60
 msgid "KVM"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:106
+# 337aefa35a2449d9a84eca8201dac833
 msgid "HVM (Amazon Web Services)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:108
+# 4a9e24246fbd4334aea3d34fa0a743dd
 msgid "et sans retour d'expérience en exploitation, XEN 6+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:110
+# 7bc3d4b7173343da88c6b00f27e0b1f1
 msgid "La VM GoFAST doit posséder un datastore dédié (LUN)."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
+# 1e0e8d09205840ccaeb2f1343dce172a
 msgid "Sous VMWARE, choisir \"RedHat Enterprise\" et \"paravirtualized SCSI adapter\" à partir de CentOS 7.4 / GoFAST v3.1.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
+# 93c2a9853ecd4c848aad4e9951dc493b
 msgid "*VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:118
+# a8d3e536c7f14baea08e500967e9c9a5
 msgid "VM 1 (GF)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:118
+# 57402c628e3f406eabd701e54d73458b
 msgid "VM 2 (GF-COMM)*"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:120
+# 20524c87011a41488e6f0777796da81e
 msgid "Coeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:120
+# c7203c5d943848c4964ed01a002e31d0
 msgid "4+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:120
+# ed36bca813fa48a8ae95ed7ef1ca4322
 msgid "2+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:122
+# 610fc7cf5f3445448830da6fb5e969c7
 msgid "RAM"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:122
+# 43487a983cea4595a0fbb65f8d3340fd
 msgid "10GB+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:122
+# 61cdafadad6844849701d686d24d959c
 msgid "6GB"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
+# 34f7a65dfbfa44318101bd3a238ad444
 msgid "Stockage"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
+# 9fbbec8409514e65844d186185c0730f
 msgid "200GB+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
+# 49fb78795f1e4ce795320c8f6f45b357
 msgid "50GB"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:126
+# 5ba9803856eb491a900f6c1da24dfe47
 msgid "IOPS(FIO)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:126
+# a1b532fe39d54192824361bc7c280bf7
 msgid "250+"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
+# 34a711d5ecad44d2b466d36e08da559f
 msgid "Réseau"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
+# 59e9616497754025bc60c1d36c3bf795
+# 5cddfb08bd534870943e806c35eba235
 msgid "100Mpbs"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:132
+# 47b0557a53f649fe90967bdd3c4ff10c
 msgid "Une webconference avec 6 utilisateurs (dont 5 avec de la video) consomme 12Mbps (sortant), 3Mbps (entrant), 50% de CPU"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:136
+# ff8e313aca344c32a62a7092c755e52c
 msgid "Évaluation des besoins de stockage"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:138
+# e5dad7a2f1554117bc54069c2f47ca9d
 msgid "15 GB d'espace disque pour l'application et le système (partition ``/``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:141
+# 7e1a0672fb1748119527f85433764520
 msgid "Espace de stockage de données (partition ``/var``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:143
+# 6fb97b5908ea4f20bee97b97092c2e05
 msgid "*Utilisation normale*"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:145
+# 58cca3b15a5f46c5a498ff683764c538
 msgid "2 à 3 GB d'espace disque par utilisateurs 'débutants' pour leurs contenus personnels"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:148
+# 2fca3a38fd4544b8acff93c2ab8faca2
 msgid "4 à 6 GB par Groupes et Organisations prévus"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:150
+# 308ed60941ea4a8f897b9ad4577320f1
 msgid "*Utilisation intensive*"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:152
+# 81ce78d4f0194dcd804a946ca1737847
 msgid "5 à 10 GB d'espace disque par utilisateurs 'débutants' pour leurs contenus personnels"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:155
+# db80efe2e7cf415bb94a5cdc7f3ee180
 msgid "10 à 20 GB par Groupes et Organisations prévus"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:157
+# c0ca8e26fd3043fa84cb6b79874d9328
 msgid "Simulation d'espace disque pour 100 utilisateurs (x5GB), 10 organisations(x10GB), 15 groupes (x10GB) soit un total de 765 GB"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:161
+# 07c3cae2b05a49d7b969028a7853046d
 msgid "Partitionnement optionnel"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:163
+# b584a3f1fcf4412991540ea93195fd2d
 msgid "Les données sont stockées dans ``/var``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:165
+# b4345a8e346a49d5ac00e445f7e37529
 msgid "Il est très recommandé mais non obligatoire de créer une partition pour ``/var``."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:169
+# 517016cc2dc542fa8603242b47551c31
 msgid "Si la partition ``/var`` est sur un stockage distant (NAS/NFS ...) ceci ne doit entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local. Tout stockage WAN doit être évité"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:173
+# 02218b17b45d4f0cabbacad23bd192e0
 msgid "Il est recommandé mais non obligatoire de créer une partition pour ``/var/backup`` pour la sauvegarde des données applicatives et ce point de montage devant être déporté"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:178
+# 194db41a1b3c4e9a9aebf96ff5d40ca3
 msgid "La partition ``swap`` doit être au moins égale à 50% de la mémoire physique de la machine"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:181
+# da30cf2af8bb4ae6ac382684477b3dd0
 msgid "Réseaux et Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:184
+# cf44306957924d02a87499fbb8cb77eb
 msgid "Certificat"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:186
+# 279c83a73a4e495489f3e4855e129b86
 msgid "La **plate-forme GoFAST ne fonctionne qu'avec un certificat « serveur » délivré par une autorité de certification.** Le certificat doit être au format ``.pem``, ou\\ ``.crt`` et ``.key``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:191
+# c7453d56f1f846a9ac233bd66e6b7d4c
 msgid "Le certificat doit être de type « wildcard »"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:194
+# d85b39e49823483194025b839b135c33
 msgid "Si GoFAST n’est accessible qu'en Intranet, le certificat peut être généré par les « Certificate Services » d' Active Directory."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:198
+# 7f5780bbfaf644a7997608e9d08eeeba
 msgid "Architecture Réseau"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:200
+# 3a55a397d16e4d54a1233a36a112955d
 msgid "La plate-forme GoFAST peut s'installer :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:202
+# 6a4cb8b221b543559de98711f22468b5
 msgid "préférablement sur une DMZ pour que la plate-forme soit accessible de l'extérieur (extranet, utilisation en mobilité, ...)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:205
+# ec58a66127f841fd8b4118134e863254
 msgid "soit sur le réseau (LAN) de l'entreprise"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:207
+# d47af6ed63bb4c9980cde9c6b5ca8564
 msgid "soit sur un autre réseau accessible par Internet (attention dans ce cas aux performances, débit, routage, ...)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:211
+# 81184d6c02ad476e93ce5d0da163b840
 msgid "Si l'organisation utilise un Proxy pour l'accès à Internet des configurations particulières doivent être effectuées"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:214
+# 470fa8f644164dcab3c26dba3ba1e05b
 msgid "Liste des ports"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:216
+# 2f1dfcb0a78b41b6ae921157ebd0f480
 msgid "Voici la liste des ports qui doivent pouvoir être accessibles en entrée et en sortie."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+# 0d1b22e750194e9ab4873a59950ab79b
 msgid "VM1"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+# d7e17e734eae4fa899dc693ce06f0bf8
 msgid "VM2"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+# 3197bbbb8bae4ca798aee6a06affa674
 msgid "Ports entrants"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+# a0e0e2ad869844dfb45b257658f76c2e
 msgid "Ports sortants"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+# d1b0b99e8797491692f06cbba5924ca9
 msgid "Installation de la plate-forme, mise à jour, flux RSS externes, import de page Web, supervision"
 msgstr ""
 
@@ -456,14 +562,35 @@ msgstr ""
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:249
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:251
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:255
+# d77d92bb47964dbc96f29063dc39140a
+# 2d4cf89594eb4b53a6f67a02aeaa8515
+# 4abf364029d84ff2950b9228fb3ef56d
+# 0243e619eff64d29857cc6925b8ebf9f
+# 6d2226634be14f26937df7feda18c479
+# e10b86f3cb114c38b815ce7471006027
+# 72a7e002b0184ae1aa88846743f8cf6b
+# 3cde3827d2674debb4bf46127a8dadeb
+# bd097b390ad54c02b6353a8ac949b295
+# 99a93b7971934e10bc72955117378af9
+# 614416b8102d4985910f660f1ca4c602
+# 43fe9331a9e24b05975d6ee143d5ca5c
+# b9260f170e9443a4a9213db67e7ec159
+# fa8e9af7f790494193840fd1103c4fff
+# 65304ddea4174cb69f59cced69a6f941
+# 470733e27a374074b5ad91a8278da735
+# 66d6f1f25b9a4e75a95f33df2efac151
+# e2956bf59def4927a79540096d384af3
+# f84c332d8fc94f658cdc375e43cd94f2
 msgid "x"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+# b29f6324bcfc41cfb801d3e8b8076010
 msgid "80"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:225
+# 320e46ab45294eff9a968a47c452fa03
 msgid "Accès à la plate-forme en HTTPS et WebDav"
 msgstr ""
 
@@ -471,469 +598,591 @@ msgstr ""
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:245
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:247
+# 2bc3fc15fc9f4ee6b390bf45b0e7c5eb
+# d8b6c7aeee634bc6b84be537dbbd2740
+# d1e38e1b6a28448fa1b0706acff0e021
+# 241154db9f6b46f1b618a3b39254228f
 msgid "443"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
+# 71575cd45b54496cbec389111639e22b
 msgid "Accès à la plate-forme en IMAPS"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
+# 8a61d78af45f40f7a6292239401219ba
 msgid "993"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
+# 826abb9d4344459683d53cd5dc9d1816
 msgid "Optionnel: import d'emails extrérieures"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
+# 538a07436f9f4b1f89abd57a6e093ed2
 msgid "25"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:231
+# 5bf3b178add043d9908eb543a85c86a5
 msgid "Accès à l'annuaire LDAP GoFAST par le S.I de l'entreprise et par VM2"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:231
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:242
+# 4ed5d1a303af4d63845ae938cc598f1c
+# cde854ca95d5410b962ac1218d58288e
 msgid "636"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
+# 934663f3aadc44e0bfd8b4e4cc58c5dc
 msgid "Envoi des mails de notification"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
+# f5009e55f2734a3fbd69c66b91f74f1d
 msgid "25 | 465"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
+# 6fc2a92597774fea8f114de8a9580c5a
 msgid "Collecte de la supervision"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:238
+# 7dee08823e5e4efa9ef81228de35abdf
 msgid "Télé-administration (SSH)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:238
+# 3bab31cd2d714a98988c71ed97439baa
 msgid "22"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:240
+# ed3a652ba3e541378501c4db6f615ac4
 msgid "Supervision Zabbix"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:240
+# 45c50766c62542679dd6fca9003b5fd8
 msgid "10051"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:242
+# e8926156a8724345b1697b679625cfc3
 msgid "Optionnel: import de l'AD vers la GoFAST et/ou authentification par l'AD"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:245
+# 75da1ef737194f488fc216e881df61dc
 msgid "OnlyOffice (Co-édition)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:247
+# 2d45cec0232444169e45687d0710cff3
 msgid "Messagerie instantanée / Webconference"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:249
+# 26f6569dd530429aa99be8593c69777c
 msgid "5222/TCP"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:251
+# f13d68910f624352b91983680e3d5ec1
 msgid "3478/TCP***"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:253
+# 92b2b18d33a244c896a7e26e34ad3ecb
 msgid "\\(x\\)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:253
+# 8616dec75d3d4e8ba4128c619eb9962c
 msgid "80/TCP*"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:255
+# 295123e7b7c2433f82c695d5801959c1
 msgid "10000-20000/UDP**"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:258
+# 6153ad338bca4bff92813d5a93dfd09e
 msgid "\\* si les ports udp ne peuvent être ouverts"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:259
+# 00ca4c7c9a5842b3a605c4dff9c2e416
 msgid "\\*\\* au minimum le port 10000 (un changement de configuration peut permettre éventuellement la plage 49152-65535/UDP comme Skype)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:260
+# f8d3836b943848f1b96ba82f93ad034c
 msgid "\\*\\*\\* pour la video/desktopsharing dans le chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:263
+# 10795859124440eb96e3faec46554e9d
 msgid "Si le participant n'est pas sur le LAN, *son accès Internet doit laisser passer le trafic sur le port 10000/udp*. Ceci peut poser des problèmes sur certains réseaux InternetPro par exemple des sites distants connectés au siège où se trouve le serveur GoFAST. A noter qu'il est rare que ce problème se retrouve sur les réseaux 4G."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:269
+# 9e67d30d2f804eafb812a460dc947386
 msgid "Ressources WebRTC (Enterprise only)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:274
+# cd4b45ab035e454aa9892fa1b402307a
 msgid "Le fonctionnement Webrtc est décrit ici : https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:276
+# eeb58a09bef04f0eabb0092918708c3f
 msgid "Un diagnostic réseau est possible ici : https://www.netscan.co/  (cliquer sur \"Scan my Network\", le diagnostic est stocké sous forme d'une URL https://www.netscan.co/r/ayiIL )"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:279
+# 40ebb6624f054e92b48bbf683e325b99
 msgid "Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:285
+# 6a17b8fb135f43c8a73cda39e9b5bae5
 msgid "Installation"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:288
+# d2159dd2d0c149d298f1e388bc4399c6
 msgid "Installation par import de VM"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:290
+# 41c060d497274970a92052e0c55b0056
 msgid "CEO-Vision peut fournir une image de la VM sous forme OVA (format universel), VHD (VHD), VMDK (VMWare)."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:293
+# bdbff363816b4f42b4907734b3f16860
 msgid "Dans le cas du format OVA, une machine virtuelle avec des prérequis standards est fournie."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:296
+# 68bafa8e3b114b2fbd8999ca7fc91e69
 msgid "Dans le cas d'image VHD ou VMDK, la machine virtuelle doit être créée au préalable suivant les prérequis et l'image disque rattachée à cette machine virtuelle."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:301
+# b6b547cbe28b495db3fe2dd648fd034e
 msgid "Pour VMWare, vérifier que le \"PVSCSI adapter\" est bien utilisé"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:303
+# d6ef5031555b42dd8f6deffc6dd3236a
 msgid "Pour information, l'image VMDK de VirtualBox a été au préalable convertie pour VMWare à l'aide des commandes suivantes: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:310
+# f4a5993e3415410cb34d2d537fcafb28
 msgid "Reste ensuite une configuration de la VM définissant quelques caractéristiques réseaux (nom de domaine, …)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:313
+# 035601e59c1c4cce9b37281812640f45
 msgid "Dans certains cas la machine virtuelle peut avoir un espace disque alloué supérieur au partitionnement de la VM. Dans ce cas les opérations suivantes sont à effectuer: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:354
+# b3149ef69077437c886ea5db1b3679aa
 msgid "la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:359
+# d5080f162d4c44fa8a620d570f9a4513
 msgid "Installation par script (Enterprise only)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:364
+# 17a6bb1b70eb44d29253b6e073f7ad72
 msgid "A noter que ce type d’installation engendre un coût supplémentaire (facturation en régie)."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:367
+# b1cc4d28182349399c990fbfe3a2de28
 msgid "Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision qui fait ensuite une installation par script."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:371
+# 2a589e4b31bc4ff182c64f913c0a4dd2
 msgid "Post-installation de la VM (Enterprise only)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:378
+# 2022d4c8efde4156a3d0e4a57cd881cb
 msgid "Configuration du réseau (par l’Exploitant)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:379
+# 27a97481906c4932ae1a65e045288c93
 msgid "Se connecter en SSH à la VM et lancer ``nmtui``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:380
+# 1d781f1b20dc403b9f4a72f8d613a92c
 msgid "Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:383
+# cb54650cd2ad4971bf4d7b0abac2ee89
 msgid "Cliquer sur ``Show`` au niveau de ``IP v4 Configuration``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:384
+# a441e7eeb5e74622b338b05749a6bfc3
 msgid "Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:388
+# d4d2ea1b3829491ab466377cf9d2af3f
 msgid "Si votre GoFAST est accessible d'Internet, l'adresse est une IP publique"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:390
+# 7f43cd1ff0404348a79db21fb0770368
 msgid "Dans un environnement virtualisé, la passerelle (gateway) est l'adresse IP du host avec la fin remplacée par .254"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:392
+# ca141bae924e45a28c93ffc3ba858b14
 msgid "Sélectionner ``OK``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:393
+# f9257057e344427b98b7b6c0c78eab40
 msgid "Choisir ``Set system hostname`` normalement le même nom que celui ensuite entré dans les DNS"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:394
+# 9ab3914ccec644bca3d641838cac1348
 msgid "Sortir de l'application"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:395
+# 97e8a412dd814972adf20093fa503e5c
 msgid "``reboot``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:396
+# 5d1fbb6a3f8f4f7ba2f78e75cfd56847
 msgid "A la reconnection, vérifier qu'internet est accessible ``ping 8.8.8.8``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:399
+# 7a497c611abb483fb0fdae302771bab9
 msgid "Configuration / Paramétrage (par l’Exploitant)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:402
+# 4977197b251540b7b7bb1cb4bb2a08f5
 msgid "Ces étapes sont très importantes et doivent etre faite le plus tot possible par l’exploitant/infogerant"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:405
+# d3994b3e0b034941b1ac6a8400e1f128
 msgid "Déposer sur le serveur le certificat SSL « wildcard » (clef publique et privée correspondant à ``*.mydomain.tld``, ex. ``gofast.ceo-vision.com``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:409
+# f8ffcd2957ee40e0a2e55511efbf1168
 msgid "Entrer l'adresse IP et le nom de domaine de la GoFAST dans le DNS de l'entreprise"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:412
+# 8c98186a088b48c99757822608f6b979
 msgid "Créer des entrées DNS :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:414
+# bc0c278ac2034a2fb8a66f6f24cb6190
 msgid "Vers IP VM1"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:416
+# 540918bf830e4ec78902a95b463c3765
 msgid "``gofast.mydomain.tld`` (ex. : ``gofast.ceo-vision.com``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:418
+# 9915cdea9a0d4514866f3ba1729151a5
 msgid "``gofast-mobile.mydomain.tld`` (ex. : ``gofast-mobile.ceo-vision.com``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:421
+# 87ce4d51b1ec47eeb56294cf62433ede
 msgid "Vers IP VM2"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:423
+# 74e0094d3409441fabc4fdef1a24faf8
 msgid "``gofast-comm.mydomain.tld`` (ex. : ``gofast-comm.ceo-vision.com``)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:426
+# 35331255a9e644ed95711799ab7a482d
 msgid "Vérifier que la plate-forme GoFAST a bien accès à Internet"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:428
+# 70bbfaf2d4a241e19c85d5fa9a161200
 msgid "Vérifier que toutes les interconnexions entre le VM fonctionnent sur les ports listés au paragraphe « Liste des ports »"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:431
+# 9c98f1efb299481c93cc5258c7179125
 msgid "Fournir des informations d'accès en télé-administration (SSH, passerelle SMTP …) à CEO-Vision"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:435
+# 91d1d5445b7e4ebba28eb6294f2afc14
 msgid "Configuration / Paramétrage par CEO-Vision"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:437
+# 5b26ba3b117e48b084d8ed26d31828ce
 msgid "Vérification des pré-requis"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:439
+# 67a98cd495264da792f0029e77e9370d
 msgid "Benchmark"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:441
+# 1fd8d719870341c7ac09a95a62e6d7f5
 msgid "OPTIONNEL : Configuration avec le proxy"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:443
+# 529f44ad8620463998bb9cca08e96db2
 msgid "OPTIONNEL : Couplage à l'annuaire OpenLDAP ou ActiveDirectory (optionnel)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:446
+# f77ab4c08fb44868a988993c49829aed
 msgid "OPTIONNEL : Configuration de la délégation d'authentification"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:448
+# 14044b877cee4e1c8835773e8fba9196
 msgid "Configuration smtp"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:450
+# 1874895c74f4463c9d08bd6b94609f83
 msgid "Installation de la charte graphique"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:452
+# 237e6d14b031416692cb84b34d0f111f
 msgid "Activation des sondes de supervision"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:454
+# 733f82750e4b486db32dd84a0104ead3
 msgid "Installation des sondes APM (édition XXL)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:457
+# 3469543343584550809f579fb64addf4
 msgid "Installation des sondes APM (en option sauf abonnement XXL)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:460
+# f3e94b65284145a6a5bf03115491da39
 msgid "Installation de l'agent PHP (monitoring applicatif)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:475
+# a10bbf65c9444002b660913d50697fcb
 msgid "Dans les logs  ``tail -f /var/log/newrelic/php_agent.log`` ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:481
+# f0b8359e6bf04829b185decc68dfcfca
 msgid "Installation de l'agent JAVA (monitoring applicatif tomcat - alfresco - solr)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:483
+# f5eec8e5728444d780d9f3c9ed82b32f
 msgid "Procédure de mise en place : https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-platform"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:487
+# 46bcdda956a44619903dfecb1d1f5133
 msgid "Vérifications post-installation CEO-Vision"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:490
+# 8f9630d5a1a24186a6ddd8096ff338e9
 msgid "Configuration initiale du réseau"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:492
+# d4c4ca35ae6142c6a66fd7b2c1da7dd9
 msgid "Par défaut le fichier ``/etc/sysconfig/network-scripts/ifcfg-eth0`` contient les lignes suivantes: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:500
+# 210e577c6dff41c2a9ce5cc8bbaf8d66
 msgid "Vérifier que les lignes suivantes sont présentes et correctement remplies ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:529
+# 8eda3b45751e478b96e02aad39496f59
 msgid "Redémarrer le réseau. ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:534
+# 416bcfc591d141958bb497c39115f66f
 msgid "Vérification des ports ouverts"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:536
+# 873012b4f89c4c7ab2566c05dbd70058
 msgid "D'une machine autre que le serveur GoFAST, effectuer un scan des ports: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:549
+# d1105d9a283848ee979c951ae0a4f762
 msgid "Vérification du fonctionnement avec proxy"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:551
+# afdda9fde8aa4863979c3bce8021c82a
 msgid "Si l'entreprise dispose d'un proxy pour les connexions vers internet, le paramétrage suivant doit être réalisé ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:559
+# 1dad0ad22ef84a4c9257fc39ccab27dd
 msgid "Vérification basique des performances"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:561
+# 8f2837943884493cb91bed3593b558fe
 msgid "Installation de l'outil: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:571
+# f7d58d45af684c13a5a6928af8262e67
 msgid "Commandes pour obtenir l'environnement logiciel et matériel lors du bechmark: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:582
+# 8e2f682a9994421ab08c2403977fdd3c
 msgid "CPU"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:584
+# 653abdd5b4d34bc782c4ddbf07bceb6f
 msgid "Mesurer les performances de votre CPU en exécutant ce qui suit: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:589
+# de2ac6c96a744f86a19f8a11dcef555a
 msgid "Exemple de résultat (en secondes, le plus petit le mieux): ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:594
+# dcc9412c22dd425ba98ced282dda77b7
 msgid "File IO Benchmark"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:596
+# ca7ba9d6c08849f98d294d34b263c905
 msgid "Pour mesurer les performances des E/S (entrées/sorties) il est nécessaire de créer un fichier beaucoup plus grand que la mémoire vive (RAM) disponible car sinon le système utilise la mémoire comme cache ce qui fausse les résultats - 150GB est une bonne valeur pas toujours utilisable (manque d'espace disque): ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:604
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:639
+# 88be4c77f7a34e5fb5f3c03ef170ec6e
+# 1e6ff55e92844e8ba31552323dca42df
 msgid "Ensuite, exécuter le benchmark: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:609
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:643
+# 6f017c4bd5b94b729d311e7fa45df0fd
+# dc2e562c992d407cb4056b2b629b739f
 msgid "Exemple de résultat: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:613
+# 7fa09e22678d4df080df479c791320b3
 msgid "Puis vous pouvez effacer le fichier de test: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:618
+# c39345b7bfc042d1b859b3c50a9feca5
 msgid "File IO Benchmark (FIO)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:628
+# 7220e716784e4096a5ef07c944c70f35
 msgid "MySQL Benchmark"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:630
+# 501ea370030949f48f38bfd21a06a95b
 msgid "Pour mesurer la performance de la base de données MySQL, nous devons d'abord créer une table **test** dans la base de données **test** (crée manuellement) avec 1,000,000 lignes de données: ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:648
+# 09426ccf27784499ad583849e4d5f59f
 msgid "Indicateurs MySQL en fonctionnement normal"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:710
+# 91b1152e82644ac2957312cb427a1fb1
 msgid "ANNEXE I : Problèmes courants"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:713
+# 6a17aef182234b4c8eb4cde77bd373c8
 msgid "Pas d'envoi des mails techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:715
+# 08c035b0d4d74d4789763028f9197b9d
 msgid "Configurer le relais SMTP dans sendmail (``/etc/postfix/main.cf``) ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:720
+# 40135f8a69724e93b75e70e73c996530
 msgid "Connexion impossible à la GoFAST par la messagerie (IMAPS)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:722
+# 2d7672e7efc6459194efde59853b9449
 msgid "Le test suivant doit fonctionner (fin de message « **\\* OK IMAP4rev1 Server GreenMail ready** ») d'un serveur interne ou externe si la GoFAST est sur une DMZ ::"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:728
+# 81d0b559774946f1a230462041961d32
 msgid "Dans le cas contraire vérifier que :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:730
+# f4f5bbeb4a0d4faeb584143359f20460
 msgid "le port 993 est correctement ouvert (voir § sur la vérification des ports ouverts)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:733
+# b8fb6ac21ba14242a0a0d1ee3b28ae19
 msgid "que le process « **stunnel**  »fonctionne"
 msgstr ""
 

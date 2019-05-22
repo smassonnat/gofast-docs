@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,67 +17,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-development/api-rest.rst:3
+# 870ee039f6234c36a72552f75296fbec
 msgid "GoFAST :  API REST"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:5
+# eb71e19d120146269ecfccb5445de845
 msgid "L'API REST de GoFAST permet aux développeurs d'intéragir avec l'application de manière programmative. Vous trouverez sur cette page toutes les informations nécessaires à l'exploitation de cette API."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:8
+# 21bdcb634d544bd598195190770d8c50
 msgid "Authentification"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:11
+# b8213775058b4658844f23daf33c9a95
 msgid "Basic"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:13
+# 4f2c8c02cdaa47db96838cc20ab2c027
 msgid "La méthode d'authentification Basic est la méthode d'authentification classique définit dans la RFC 7617 controlée par le protocole HTTP (aussi appelée HTTP authentication)."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:15
+# 67bf06f9dc4b4b369bec9c7d999a4d23
 msgid "Elle nécessite de passer le header *Authorization* à une requête avec en valeur la chaine *Basic AUTHORIZATION_VALUE* ou *AUTHORIZATION_VALUE* est la chaine *username:password* encodée en base 64."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:17
+# 24bcc5aea9a845a2b389786e95963ea2
 msgid "Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la valeur : *Basic dXNlcjE6bW90ZGVwYXNzZTE=*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:21
+# 231040759dc0402ebc88da17dcbc857e
 msgid "Token"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:23
+# 1e296b3bcbd946be9d89d5b22fd2f08e
 msgid "La méthode d'authentification par token est utilisée pour générer une session temporaire identifiée par un jeton (une chaine de caractères)."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:25
+# 557a389b70c743f1b9adb8afb48310c6
 msgid "Elle utilise la ressource *login*, l'action *token* et la méthode *GET*."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:27
 #: ../../docs-gofast-development/api-rest.rst:42
+# 46320fe3e0334c17a413cef448ccd127
+# 65873ab021754007ac94660894236a8d
 msgid "L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:30
+# 204e06e7f8a046f0ba7b40bde258c7fc
 msgid "Ressources"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:33
+# a8941b8b6bed445689a6116844713c8a
 msgid "Ressource : login"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:35
+# 42a9731a30cd4f3283028e91a0297317
 msgid "Cette ressource permet d'intéragir avec le système d'authentification de GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:38
+# 22cdd16c93db49c7b8b41247efb6ca7c
 msgid "Action : token"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:40
+# b003b4b4eaac430a824ad689d3876798
 msgid "Cette action permet d'intéragir avec le système d'authentification par token."
 msgstr ""
 
@@ -94,14 +111,29 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:882
 #: ../../docs-gofast-development/api-rest.rst:923
 #: ../../docs-gofast-development/api-rest.rst:954
+# f49485044ce94233bd8903759954560b
+# ea40aa2a609b4ce58b0ca81707d3de18
+# a9331c65a1564cbca0fc41fb9ffa82fc
+# 07bd19e24e4d41b5b46c08718d3e0cf1
+# b3e2838038364ccbb5642b6cf795d8d8
+# 2c0049e44fc8403ca3ebabc7edc95a05
+# 2ed5679feed64e948f54758a4124d944
+# da3bc08df1c141c0a2e9bece27416576
+# c0de68e4d235464b8c5213e7ff8b439d
+# 49c4d60b745b4b8ba6bbf24ec757bbe7
+# 7d08e2ab893248d0bc81e0780ec2ab7a
+# 9797c4da392d45db8d14b2a38ee570d4
+# bd949c408cdd458184c8fefedc4a9373
 msgid "GET"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:47
+# 94c10ce346fc4bebbdd4aa9ab78c4045
 msgid "Cette méthode permet de récupérer un token d'authentification. Ce dernier est valable pendant 3 minutes."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:49
+# f68f6b4bd74c4f1288438f8f594bd43a
 msgid "*GET: /api/login/token*"
 msgstr ""
 
@@ -150,6 +182,51 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:976
 #: ../../docs-gofast-development/api-rest.rst:1005
 #: ../../docs-gofast-development/api-rest.rst:1019
+# 96c7d7313e854c48936da2bedbea530f
+# 860d088fa3cd4f9486b96b6d05decfa1
+# a3fd4ce6a9de48318f7a9686ec8139ca
+# 1f81d19b1e7c4aaba09e740c86e26069
+# f97266ee18f743d79c2500d96052dd51
+# efcb6c0f76a84a04a7c23e702bd60779
+# 4d339b12f5f6482085166d234ec01ffb
+# 451e369832f3413da3d75c450eca16eb
+# 4e4647cae2d3479caba694a92103d20a
+# d1322ae10fc54d75938cc951f5f38cab
+# 82ba87a543664beca34dd0373d9aa0ae
+# 83a30e838a674a22b14f85d4cddbe892
+# 86c05eed41204bf1becb72b76ebd006d
+# ba3fc7c5cd374ee0b9bbe2f44a2fa42f
+# 6553fed111034b0d804bbc36ff6e42a7
+# c4c32128fd804162b58465ee18267e77
+# 7b37a2ba45424bc8b05106fb08a8d0aa
+# ecd0d0887da6413e81094acf5a3b3dc9
+# 6f401798450f4a2483094d59a52ae252
+# 0192828825d246308d8ac08c36e1440e
+# 8779d26355a0479685b8d2ce2ee22826
+# 6b6f4b092ebe4a20b149ddab100783f8
+# cd94c460e02a4dba9b094ac4f22a77eb
+# 695a008c9b04443098ebe2c10f881c08
+# 2bd0b9c0c4cf4efcba4842a20c07a703
+# 632c2b3e41f44ba794ff4959fd8c3de6
+# 329c3bd211a44f8a8444b1cd63653fd7
+# d0f87e78c33c4006a2174396ad95cd6f
+# 6098ce546fc64dfa90145766a9cf75d7
+# 8b12080e2378414c94f2ba2dbc3f0aa9
+# aba39d7fead0452586495a952f6ebc7f
+# eea5dcd7f19249469ebccb6c9aee543f
+# adae44bcb12543cfb53f3615e0b0c285
+# 7710a418923f47968c8390e972cdf37b
+# 403e327e61644b759955e8dbc4b50d64
+# 5e93ebb22f0041abad08fe157b9a1662
+# 369393d4932e4f068feb686f3c941642
+# c0dac9bf0c324e2eb2c6be7dd0439a57
+# dca877a918d54766ad0b6e04dab59128
+# a1cd7b19d49a4074a934d6b6f798dd33
+# 2cc9985eb308494aaac3fa88788dbec3
+# 4d620c51f4964c89b97401b9c9d76fe7
+# aa3fc2dcdbbb4e948f406c040a3c184a
+# debc7ffb115248ae870f2a05fdd05847
+# 2143d7836e8043eb9c33c8bee3276bf7
 msgid "Header"
 msgstr ""
 
@@ -239,6 +316,92 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1011
 #: ../../docs-gofast-development/api-rest.rst:1019
 #: ../../docs-gofast-development/api-rest.rst:1025
+# d91e4782590045edabdaa4685822001e
+# c1e8c3a4b7214610840c61f058b2f044
+# 1a4fd5be129449d996b754437026fa8c
+# 70e8aa7664874bee8bd73822ba135a4e
+# 20c05bfb3b744b999f4c142731ce569d
+# 84a75d29fd4340d391473c3264b281fa
+# cacbc19590e448468ffd460e06474064
+# a4641952ab6d42d4ab430abec39a719c
+# e2ce98023ad14470b398acfb48cf7e8a
+# d0da6c255e7d4102bb288884a6eabafe
+# 2858d4e03b86475f94525004ef0ffb3a
+# ccba243d0f304126a4143dc3d4748bd1
+# 43a04c4094aa412f9f2b1c8d54de13e6
+# f613b1a8589b45a6997c0f95a1f1571c
+# f80dc7e3d2af4ef1b1f41a0c1bfbed25
+# ca7468d8049b47c4b2047a7ba1f17014
+# de80b62e4b824d5a98125575a19ba061
+# 43e450d56f37433788033c3922000987
+# ffbe3b57d4b24327a1127d3494d2457a
+# 6d4cee9a33104d16b8c8b86489d2b686
+# 7dd099854eda4749ac679808af8323da
+# 7e3b830af14b43eea77045a679f33934
+# 31ddc031d5314f0eb63f5af0eca437b3
+# 3d0d80b9296b47fc801a5b22aa4623ba
+# 3e15cb4151d74d559b5d9e9fc0798391
+# c6450e645f904084af27b893be6b1003
+# a274c3538b6f4e6092bf7df809b79046
+# 05164cfcce1042948fb6a248292a0963
+# 1a274cbf9f7a4f299388b412f5bdabed
+# 2fc472a501e44c5ba357915a75efaac0
+# cd04ffa8f3e345b5a1e355adc7534cb8
+# 4ba69ebcb3cd430fb6f555ed5ab4834e
+# 7f4d905e1cbc432c9ea5096074a39282
+# 6e036db7331e4d2ba025c6243e5aead8
+# 3c3227b2643044d98a2ca167ef43facd
+# aeab1e5728744fb485c49a6c7ccac156
+# a41f460ba1554692a0d825dcf531b4fe
+# 7272b8a11d05437daa9317227bf3af3d
+# 34752b2af03044e6af139a7822750f0a
+# 222b397c024c4e36a68a90abb9e0d93b
+# 260f6a2bc696459d99f940a39e905e76
+# ce970c60168d4f76811c54eee21787ea
+# a3b15ae757b944bcb2c0fc3cde105d49
+# a9ecbfdd81c840bfb589f726df0d48fe
+# 7e907078f56846c793e566194e922ef4
+# c12d2bb61d814217813fab80c7a44d63
+# 740f7105299546c28f76f596adafd702
+# 034887be87c54fc0ab149df0597f667d
+# b04685f80ba841deb155061d51ecfc95
+# a6e7dbf3ed604db181b919c4ecce0e49
+# 9b5d141657194852a7412f4669adbc22
+# 621fad46dec744ada0b2c8b4873dbc98
+# 7d700c7435be4f19b359e8950afd0949
+# c21ca375b8c4439e8957d2db692eea96
+# f6bf3d71372b4dc9aa4f453ed8ba0cec
+# e364fb91defa4ef7a840a162494a5b06
+# 2a0a1001aa2e4a808f93e901e18ae804
+# 4181571d717941428fd1cfdaf7858ce2
+# 77720a689bc443e0b2881fb6d89f8cbe
+# 58026e94dd31492cb490cb41f147658d
+# f525c594ea0f42859ddfc5c7cd5ff54e
+# 76a3b398341c442f816284c7d3e2ef70
+# c1b2c92b55184c888e2e2a2c88d1dc58
+# 27f40aab313c4556bb424beac9e36292
+# 40d3b34c719843d8a3163e5ea339bad4
+# e2b4b8c080ad40d196163067f4f3eef5
+# 548b468320414d678328a6e4fe1de03b
+# b3ba2d6bddca4e01be674e78573cdbea
+# b2822dff95614f8f84248c08d41b346d
+# 2e67745d2cf74cd7aaa8a3d0ab69efa8
+# 6d12bb8fdccf4d44be5916c82db58239
+# 90658be0509f4c03a63796c0912900c6
+# 0f72810993bb4a7aaaf48a6f751ce29b
+# 9ce221f64e8d436e94b1fbbb3968929c
+# 10a180d9986e4fbf84f6dd9d1eaf7ac0
+# 80897d4103e644de85c9ea2a7385c67d
+# d903babee18c4d659a133433e49d2831
+# c5cbf307a1b64d1e9c932f92e9c281a6
+# 247770d44c7f4400ae08ff1db5604a24
+# 6258ee4d9c9745f2bba7250d1c45d464
+# 8d0953e97137425199e634f3b793d302
+# c182ff6dd1da499ba6fcf05debd80f30
+# 8b4d597ac79a417cbdfc51c8307f3615
+# edb3ca1fde8d41a1943e97d17a5c68b7
+# d5556d8379504d8c91faba21c30fb766
+# ef5cee6f5f1f4fbdb62bf671fae3c6a7
 msgid "Valeur"
 msgstr ""
 
@@ -287,6 +450,51 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:978
 #: ../../docs-gofast-development/api-rest.rst:1007
 #: ../../docs-gofast-development/api-rest.rst:1021
+# b84d62e9ea10489a8d6e63c36e5fc798
+# 045cf9bfbc944d3aa45a5629866e881b
+# eb7ec7543c2b4919acda0f0591dabec6
+# 7d0efdea2bc84bd79cc208e9ae280df9
+# 37d635ab8b604634a7299c99b1ec7daf
+# f8aeb5738bd74e0187097249e08accfd
+# eda16a6833a944bebd30a2670e02f525
+# e20196a012754050b3120b7419c638f6
+# eb461e822f84406ab8b2dfda4598c25e
+# 0360230b574f4f5b9faa8b53532f7efd
+# 0e6d11f2610d4997acf7b3af874b49b9
+# 3a881c00a9b94fa3ac4e0b3369d7621a
+# 1eee06ab7635413fb405cc0dac2ce3de
+# f4aacf9adc6c469ea127ab00c2f0f162
+# b0afe75b7eb0494e87ab751e3658a2b4
+# 5eb4420aa14d4e7aa2b121d1edc94fdf
+# a9721199edae41afbae0a97dc0a17c49
+# ff4de440aa044c62b2099e3403b5e8dd
+# bb80c993ae6b4fa485c4f081fd5e229b
+# 45761d924c144c8fa8c1b08a2e08c56c
+# 72d56bed76b8466a85ba4365c86f910e
+# b4a6210dde854ddd9d4b655b0cf8dc82
+# 3a0317a2c10a442faf4e9e560a799c8a
+# 487d1bb1ff52449bbd37f8a622785500
+# b0b2e2744ce143d09373199ff7555e22
+# 92b344eb84804e7a95be692807315436
+# 3890e3dcfdad442e94ce08ed38b22613
+# c84e9e1bceba4809990e8d7ab4b34b2a
+# 43da1527883f422887c739ba8dc6cbcb
+# dfaa3eaf167c4a5992dd60b674803558
+# b92f524b87ff4c6cb4ec1fd3b206212f
+# e4b9c492c8c646958ae7123fa20b4c97
+# 193a951b69a04230b24a7b420548c604
+# 23f6f639c4cd4886b1f5070c6a7f893e
+# 39960d647a3443cda8604a0673ec1938
+# 669dae04e51a43b5914f80cadb71758e
+# f4c334a736dd4f7dac62604517fc9c19
+# 9225d4c1fbf541a2863a297ce8577361
+# 94566ad0a7ed4816abdd8d6c1ee4967f
+# 220239de438d4030b88428863f427d97
+# 312e4ccc14ff4930972520faa5683a89
+# acc33d50258c49499a0024a98859830e
+# c679e652ff974a5e9784950a5cd91478
+# e1235bd195a3412e983845f7860083ca
+# 3b1c8ab1dcad42b48ba8c2ac2e8d3e3c
 msgid "Content-Type"
 msgstr ""
 
@@ -329,6 +537,45 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:978
 #: ../../docs-gofast-development/api-rest.rst:1007
 #: ../../docs-gofast-development/api-rest.rst:1021
+# aa1190afd2a6431ea1a39ff29984a5b8
+# d5df5e35e28242f6bf7e33b55b2f4303
+# d018ade01272400c988e73d6e9a3dbc2
+# d34114c04c304b70bc9887c792581501
+# 5ef6cbfffba44f8695412f01b20c1cce
+# a62a0eb7453a409ca73702f6d6383100
+# 8825df212e0c4520b19d14f4e72cf2c4
+# 1b5e1132e910487a80115fbffc107719
+# cf69bd1fe75e453289ddd1d3f2f767e7
+# 5df8d2f2be97428b9f4ca3b18279de94
+# 4373f18c8e4641ab98ae09aa63856535
+# d5a4d99058c1474cbd554d06c31a8703
+# e23d19f0b4494d2d8377e1b28b8841e0
+# 1e3567afa98c4c2e91409fb84d09f6e7
+# 37a8b51a3a6e434b9699bfa5d1cae616
+# 856362f543cf4db4929c3fae8c6818ec
+# 5bad29e4d4d24d95bd1e32c30eddae6b
+# 8d8d34a20f8a4e5e86eaeca82fd2afcf
+# 8cd8d396163543f2a7c5ac4a588fc445
+# 26b5b2816a734fdfb82c3575058a72ab
+# 3f4f7c3b458e406e8fdb0d0b5e3fb75f
+# df74f722967c46988306ffc8c7fbe1e5
+# 5fe6c66b2dc64c6695f0ec4b809e7cdc
+# 5ff287d4ad76482384dfc6ded3b8bb48
+# 2e95ba2382e4411cb2cc10e7a15f343e
+# d94ff572bf5d459c926fdf9291641984
+# 1cf9a3c7bfd9450db7b3f2fc0b110e89
+# 367eeea7fd5244029c05cf2ede2ac4e1
+# 0c7d2a763dc04588bf9a7251ae52df06
+# e0ce59b44c444172b5e5b9d406a4b66a
+# 0612ce5e1c0540649cb2f030a687fb75
+# 8a5c8ed2629b47728ee612744be2edcf
+# d3f5c2bfbf194180b33de1a377566890
+# 3fc9482ca0a047faaef542ee1b73abb4
+# faf73a161efd4a80919e46a4254e9e12
+# 141bedc83aa849168a41aaf6a97132ee
+# 23b7f0b977954df9a0e3cafd2352747b
+# c3f318c5f00d4be38d1b2cea04518800
+# 3182aaa980494bc2ae17a338ad9f9ded
 msgid "application/json"
 msgstr ""
 
@@ -341,14 +588,25 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:624
 #: ../../docs-gofast-development/api-rest.rst:662
 #: ../../docs-gofast-development/api-rest.rst:755
+# 242e39cfb35c4c37ba2ceb82891b0b11
+# 98b85d8ad59940c1a33c2b9e1189a957
+# b9473a0aa66a4ae6a8f07eefa85b9dc2
+# e4ba0dc4b42d4c0eae5ac22ff1610f0e
+# e50a8eb2cbb14fb0b1221d2b72cf78e9
+# 9245e440bf8f40178e1f629d203c889a
+# aff90211f74447cb98a43e689e707fd8
+# 4e62a272f2194950a09defe4822cec96
+# a6f3f9457fd34279a7cd8fb085327dcd
 msgid "GET Parameter"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:60
+# 0ae821d9e3bc4e67a86600b2f46d7659
 msgid "name*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:60
+# 5b83e88d86194d88aef38bdab4559c98
 msgid "Username de l'utilisateur"
 msgstr ""
 
@@ -374,6 +632,28 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:929
 #: ../../docs-gofast-development/api-rest.rst:973
 #: ../../docs-gofast-development/api-rest.rst:1016
+# 7bd6ecc1e6d24df2b4c5286472a4f68b
+# 98cf2b370e2e4bfdb5e9b9ede42e0883
+# f4f1747a44d1481697f584c5b8120a80
+# 8e07afbd45294be2b1c38813c07f2ffb
+# bc42131777424f8aa6aa057426596f7a
+# 474885e1e763466fa32c383c85ce6c86
+# 48b0f46696634ff8906ddbac84e79a94
+# 8b738d5b255c4d6096f44a897b16f63a
+# 0b65d6ca0d504050ba1590150e173d67
+# 8c04100913794c45945650b669500515
+# befff801cb074fe1babd8470d8e104cf
+# 3917ae678a544662b95330ef7a693da5
+# 3aefddb0bed4401597e1ca495b9f19c2
+# 3df92412934b4286b4f5dd81e0ae957b
+# 5ea73c87cdd54f7d9691d84352522bee
+# 9505f5241fcd431d9595ea027255d217
+# de7aa4b9beb54089898c85d85f4950ad
+# 0dcbc92fe2e34abf9cb7cdbb3f0fa122
+# 3229a30bc6ec4607b0a1c93563e9fafe
+# da57b6a159e84ca4a3f3e4d3a84c8d88
+# cd22456f7b9f46838c786e135716962c
+# 36f682f0837a4542aff4f44062ca6a30
 msgid "*Retour:*"
 msgstr ""
 
@@ -408,38 +688,77 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:982
 #: ../../docs-gofast-development/api-rest.rst:1011
 #: ../../docs-gofast-development/api-rest.rst:1025
+# 8fbadf6501d8482bb65ab9fbc934bf1f
+# da5926ceed9644098edfafc6c8b7c490
+# 97a84f438505408897cf4621df73ff09
+# 5f1efc027f274a359df1cf8670acbd8a
+# f43c42df2ba5427cbfc7ac1c600c6784
+# 63a2bc63eac843c3bfacdd39fb27000b
+# 5633b65a3886413a8b04c4c96ae44868
+# c4687a6bf81045e5920235c458f4447b
+# a52d1692efea4643ae5afbb237ed8eac
+# 2f6ad1a885e24deca28f99e4b758bf74
+# 25304dc9280f4a189e47914efc6531d1
+# 45cb70828fb54d1b9f3da5d2d697cd1a
+# b05bfbf53f4047c4bb18829b9306cc18
+# a392b99ced844f478d75fa582389a958
+# d2d337b9956847d2b1ca6e5184e9c1ee
+# 82fd9cd7a8854b0dac2084ec5c2f5720
+# faecad2a17144bf988e2aa92e9ec5923
+# c1780ed8c2bf4de2ad09741d5fa208b4
+# 26ab3034ce284a44a809177478f5ee9e
+# e44f2c963013433c857d33bffc4b0d18
+# 8e43742873d34db4a3ec69bd6dfd11c7
+# 52d6a6bdffce4bcbb3023f32ee6e51b1
+# 58ed6c7dc6254381ac229c66ee1345e7
+# cb4836af795c4b1f98bd80d56137e7b5
+# 360b5906d07f457ca271489f8a0296d3
+# 17a4ab6ad16c43119147f076b240ec9c
+# 67ae51a2130749448b48522aa447ee5e
+# 632300a2f85440e8a77d177451928e60
+# 34c2aeb453934000984bd65db25badf8
+# c61027a97ec540cd88c241946c634aee
+# 9deb69572f7c48958eb39904d65cd2e2
 msgid "Clé"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:74
+# cbcf2ef56adc494cb4b26e4a7ebdb6c0
 msgid "token"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:74
+# d6ee3cbd15da4b7a80291b7dcfccd172
 msgid "Jeton d'authentification"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:78
+# a5f4576381344cbea838aaed0e9730da
 msgid "Ressource : node"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:80
+# 6fd2e846c6894425a1910084a71a6fe6
 msgid "Cette ressource permet d'intéragir avec les entités Drupal de type noeud. Ces derniers peuvent représenter des documents, articles, espaces, formulaires..."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:83
+# d330c5cbc5dc4870adf3fb3494bab22d
 msgid "Action : node"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:85
+# 7115dcba3ffe4ebc9ca2dec6732e1f30
 msgid "Cette action permet d'intéragir basiquement avec les entités Drupal de type noeud."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:90
+# bf3a9f5c777e4dfc82aeb21c52813fd8
 msgid "Cette méthode permet de récupérer des informations génériques d'une entité de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:92
+# 7122c8f3979a4fb1a091035e69e82463
 msgid "*GET: /api/node/node*"
 msgstr ""
 
@@ -456,6 +775,19 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:626
 #: ../../docs-gofast-development/api-rest.rst:664
 #: ../../docs-gofast-development/api-rest.rst:800
+# c9abc17a2a5d42a2b5df83219afd7774
+# e4f9ff18b02f41c9a02dd726f772adfe
+# 3a1ab1725a3e45f98dc05e2db14baad9
+# 76093d4aa81c4179871b1371b81ee7fd
+# 90a8db3b41b443e98988416001740231
+# 247f8de4573c48379575682f3f0ad99a
+# 5f21d2af3d50412ab5c5b0ef6f887b93
+# bb91d55470ea47f29bf54cf980d1fb68
+# 17613b792ab8434eab780ae18c963da7
+# 373151225c1f41a7b0df748f74410f9e
+# 9f55a6fe251d4f21a9ed5bfc8a07eeff
+# 31389b0b75c04cdb93055fc59e31bd59
+# 751edc4372c64c63ab73aa06a41591f9
 msgid "nid*"
 msgstr ""
 
@@ -475,37 +807,63 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:664
 #: ../../docs-gofast-development/api-rest.rst:771
 #: ../../docs-gofast-development/api-rest.rst:800
+# 4e69f551a3394026bfc7b47aff362816
+# 088c6a577b0a44c9a013c763a38b45d8
+# 96a5e517ab6b4e6eb9d1cb5d0bd54c6d
+# 79e3fd04ade347c6a42d99fa6583043f
+# 882a61ddfb1e435c8aef985a6ae9bc65
+# 523f51c974a445edbd57e2de4dd85f42
+# 31bfb0a76e5a439cb83f03d326842b38
+# 14f50b782a754fc2841cf133dbb40ba1
+# 243b6f5ae8b8437f8a49d13d9e93c8ce
+# d1c2acf4791e4853b42abc6cf9f3058e
+# 80c7de83432048dfb35cde937a54caf8
+# deac3a00a7674148828e19044d15b2a2
+# 28239017ebd14ecaaf7a54b4caf71889
+# 45b37c795fa74f32be05d9e8ed9a2b3a
+# 2c2d37c999f54ab689262e313fe94156
+# 1a0ceb152a494572a4bc00813e6ba10c
 msgid "N° du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:117
 #: ../../docs-gofast-development/api-rest.rst:205
 #: ../../docs-gofast-development/api-rest.rst:771
+# d320c8881b4942b087a51d725eeb0cde
+# d4619990ff4e4dbf833d179a55014161
+# 3e283d51965c453db3cd6cc8236e444e
 msgid "nid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:119
 #: ../../docs-gofast-development/api-rest.rst:680
+# a551c29d632246f3a6ea84acbda47032
+# 11e400ef151140e8a137c398dc01abca
 msgid "type"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:119
+# 8d32045c4c2f4e2fa7eed97da3a6293b
 msgid "Type du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:121
+# ac9c7312d85f42e9b64d2b004e5ab0a1
 msgid "title"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:121
+# 1c1ab990e35f4af2ad78ba7ed86f6e1f
 msgid "Titre du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:123
+# 87668e194fb747308080ad709664b633
 msgid "status"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:123
+# 9878e44b714d4cb1b71bba9c278da0e2
 msgid "1: Publié, 0: Dépublié (Supprimé)"
 msgstr ""
 
@@ -513,91 +871,117 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:727
 #: ../../docs-gofast-development/api-rest.rst:775
 #: ../../docs-gofast-development/api-rest.rst:984
+# 845dbc72ae1e4dbf960ba293b7f7b2c5
+# b95bf577b73343fa8c7792dd8770096d
+# 4a199d70b32a427e83034d18ff02e886
+# 68c9d04695e647de888ed16b596b13d4
 msgid "uid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:125
+# bea4b34c9398459fbb90b5affe84e3e6
 msgid "N° du créateur du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:127
+# 4f1fa1fd00704d38b7542ce457b44e3c
 msgid "sticky"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:127
+# c07844a8b2bd475abc91e3056aadc1b3
 msgid "1: Epinglé, 0: Pas épinglé"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:129
+# fd9065a4bf634d42bc24d88f5026fea0
 msgid "language"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:129
+# 921a6344cdc64f078edae39efe51bb51
 msgid "Langue du noeud (und, fr, en, nl...)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:131
 #: ../../docs-gofast-development/api-rest.rst:682
+# 2d5fb915e5884ca892b3effa91dd763f
+# 56261216be0f4741b036f3ee1ae08572
 msgid "created"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:131
+# 5bf2f8e2a89643a4ad2df45be1d5e95a
 msgid "Timestamp de création du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:133
+# 89d0d9e9849f4f4d976b944d104a75b3
 msgid "updated"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:133
+# 8da22f39d8d84bcea14d782f10d17f9c
 msgid "Timestamp de dernière modification du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:135
+# 2caa7066afc6468489d7e4827ac3f8c5
 msgid "update_uid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:135
+# 1ab55d56c7cc4a23963074e823377b46
 msgid "N° du dernier modificateur du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:137
+# 901e59f49a5a408a8248e1634cc897a1
 msgid "comment_count"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:137
+# 20db39a82cde4d348e244c09ae1c0ace
 msgid "Nombre de commentaires attachés au noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:139
+# febdb3d8b4eb49baae0e9ac3408c5a07
 msgid "last_comment_uid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:139
+# 359ef309d0b64913b99a99e264907e58
 msgid "N° du dernier commentateur du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:141
+# c4efa46797094ac18ff2d83badcbb20f
 msgid "last_comment_timestamp"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:141
+# edc74b3707e147c08dc917e818c0becd
 msgid "Timestamp du dernier commentaire du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:143
+# 074455985ec6468dbdb309014bcfc6af
 msgid "last_comment_cid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:143
+# 7dc99403f29a4179bc5d1a1f3c9a14cf
 msgid "N° du dernier commentaire du noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:145
+# a2fe38e470c54bac80e1ccca01238b5c
 msgid "alfresco_reference"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:145
+# 72f9929fcf9e4811aa7491dc70351eec
 msgid "Référence du contenu Alfresco associé au noeud"
 msgstr ""
 
@@ -606,114 +990,149 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:434
 #: ../../docs-gofast-development/api-rest.rst:514
 #: ../../docs-gofast-development/api-rest.rst:998
+# f35a80712993447898e8684fb260e881
+# e4ad920817474079b643dfe6919e8a30
+# bbd4568b05d443b1908815f1485bfa4b
+# 6078f4e6c5f747759ec39eb0378e877c
+# e6874e17f85c42b8829a48a96ff98c2e
 msgid "POST"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:151
+# 237fd07cee9f43edba89271c2cd1d3df
 msgid "Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item et qu'il n'est pas crée à partir d'un modèle, il est obligatoire d'y ajouter un fichier."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:153
+# 2fb62b1c830841db9f31ea7c092a6a21
 msgid "*POST: /api/node/node*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:158
 #: ../../docs-gofast-development/api-rest.rst:523
+# 89635d0925e748faa9fd519e3dc6f753
+# d13633aec49548a49efcface44231067
 msgid "multipart/form-data"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:164
+# b717c710a4d04adeb0ac8246bcaff7de
 msgid "file**"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:164
+# 8ec7c4d5c9434c7693efa389445f487c
 msgid "Le fichier à charger (si le type de noeud est 'alfresco_item' et qu'il n'est pas à créer à partir d'un template)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:176
+# 918bc77d349142c38de7eeaa2fd435e5
 msgid "type*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:176
+# 5b213b52fedb4e189d703d6547dc5274
 msgid "Type de noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:178
 #: ../../docs-gofast-development/api-rest.rst:851
+# 84e1b9ae802e4aa6832e5b04aea50ea7
+# 33a59d851f244617aa6a0ecbb0dd668f
 msgid "title*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:178
+# ba528eec9dd3456d9e89e98486fcab21
 msgid "Le titre du fichier, de l'article, du forum..."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:180
+# f73b18d3bce14d26881518a61ec8771e
 msgid "locations**"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:180
+# 33810c6666b14bf19537a942305ac66f
 msgid "Les emplacements dans un tableau sous la forme \"/Sites/_Organisations/Mon Organisation/XXX\" (alfresco_item seulement)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:182
+# 645c5ed6b60d491b84ac60019f1803de
 msgid "template_nid**"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:182
+# 6c9cb661e79b474991349007ce8c48bb
 msgid "L'identifiant du noeud du template à partir duquel créer le fichier si nécessaire (alfresco_item seulement)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:184
+# bbd7e72ade7b49cf9709feb4ef578f43
 msgid "gids**"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:184
+# a58d5dc3015740d4b3a89172df5a8f19
 msgid "Les n° des espaces de destination dans un tableau (article, forum seulement)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:186
+# 8a979ae86131416b96cab72b6ee47d02
 msgid "body**"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:186
+# b513a5a967ef4737a2a415db97831142
 msgid "Le contenu au format HTML (article, forum seulement)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:192
+# 88017c4c9dd044698c9c6eae2359bfea
 msgid "Les types de noeud disponibles sont :"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:190
+# c7313cae7eb346b2b7ec7b321b32e270
 msgid "alfresco_item (Document)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:191
+# ecffa57fd8a341389e2886e36ae1ff8a
 msgid "article (Page interne)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:192
+# fe8f633a384048b28662c74bb5e88617
 msgid "forum (Forum)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:209
+# 1ece201a3e9d4308960eddbd62a0e84b
 msgid "Action : metadata"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:211
+# 8ad23fbeae704937991159cc94e09513
 msgid "Cette action permet d'intéragir avec les métadonnées associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:216
+# 95ce8e88de8b47e0afa11c2d08c62832
 msgid "Cette méthode permet de récupérer les métadonnées associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:218
+# 657d8391d07a4cdaa15419e0b834e11c
 msgid "*GET: /api/node/metadata*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:245
 #: ../../docs-gofast-development/api-rest.rst:282
 #: ../../docs-gofast-development/api-rest.rst:335
+# ebc46c1d580d4cb1aafdaa0ecf147614
+# 7ce9b77754694851b3b3755b7b748a59
+# 617633c5f81b423099d22658a86397e0
 msgid "field_XXX"
 msgstr ""
 
@@ -723,25 +1142,38 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:284
 #: ../../docs-gofast-development/api-rest.rst:335
 #: ../../docs-gofast-development/api-rest.rst:337
+# 739afcfbe34f42508cc0e21a40d66640
+# 4c9a2ee0a36c42338c49f8177be44287
+# 95f0da09743c4e97a364d9c2ad618d6f
+# 8cb536b7ce4f438aa8fef6cc035f0c5b
+# bab258e709cb4bae816dea546da3ce2b
+# 8b61b6fd0d834278a05b8f6f07c70920
 msgid "Tableau contenant les valeurs du champ"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:247
 #: ../../docs-gofast-development/api-rest.rst:284
 #: ../../docs-gofast-development/api-rest.rst:337
+# 6b9df4429c3347ebac6d4773467bbc06
+# 911340b1d6d44be79340bdf3b9a9ec7e
+# 6782670f1b2341308ebc219b622d362f
 msgid "field_YYY"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:253
+# f446e4c0a2d74de488f2e4f4e91f1fc7
 msgid "Cette méthode permet de mettre à jour les métadonnées associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:255
+# 18fd78b9363d4ff58555ae4860f2aa48
 msgid "*POST: /api/node/metadata*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:267
 #: ../../docs-gofast-development/api-rest.rst:320
+# 5db6fb8546584786aafe7cdc8a0dd552
+# 9960dbf0c68c460b861013a2edefceda
 msgid "Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière"
 msgstr ""
 
@@ -749,6 +1181,10 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:320
 #: ../../docs-gofast-development/api-rest.rst:324
+# 21597c1e3eec46b88fc547df9e4cff2d
+# fa34eba8cbcf45f98c47c02a442bafd8
+# 8fb3fc1a96cd40dbbab0841d8c0716ee
+# 51f32b1e9fce42cc85ff799c4d9f5e6a
 msgid "field_XXX : *Array*"
 msgstr ""
 
@@ -756,55 +1192,78 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:270
 #: ../../docs-gofast-development/api-rest.rst:319
 #: ../../docs-gofast-development/api-rest.rst:323
+# c4b30695ae4c4c03a2de21a2a202a3fa
+# 20500a13ff364a33883e4e4a4adb9917
+# 705ebd94696a49caae76f9242965fe28
+# c1d0856468914b469cf7441a9b3997d5
 msgid "Array"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:265
 #: ../../docs-gofast-development/api-rest.rst:318
+# 53fd91ef72824d40be64302684f99c6f
+# 0992cfb2a37644d581f01776cd96e3dd
 msgid "0: value: *Array*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:266
 #: ../../docs-gofast-development/api-rest.rst:319
+# 9f76530dede34a81b091823d3165d18a
+# f8f1188ebb304b0da72a30d6f53920b7
 msgid "VAL1"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:267
 #: ../../docs-gofast-development/api-rest.rst:320
+# 8898391272b649f2bda8116639f3062d
+# 9550632be03c451f9c10bf8b9c48b956
 msgid "1: value: *Array*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:268
 #: ../../docs-gofast-development/api-rest.rst:321
+# 8b6e41466acf4b3e8902c1640920e4d9
+# eacc7c9e2a284eb1992d22af95c16a95
 msgid "VAL2"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:324
+# 15ed6776b0bd4e07b638e533ad5d7cfd
+# 1104311126d044fa98f793d426d8c454
 msgid "Mais plutôt comme ceci"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:324
+# ca6360efef424ef6a8e50f73c8830cd5
+# ead884ac25264f3381a98267a05f51c7
 msgid "0: VAL1, 1: VAL2"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:273
 #: ../../docs-gofast-development/api-rest.rst:326
+# 9312ab9430a2418e82d793c517dcc96a
+# 5a1d85ffe0e24b72aba634d33fd47874
 msgid "Ou comme cela selon le champ modifié"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:274
 #: ../../docs-gofast-development/api-rest.rst:327
+# b6a004b8fdac4d1d963d58974dc5a5e8
+# cc142a029f0e4fc7891de5da601cd6a0
 msgid "field_XXX : VAL"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:275
+# 68fc7671ef0f4620b7090e5be5b6de31
 msgid "Les champs modifiables sont : field_category, field_state, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author, field_tags"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:298
 #: ../../docs-gofast-development/api-rest.rst:351
+# 3ca9bc26f53f42df82bdef2bb71237de
+# 76de44b00ad34f1fa0f8d4abd26d4483
 msgid "Field_XXX"
 msgstr ""
 
@@ -812,133 +1271,177 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:300
 #: ../../docs-gofast-development/api-rest.rst:351
 #: ../../docs-gofast-development/api-rest.rst:353
+# ce1b7d9bd49343c49ec25978a52b3c9a
+# d90ca09bb57e460c8ba2971c0713135a
+# dce9fb4195ea4a6e874c97e9474beafb
+# c758650dbbf14ad4a6f5a7cd7dd55488
 msgid "Tableau contenant le retour de la fonction"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:300
 #: ../../docs-gofast-development/api-rest.rst:353
+# 7ce7f8b1f93e4ff2b801b022543205f0
+# 9faf4e5652eb4b28b870348a08ee2f73
 msgid "Field_YYY"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:304
+# 8aaff1f04f10406f912a1c7c94fedc31
 msgid "PATCH"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:306
+# 6be993eb21604e58a6d822e0a4fbc4ee
 msgid "Cette méthode permet d'ajouter une valeur à certaines métadonnées associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:308
+# 381c14c21455446bbe49c42cd295f49e
 msgid "*PATCH: /api/node/metadata*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:328
+# 79f958d8bf4944bb8d1daa36cbebd78c
 msgid "Les champs alterables sont : field_target_link, field_external_page_url, field_tags"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:357
+# cbfe9c67aee24ca9893eb2be7e3794df
 msgid "Action : locations"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:359
+# 8f0fbf88996a4db599b391f0c1124fcb
 msgid "Cette action permet d'intéragir avec les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:364
+# 28403e8ca7f64d0290ebbd1f4ae09462
 msgid "Cette méthode permet de récupérer les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:366
+# 36b5c06d472b4e6dadf25cd793c77776
 msgid "*GET: /api/node/locations*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:393
 #: ../../docs-gofast-development/api-rest.rst:430
 #: ../../docs-gofast-development/api-rest.rst:467
+# 3134ca4627d4491f8548b2b0870279ce
+# 1ffba772030f44a08e44f6c1eb88c7f0
+# 6e3ca4c74cea4701b67674d24d00684f
 msgid "locations"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:393
+# 6d44ca327895424ba66282f7c2cb1806
 msgid "Tableau indexé contenant les emplacements."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:397
 #: ../../docs-gofast-development/api-rest.rst:785
 #: ../../docs-gofast-development/api-rest.rst:834
+# 3863be9da72e4f31b66c22c8c8ed347e
+# 416dd50f26e843519eaea2e7254630cd
+# 35e2e5c091c24aa8b2be9bf7a9b96e97
 msgid "PUT"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:399
+# bf9f4feb36b54022a39b09a62b0d04be
 msgid "Cette méthode permet de modifier les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:401
+# 0e4b103918f449dcb4534a22f90e6c73
 msgid "*PUT: /api/node/locations*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:410
 #: ../../docs-gofast-development/api-rest.rst:447
+# 05fe5b508c674639bd91029e133bdde7
+# 86e8260c3ff34eceaa90a6a1cf34cfda
 msgid "POST Parameter    |   Valeur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:414
 #: ../../docs-gofast-development/api-rest.rst:451
+# 1085cc655f604297a548e7a0f4e87e09
+# af43ee393b714237bd9bc95b36f244e6
 msgid "locations*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:414
+# ee60199b761e4a89af031c2a1addc2ec
 msgid "Tableau indexé contenant les emplacements"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:430
 #: ../../docs-gofast-development/api-rest.rst:467
+# 9cadef5f9e4441d39efec7791a0d18e2
+# 86cfb890ddb24b1d92db76d6f6482ad3
 msgid "Tableau indexé contenant les emplacements après vidage du cache."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:436
+# b4afe5f78e0a4842a5f72c207c9bc8c5
 msgid "Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:438
+# eca953e164b4432f89ba06f59ac3a38d
 msgid "*POST: /api/node/locations*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:451
+# da2046219f8547f2b0f5668992e31400
 msgid "Tableau indexé contenant les nouveaux emplacements à ajouter"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:469
+# 42c8e00793ad472d9145a64f48bf61e5
 msgid "delete"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:469
+# 767f83af0da14962a9cae15102f4a514
 msgid "Boolean 1 = suppression; 0 = ajout."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:473
+# 579ac85e6571411a8293ce18c6689433
 msgid "Action : content"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:475
+# a63686180581454e88b65d9296f5b8af
 msgid "Cette action permet d'intéragir avec le contenu Alfresco associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:477
 #: ../../docs-gofast-development/api-rest.rst:568
 #: ../../docs-gofast-development/api-rest.rst:608
+# 1f8bafdc85324622a061c0cb84df267d
+# d93863a3ad4d49e3b6522066a55bbbc6
+# eb77b0cd326a435c8de435a08069c267
 msgid "Utiliser cette action sur un noeud sans contenu Alfresco associé aboutira à une erreur \"404 Not Found\". Les noeuds associés à un contenu Alfresco sont de type \"alfresco_item\"."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:482
+# c654fb815cd849d19fa1bb145d0748c8
 msgid "Cette méthode permet de récupérer le contenu Alfresco associé à un noeud."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:484
+# 7f19c9285476428f956f56535af37c84
 msgid "*GET: /api/node/content*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:489
 #: ../../docs-gofast-development/api-rest.rst:505
+# 7c73e5d7de054f6691e2178399246a3f
+# a2d05d5b2fbf4a89b6b6ed2644199490
 msgid "application/octet-stream"
 msgstr ""
 
@@ -946,462 +1449,592 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:507
 #: ../../docs-gofast-development/api-rest.rst:582
 #: ../../docs-gofast-development/api-rest.rst:598
+# 27cf2afe4c144d7689ac3f3fa52c34c7
+# 9b93190fc2304dcab91618d23a890595
+# 26dfa7c79c9d4a658c585a7ae84b7854
+# 9114a2359117475b95eb1482845d5a7a
 msgid "Content-Disposition"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:491
 #: ../../docs-gofast-development/api-rest.rst:582
+# 69662175894a4691884c0c34136b2218
+# 5860993bc21d47ff8b7f1e9ee033d0e7
 msgid "attachment"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:507
 #: ../../docs-gofast-development/api-rest.rst:598
+# ff123f8ff5a44322ab94567677118279
+# 1bd942d189b64c7b9dac62678c2fb541
 msgid "attachment; filename=\"nom_du_fichier\""
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:510
+# 0919f35757e84362bc826dfaa87e8370
 msgid "Le contenu du retour de la requête est le contenu du document."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:516
+# 89cc32a164ef44c093d402ff2c5034ea
 msgid "Cette méthode permet de remplacer le contenu Alfresco associé à un noeud en créant une nouvelle version."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:518
+# b200df964298443fb53624424563965d
 msgid "*POST: /api/node/content*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:527
+# f63709492c3f4c319012c2ff13ad7ad7
 msgid "POST Parameter"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:529
+# 700b23e5977c46cea6bfe1971a1adbf2
 msgid "file"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:529
+# 8904f86838bd46bd991e21944a3d09c5
 msgid "The file to upload"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:543
 #: ../../docs-gofast-development/api-rest.rst:686
+# 9388d75f2a6141cebc8bf8fc3a029b65
+# 215e8d55bb734c2eadefeeaf2da189b4
 msgid "comment"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:543
+# c16a2d59437545a99edf54556de358dc
 msgid "Commentaire associé à la nouvelle version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:545
+# abc92b6958b748d28d52cc9fafd8a4da
 msgid "major_version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:545
+# 61551ef4f9914836beb48fc279003f32
 msgid "0: Version mineure, 1: Version majeure (default : 0)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:560
+# e7362b04303d4cde9fccf566980f069c
 msgid "success"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:560
+# b6ad650ab3d04cbea445fa421038501b
 msgid "1: OK, 0: Erreur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:564
+# 97d151587e424fd187785441f10f7685
 msgid "Action : preview"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:566
 #: ../../docs-gofast-development/api-rest.rst:606
+# 7023cd2e3e004f04ab7e04f1404982eb
+# fc8abfa70e844211b232b4c92461d19c
 msgid "Cette action permet d'intéragir avec les prévisualisations PDF associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:573
+# 853e98b2068c40018adf716c5626f885
 msgid "Cette méthode permet de récupérer la prévisualisation PDF d'un contenu Alfresco associé à un noeud."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:575
+# 3e715cc452ec41adbfc28756ccb334e6
 msgid "*GET: /api/node/preview*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:580
 #: ../../docs-gofast-development/api-rest.rst:596
+# 392790a808244015bb5da35d1e3ea9a8
+# 6875e2119780477793e685e5851224bd
 msgid "application/pdf"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:601
+# 2c3ba897c9ed46c4bdb69bb62d544a4c
 msgid "Le contenu du retour de la requête est le contenu de la prévisualisation PDF du document."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:604
+# 3962e0ebce274f96b1919488c8ef3ff9
 msgid "Action : preview_link"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:613
+# 58ef902e4dc64e6f96c3a4a34b283175
 msgid "Cette méthode permet de récupérer un lien vers une prévisualisations PDF associée à une entité de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:615
+# 33a120da9e64411d9b0426de18389760
 msgid "*GET: /api/node/preview_link*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:640
+# 2e0e13da78a241b98e821a57f4db642e
 msgid "link"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:640
+# 968a76361d224827829d5a31e1bf5cad
 msgid "Lien vers la prévisualisation"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:644
+# 8bd27df149ff447e80f8000547c570b9
 msgid "Action : version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:646
+# 734f3dea5cf647d8a591648a3d8c9981
 msgid "Cette action permet d'intéragir avec les versions des contenus Alfresco associés aux entités de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:651
+# 281c2e309c9a4a7a9e7c93391c0b055c
 msgid "Cette méthode permet de récupérer les versions d'un contenu Alfresco associé à une entité de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:653
+# f3f48e931a4e4b848f3de275f360cf1f
 msgid "*GET: /api/node/version*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:678
+# 05e0e82944474bcea8ba3010dc521f31
 msgid "creator"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:678
+# 77b0b15f8dd04bf5b43a16ed8b773d8a
 msgid "Identifiant du créateur de la version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:680
+# 069e12a7121742e4af4b458dc073ada1
 msgid "MINOR : Version mineure, MAJOR : Version majeure"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:682
+# 32ff0817b43d423bbb8bed1b506d2aba
 msgid "Timestamp de la création de la version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:684
+# 0314eb20d76e44a7ad903973b6afdfc2
 msgid "version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:684
+# dc560f8a1a61493c9e137a7a575d0589
 msgid "N° de version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:686
+# a0f2df1c9af642eebc42ef98add89ca6
 msgid "Commentaire associé à la version"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:690
 #: ../../docs-gofast-development/api-rest.rst:949
+# 03e5845bcb024fad97489bde6e30ba6e
+# 944b3928db2a4ee5802310564514824c
 msgid "Action : autocomplete"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:692
+# 842f90d8bf154b59bcd6d2127daa1496
 msgid "Cette action permet d'intéragie avec le système d'autocomplétion des entités *node* de Drupal."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:697
+# 77929e06bce84056bbb0429fe57d3d84
 msgid "Cette méthode permet de récupérer une liste de noeuds en fonction de la chaine passée en input et des bundles demandés."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:699
+# ea17cdfc766e44a981404bf3e6f22800
 msgid "*GET: /api/node/autocomplete*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:710
 #: ../../docs-gofast-development/api-rest.rst:969
+# 7c2788524c1e4525bec4a6865ca2cae5
+# 881137dbd44b459da3a673901b73919e
 msgid "str*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:710
 #: ../../docs-gofast-development/api-rest.rst:969
+# 02c58334efa04acc97f983e7cdbfdd24
+# 5cff1df2327142a2851b8535d2b33def
 msgid "Input"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:712
+# 15d329942ffb402dabe48209e0c513e4
 msgid "bundles"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:712
+# 9dfdc8e8d3dc4382950d59200e4c9f66
 msgid "Liste de bundles séparés par une virgule (alfresco_item par default)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:727
 #: ../../docs-gofast-development/api-rest.rst:984
+# ad7da2fcaa434dff862220137717fb3d
+# 3395437ba203441eaa2b2fe97cda2bbc
 msgid "Quelques informations de base sur l'utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:732
+# 327e24dc4d2b45c19239283b13c49bc9
 msgid "Ressource : comment"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:734
+# 0a80f7a5f23c4fd180f7c188c0447a3b
 msgid "Cette ressource permet d'intéragir avec les entités Drupal de type comment. Ces derniers représent des commentaires associés à des entités de type noeud (node)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:737
+# 6adc3d4cac2c4e30b7e7b0d6cc26d77a
 msgid "Action : comment"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:739
+# 8b0ca49f7be3410e8ceabe56494b9bb2
 msgid "Cette action permet d'intéragir basiquement avec les entités Drupal de type comment."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:744
+# 4bb57179bcbe4e28b8cf9755d1d0e726
 msgid "Cette méthode permet de récupérer un commentaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:746
 #: ../../docs-gofast-development/api-rest.rst:789
+# 7388b27fbbd34571959913230d0335ff
+# 28d55c4e33604ee28e567587875e8a1c
 msgid "*GET: /api/comment/comment*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:757
+# 690ba12a3219403aa82847c282875dc4
 msgid "cid*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:757
 #: ../../docs-gofast-development/api-rest.rst:773
 #: ../../docs-gofast-development/api-rest.rst:820
+# d47f683d74244feab8e4102adeec6311
+# 46c7f0640dee4c0a887defda0ce8d64c
+# c9ac0fa7c4af44a1baacc7e85acc74f4
 msgid "N° du commentaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:773
 #: ../../docs-gofast-development/api-rest.rst:820
+# 877090efe3184cc4a9065b3528c593c1
+# 453902c13f514ecb8c9f80e30173308d
 msgid "cid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:775
+# a3e5cb2ae67146f794a1c06f390994f4
 msgid "N° de l'utilisateur ayant commenté"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:777
+# b2eab2c953d84a328f3ec9b8f030f609
 msgid "subject"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:777
 #: ../../docs-gofast-development/api-rest.rst:802
+# c3f795e57dda4057835392f15143f9bf
+# 09757a14931f46f0afbc8b1f659fc5ac
 msgid "Titre du commentaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:779
 #: ../../docs-gofast-development/api-rest.rst:853
+# e330815f7468498e8225d3c12a9c9245
+# 0aa7e132d97545b3b4c27e3cdfb9f115
 msgid "body"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:779
+# 4f4c514868834090b4a3dc54b19a3ff7
 msgid "contenu du commentaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:781
 #: ../../docs-gofast-development/api-rest.rst:806
+# 728f6f49c7dd437792589d75c150be60
+# aa3912ebc6c645da8c3e2c36315f1e77
 msgid "is_private"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:781
+# 9a5495391d3b42559f5d1f619622e039
 msgid "0: Commentaire publique, 1: Commentaire privé"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:787
+# 2079fdf0fc534fae8b47d94951bcc9ae
 msgid "Cette méthode permet d'attacher un commentaire à une entité de type noeud"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:802
+# a20d1ea213fb44bcaf682a991fc977fc
 msgid "subject*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:804
+# 851ca205f0214910b43daa5411ccaeec
 msgid "body*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:804
+# 97719b02ddb4473ab391eac59b3bc64c
 msgid "Contenu du commentaire (format HTML)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:806
+# 603530d88e2e46fd9682a222cb9232e2
 msgid "0: Commentaire publique, 1: Commentaire privé (défaut : 0)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:824
+# 36bcb47d6a554163a46c74272dbd810f
 msgid "Ressource : space"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:826
+# 8ac29f39c2024cba90e049a780a63582
 msgid "Cette ressource permet d'intéragir avec les Organic Groups de Drupal de type comment. Ces derniers représentent ce que l'on appel des *espaces collaboratifs*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:829
+# ba2e34dc2bda496e92386fe14f5a5d62
 msgid "Action : space"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:831
+# ed0e2f2d087743938813e0aaeb5fdf53
 msgid "Cette action permet d'intéragir basiquement avec les Organic Groups de Drupal."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:836
+# b78fe6d66a4949d4b912d8387d43caa1
 msgid "Cette méthode permet de créer un *espace collaboratif* en passant par le mécanisme Drupal"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:838
+# 7dc4d998004246288fe141d5ea645f4b
 msgid "*PUT: /api/space/space*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:849
+# bbcc15b5c47f4515a7e4ca6f569d08ac
 msgid "gid*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:849
+# cd37c9b66cf540f29b29256a00febbbd
 msgid "N° de noeud de l'espace parent"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:851
+# 3e60c5fb32164c338c51b13c64899a92
 msgid "Titre du nouvel espace"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:853
+# 86633dc21f404490b5425c08a266a818
 msgid "Contenu de l'accueil de l'espace (format HTML)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:868
+# 30ece36e29334069b755656a884f8f6e
 msgid "gid"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:868
+# e73acca4bc14480aa82389730399ad61
 msgid "N° de l'espace crée"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:872
+# 45b26512d4654f17ad1c8150503e8cb2
 msgid "Ressource : taxonomy"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:874
+# c59db8d003f5477c9dd0537dc99de8dc
 msgid "Cette ressource permet d'intéragir avec la taxonomy de Drupal. La taxonomy permets d'associer des *termes* à un contenu (exemple : catégorie, importance...)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:877
+# 43f5b8c2519d487284bc66de9ed2d57e
 msgid "Action : terms"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:879
+# e1bd471c5d034508aa5229d6635cac20
 msgid "Cette action permet d'intéragir avec les *termes* de la taxonomy de Drupal."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:884
+# 51fa280a64524c4f8ce5265f7f0a97d9
 msgid "Cette méthode permet de récupérer les *termes* de taxonomy associés à un vocabulaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:886
+# 0ee9b7bca33e4e78b142b5f42a6b25ba
 msgid "Les valeurs de *vocabulary_name* disponibles peuvent être récupérés depuis l'action vocabularies. Exemple de valeurs exploitables : category, criticity, tags"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:888
+# b4990326a7304a8fa6702ebe61865dce
 msgid "*GET: /api/taxonomy/terms*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:899
+# f783a04f518c46e49c8c5d8a6f21c172
 msgid "vocabulary_name*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:899
+# 58628472831e4ae8b875fd4d5c110f2d
 msgid "Nom du vocabulaire"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:914
+# 87bd3d1a887944f1a0bbe780d744b07c
 msgid "term_name"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:914
+# c607a2deb04540e790f59f6843f0a78f
 msgid "Tableau contenant l'ID du terme et certaines informations"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:918
+# 61b799fe606e4379b889fbe54d47fd8c
 msgid "Action : vocabularies"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:920
+# e6bc434d39f14848b8c3368082983717
 msgid "Cette action permet d'intéragir avec les *vocabularies* de la taxonomy de Drupal."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:925
+# a98183b4c9594f7386a60a5600c4a44d
 msgid "Cette méthode permet de récupérer les *vocabularies* de la taxonomy de Drupal"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:927
+# 001da7db787b48b0887c4c2be3575592
 msgid "*GET: /api/taxonomy/vocabularies*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:940
+# 20647d45bc46421dbc0bce679b34c10b
 msgid "vocabulary_name"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:940
+# b3d2df10d6fa402497fb440ceb06bab6
 msgid "Tableau contenant l'ID du vocabulary et certaines informations"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:944
+# e998df4c686741cf8a3e938b6a319d7b
 msgid "Ressource : user"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:946
+# 956d41f04a614b2987823c1e4c156798
 msgid "Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces entités représentent les utilisateurs enregistrés sur la plateforme."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:951
+# a1e73b80e86d4cdca9e892bb5d73b295
 msgid "Cette action permet d'intéragie avec le système d'autocomplétion des entités *user* de Drupal."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:956
+# d5e05d6856be4565ad08cd05e630f4c9
 msgid "Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la chaine passée en input."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:958
+# dcdc10a47dfa412db19926d4a274ad72
 msgid "*GET: /api/user/autocomplete*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:988
+# 511118e79ab74f849d939b5683c175cb
 msgid "Ressource : locations"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:990
+# 1bc14e38eaaf4f2fbea74afc15df3201
 msgid "Cette ressource permet d'intéragir avec les emplacements disponibles sur Alfresco (l'ensemble des dossiers et espaces d'un point de vue GED uniquement)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:993
+# 18a6ab9f838447a6bec6cb6f80f98dd4
 msgid "Action : tree"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:995
+# ceb2fdc776dd4e21b594ab7baadbdd52
 msgid "Cette action permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1000
+# 8e1b0baa7d2540ed8f5747402680f103
 msgid "Cette méthode permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1002
+# 9b73ea3cb2c142c49cca8fe9f12fc963
 msgid "*GET: /api/locations/tree*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1013
+# 14c0cac02c204b9f8a57289134c85e9e
 msgid "ename"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1013
+# 76187f2fcc5b4328b91cfda9f109eb32
 msgid "Chemin à partir duquel récupérer les enfants"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1027
+# bc273786e93346f7a2f62ca2c0c9d93f
 msgid "tree"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1027
+# 3b7a76fd3e514eccb3483207ca3b3712
 msgid "Chaine au format JSON directement exploitable par la librairie ZTree"
 msgstr ""
 

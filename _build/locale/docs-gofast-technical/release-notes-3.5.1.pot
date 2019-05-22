@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:3
+# 3a64ac1453bc4792a4239732089618ed
 msgid "GoFAST :  Version 3.5.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:7
+# ee69753bd3de436eba3614ab87e92132
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:14
+# 2010c29ee6194acfaca217c4de34351b
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
@@ -33,6 +36,11 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 18a5b4507f764194b0ebad211379198c
+# f49a95b43bbd43c69fdfc73fefa33da6
+# 49305046f004479ba2ebac67b9c47d81
+# d59420675e654fdd9e56bb75ccdfd7a2
+# 59eb39251bae4a19805d54169949ed9a
 msgid "Ref."
 msgstr ""
 
@@ -41,6 +49,11 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 6ae5b306c9974506afc2561949e9ee41
+# ba24f6a636084e5b999499df8b7cf0cb
+# 14acd3e7e07342bd87f7b74d9a10b914
+# 10886aa011a14c6c9f137b39a8e59e7a
+# 06fa1dfcfbc248678177ae18e01e9fe1
 msgid "Description"
 msgstr ""
 
@@ -49,170 +62,216 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 677345220c96467db45bdf55c7b6e61f
+# cc2e9d47981144fa848691f6272cb29c
+# b60376c64eff4b978595580c5dacb57a
+# 3b0cfc6f348445509109f165803acc99
+# 96b92d8003604cb6aceaad3d15a30ac9
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 85a3b5d002c543ff8fe1526c2a10c726
 msgid "[4060]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# b75985ac2a33467382fe37c98bc23341
 msgid "Action 'prévisualiser' pour les images (Fil d'activité, GFB...)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# c49a0df46f7947729bebc1046325181e
 msgid "[4409]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# b4ad92a2b6244d0c908153b1a6e7aeb5
 msgid "Pouvoir rendre configurable l'abonnement par défaut des users dans les espaces"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# b0e6500bec024627823f6dab30b795b3
 msgid "[4410]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 81fcaaf866d744b7a2bacb9c7a993757
 msgid "Changer le fonctionnement de création d’événement depuis le calendrier"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# d70ec7798dc849528a08fc0a3cabfafa
 msgid "[4594]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 2fdd9f4ebd4747f6b5eb299afb33148a
 msgid "Étendre la notion de favoris personnels aux ESPACES ET DOSSIERS"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 5367bcb2feda44849847658e50623898
 msgid "[4667]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 2a850522ad374755bba4bd874e1deefa
 msgid "GFB: Action pour arriver vers sur le formulaire de création de document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# bde325eb7d204d4c922e68095137e074
 msgid "[4707]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 2442171e436a4e5fae3a415c79a54383
 msgid "Pouvoir broadcaster en masse plusieurs documents depuis Gofast file Browser (GFB)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# a545af0d0ad04b529ebd57235c0f6d49
 msgid "[4736]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 0839266351fe44a884860f2a0611fc6c
 msgid "Intégrer la suppression d'espace à l'audit"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# f6b2e96a5e464288a75295a597f4100c
 msgid "[4747]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# cbb500f7af4349e2a63ba6cb927f530f
 msgid "Lorsqu'on redimensionne une popup, l'éditeur de texte se redimensionne"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 5715ae4d5284485eb7a05fe5b448cdd2
 msgid "[4755]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# cb84311963d64d0dba3825e2afa3b3a4
 msgid "Pouvoir restaurer des documents même quand l'emplacement n'existe plus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 6fad83daf610455fb1eb920a4ed9ee11
 msgid "[4740]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# f6674143860741109ede4e1d10e1a704
 msgid "Amélioration de l'affichage des options de recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:31
+# 9edfede6b89048e8aa4d93e555c226b8
 msgid "Améliorations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# b45345f4dc7e498ea1c4e21a78f14d2d
 msgid "[4759]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 994f5b8b0f774410ae9752192b725959
 msgid "Amélioration des performances lors du renommage d'espace de haut niveau"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:39
+# 44e40d60f05447f8b178e4ea4833a8fc
 msgid "Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# af6eb10c617141739d64f15211cbba6c
 msgid "[4186]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 60978cb5e31d472bb0c97072b6d77636
 msgid "Mise à jour CKEditor vers 4.11.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:48
+# eb023fe626a0495b8ab561722fa29af1
 msgid "HOTFIX (Version Enterprise)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 5887b43b147046fab2e45829e8787f8d
 msgid "[4780]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 7d9e5a10540c421fb4be0ed4203ba379
 msgid "[3.5.1_1] Notification pour certains contenus alors qu'on n'est pas membre de l'espace"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:56
+# 1aacdbf372ec4162ab3e254f9cab2c4c
 msgid "Bugs majeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:75
+# 181b9cdd69db4deaa129d9f3cd5c13fa
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# fcaa677d40344244a0f91f3e82979234
 msgid "[4579]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# f1e389492d054d32a40d0d5d4e2222a1
 msgid "Certaines infos ne sont pas affichées dans la popup 'à propos'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# dbf67bb114174d1596735f4eb9c5c472
 msgid "[4675]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 4fca3a574cbe4ddb873009d1138974d2
 msgid "Après une soumission erronée du formulaire de conférence, les champs date se réinitialisent à leurs valeurs par default"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 1c5c90a6e9af4f6cbc541d4ab184f2a4
 msgid "[4724]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 557760649c8c45da8fc2a49a186ee293
 msgid "Répondre à un commentaire dans les notifications ne renvoie pas au commentaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# b65b1725eabf4add99f6aefa46d684b0
 msgid "[4653]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# d34f3f0750de4a6399bd53fc17fa078f
 msgid "Annuaire sans filtre: bloc utilisateur non homogène"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# c02a782b792f40569d5533777ed72c80
 msgid "[4751]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.1.rst:1
+# 2685dc48b11a4dc4b0b5cbf376a2c1e5
 msgid "Ne plus autoriser la transformation PDF lors de la publication d'une image"
 msgstr ""
 

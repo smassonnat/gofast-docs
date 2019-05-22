@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:3
+# c3172583b9ff4721b07343f7a9b7aebe
 msgid "GoFAST :  Version 3.5.2"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:7
+# fe72d366dd564375a5b01ee257f3d36e
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:14
+# 3894ebff90cb4863b0277c235f8534f9
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
@@ -32,6 +35,10 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# ff4413d8f9f543929d423eec89928a29
+# 3d81b1b28c4240df9c5c2c77409bee6e
+# 5b62b60536174624b7098924cc65ab9c
+# 3fb7633439884b179141cdd45f78a442
 msgid "Ref."
 msgstr ""
 
@@ -39,6 +46,10 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 90c026a2f824428a927489ab13998104
+# 95c35cb4f721498d947da43b186b6f00
+# 8adb1b840d48432abaf64353670731d0
+# 8d464aa3221642edbd37ce8583f718bf
 msgid "Description"
 msgstr ""
 
@@ -46,172 +57,219 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 3fd7836c89cb49ba8775945c18c38cc2
+# 518f4a10e0734122a20656b77296395f
+# 73b5854583e54fd385996402555b9590
+# ee88835c654147eea489fd729238c1a3
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# eb83ce18377047bc80152778e9b46f38
 msgid "[4798]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 4e8c4fb7e15a4a2787848e809dad9d62
 msgid "Ajout de filtres sur la liste des utilisateurs bloqués"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:22
+# 24c68d5e2ad94191a49f36ef6a7d86b4
 msgid "Améliorations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# d5c2b062b5c84b1a8fb9368cc302a258
 msgid "[4792]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 8f3d417afb304bae8aee6f096e3f10e1
 msgid "Mise à jour du thème Bootstrap 3.x-3.22"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:31
+# 90e79db14ac64a6c9bd05be32717823a
 msgid "Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 261c7e4509214e88a472d0df79679db5
 msgid "[4788]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# e8d946f192d647fd8ff4f0ab2ae2a7a1
 msgid "SECURITE : Mise à jour openssl 1.0.2k-16.el7"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 6c2af58f52e94fdfabcd9399fcab3dac
 msgid "[4793]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 4992dc1a0a6d4d7a95fb2ab0cca21b99
 msgid "SECURITE : Mise à jour des modules Drupal mimemail, printer, email, pdf"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# ce04f3f4c1144cd3a1b691dca41e20d2
 msgid "[4441]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 7704d5f7e9e34004b2d6c853362da1a5
 msgid "SECURITE : Mise à jour de CentOS (7.6)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# ad86178e6f4b4d1fb995d5811ca8cfcf
 msgid "[4669]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 8f6a7c4713934c87b9686bb7981109b6
 msgid "SECURITE : Mise à jour de MySQL 5.7.24"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 59c095e51d3b4b1e8b7d6baa260ccfb3
 msgid "[4801]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 2cd27043784c47b59073bd2251c0c763
 msgid "SECURITE : Retrait de certains CIPHERS et de TLS1.0 et 1.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 6da0e11b990c470b89eca47c534cd96c
+# 3b7a8e9b3a324772ac986a86762dd605
 msgid "[4812]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# ccda486fff114d5999088ffba1c08bc6
 msgid "SECURITE : Mise à jour Drupal 7.63"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 82afd4a090994119815e4bc0f2f4e41c
 msgid "SECURITE : Mise à jour Bootstrap 3.x-3.22"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# cb416893248b468db08740a5cd9ca07e
+# 7db93303e54d413e8a6c5b9472e1010e
 msgid "[3752]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 81e4cd2dcf164b41bd08e35a0705908d
 msgid "Renforcement de la politique de mot de passe"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 497f09cec4b7488e9d70eb902dccdc15
 msgid "[4453]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# d33032bd73a2424ebf5914a47e810549
 msgid "Installation/Mise à jour : Meilleure gestion des versions des composants"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# ff7b541081614be5af34d215628d6dab
 msgid "[4818]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 79d6d2a22efb4a978212923bdc42c4a4
 msgid "Renforcement de la politique de confinement du processus du moteur de recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:50
+# 231fd9a73e0e492ca5d35bf253fd93bb
 msgid "HOTFIX (Version Enterprise)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:57
+# 7aaf52290d8d45258ee2f61bcbe64205
 msgid "Bugs majeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:64
+# 91528d313deb406a9b0e2ee6d290cc33
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# b9b02853c65748faa585e106e2adbf31
 msgid "Impossible de changer les emplacements d'un document avec un apostrophe dans le chemin"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# e30960bb3e9244978bc10d3d625d29a9
 msgid "[4406]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# e2ca94169ecd4ee1a6067d873faae84b
 msgid "Correction d'un problème de pagination sur la liste des tâches d'un processus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 18a1aae8c5cc4b3aa3b12d3230bc90be
 msgid "[4777]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# c79a58fa9ddf42b09e2ce6dad5fc1b3d
 msgid "Parfois, les emplacements cochés dans le formulaire d'une publication sont inacessibles"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 58d29bce36304d98ab2fa8c2764f3334
 msgid "[4778]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# c655b4e3415948f4877eefe58af29ae8
 msgid "Incohérences entre la date de modification dans l'explorateur de fichier par rapport à la dernière version d'un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# cb7d7b420241435895802e1e020c1aa1
 msgid "[4782]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 4bbc33c73b2f4affadf9784730941307
 msgid "La gestion d'emplacements et de taxonomie na fonctionne plus depuis l'explorateur mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# e80ff9f43ba54b17867344de343ed6e8
 msgid "[4797]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# 3d926808f77848bea731289364153d6b
 msgid "Les images du mail de bienvenue ne sont pas redéployés pendant les mises à jour"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# cf6e4438187f4436b9a279c375540b81
 msgid "[4808]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.5.2.rst:1
+# b16890d9d15b449288418bbbccdc3129
 msgid "Les points dans les noms d'espaces sont considérés comme des extensions de fichier"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 6bab9cd09c9743a8a3d3c63845ad36e4
 msgid "GoFAST :  Version 3.6.0"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:7
+# 6a10225553a447de8ec14552d95685b4
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
@@ -30,6 +32,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# ae37f5adb77249ba89be042b29a2b5b7
+# b5b6d7266e9a45e585b93c35e1d22deb
+# e83568ca9e8f4eea80d12c2889a64569
+# b5a420baf41f417c8d682179bb5fb721
+# 6caaeb3e3ba240a2bb5ab935941e1cb8
+# c6491877c61946178ade5bdb46e2eb8c
 msgid "Ref."
 msgstr ""
 
@@ -39,6 +47,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 994ce5741efa41ecb7d4f6778f053ff7
+# 7c1f1b5aab5847ff892052e32e2ae507
+# 5ace6eb74bca475bb7ef82d02b0dde70
+# cdaec17f96b940749f977b2a58c41bef
+# 68d45e84116e4787bd21be4efa18eca1
+# 4694d7f87f9f47cc87352293578e099c
 msgid "Description"
 msgstr ""
 
@@ -48,34 +62,47 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# fb268183cf134bcd929f35b722337bb8
+# a666ae2556594fa791885086ec9002c9
+# 8a87317959994740a455183f1301c8a6
+# 7051c5788c9a4518832a1bad67cee396
+# 978fa3a1bd75442e98a32b4ff0bedf5a
+# 02ccea52993b4522b537b21f48db1d27
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# f5f3a6799d624cc1aa2e605442bef102
 msgid "[4848]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:5
+# 7bf3fefd9d244684af37360031186215
 msgid "Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 :"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:2
+# 706be3cb607d4afabf89d9a35642e4f2
 msgid "nouvelle ergonomie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# f613b2f297cb4585af1683a4eb0b3122
 msgid "nouvelles fonctionnalités"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:4
+# b8042c2ad8a74ec0a0b4c9f5951ac8ec
 msgid "nouvelles notifications"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:5
+# 0b5e3e40f23f47fc9ac1d211f0c2c6c9
 msgid "meilleures performances"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:6
+# 5ca12b994c6947108db3c4b53462f521
 msgid "Voir : https://bit.ly/2UZP5Lp"
 msgstr ""
 
@@ -93,87 +120,122 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b852878251474454bffce07ce7c1f776
+# 0851cdb662174e8aa12fad5a99ffcb09
+# fac064eb9db140c9b8021214fdb3158a
+# 8b2891d51dfd4d1482f6575d7a7916f6
+# c8167b7db6b643dc867e131611d89968
+# 702fa456e1144aada03272dfacd87f1c
+# 092d90d36a4a4300bd76aa11d223c0f1
+# b56a88ddecab4017a47713e5d6d7c8cb
+# 7b9ba649e2b3421aa890729751a9cd5e
+# f96e41d2ef6449be9616ecb00647a160
+# 4f9462f3a111400a8e79529d18970417
+# 3c3452b930d94bd8a543db78394a6140
+# 005afb43c59e414ba67564cad33c8cd0
+# 3830de2562b04a96bdc8e96cb3f315ed
 msgid "[Enterprise]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 24af01f369e2436d9140ba7010ad35a4
 msgid "[4711]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 2079220ba37f4ff5822a1a42af6b1b07
 msgid "Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 0c70cc4b5ac24944ab4021c688777883
+# 43e6f0391cbf4e5daebede2f6321efbe
 msgid "Voir : https://bit.ly/2Xk8ZxV"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 01e08c2cdcf145adbd37bc511a672869
 msgid "[4262]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 816b0975d8474cdc9d5251f2ca8951e0
 msgid "Historique détaillé des actions et commentaires faits dans un workflow en cours"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 54cc3f88ca7246d8af6ad358015480c1
 msgid "Voir : https://bit.ly/2Zgf5RL"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 3c409e5137d9420484228f591c8be5f8
 msgid "[4713]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# f678233f1f354f5d9c23dee5f0dc68b6
 msgid "Historique détaillé des actions et commentaires faits dans un workflow archivé"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 14d6255af91d486aa6d4577b6022b92b
 msgid "[4822]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 94da51759dee41939614f8f3c2dc6435
 msgid "Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# e0bf1dba26a1455b889daea3d818832c
 msgid "Voir : https://bit.ly/2UjWqRn"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b0d13d75cbc8475f9168e14f4ee3a387
 msgid "[4783]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 808c1ab50b8b46acbfb48e4479b68d2e
 msgid "Création de widgets GoFAST sur BonitaSoft"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 019821fabc4a45b88888da2758f51a07
 msgid "[4784]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 0be601e283e14c80a49b4c53e66bb310
 msgid "Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5fe6f61b048e4612a2cb259e0cacdd25
 msgid "[4820]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 1ddbc29d658c4978a02fd92ea5118dcd
 msgid "Nouvelles API supplémentaires pour BonitaSoft"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a09c626e73a34c2a933ca1953a58ee6a
 msgid "[1640]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 9b4baca034bf46c9b45ed5fa48acb56f
 msgid "Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs et autres fonctionnalités"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 1997f4bd8b6f486d8148ef0ad5f6b272
 msgid "Voir : https://bit.ly/2UoTfYC"
 msgstr ""
 
@@ -182,78 +244,101 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5cda6c11425c4e46877b32ce3acb30cd
+# b3ce69ef1ae04066977ab03cbfcd53f0
+# 750de63bc20b4a86af736a65156a590c
+# a307ddb1f50d48788ae5954ed70d1770
+# 501e5da9ba7744968b904940d9258922
 msgid "[Community en v3.6.1][Enterprise]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# be9c25757f1c46caa371f41752ca8f86
 msgid "[3782]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 761b1268bc1d40e38f952d8558e5cd17
 msgid "Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 1f43208b44224843a700b1ca4209c603
 msgid "[4141]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 76590a687f36438b96cf3bc6995250fe
 msgid "Gestion en masse des documents depuis le panier documentaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 9928b2ac948843da8127dbc33c986063
 msgid "Voir : https://bit.ly/2vaO4Bq"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e4986d8389ef480b9854d080ea969ead
 msgid "[4201]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 428bcea51c534f47a9856ebf30b97153
 msgid "Création en masse des Publications depuis une séléction de documents de travail"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# 1ec1dd972ddc40b3870707c550d9c1cc
 msgid "Voir : https://bit.ly/2UGLORU"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c7513bee179f4be3a84c474fdae35b4c
 msgid "[4202]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# d2283daa0bc849c3991e6e1599e15bed
 msgid "Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# c528c8f1ee1a42b1897597ae92b32801
 msgid "Voir : https://bit.ly/2GrV03u"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 3ccd15756dd24f1ba4dcd28435a8700a
 msgid "[4273]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e76a43e97bbd4c988887f579fe0edda6
 msgid "Extension des fonctionnalités sur GoFAST mobile :"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:3
+# dc11999edcb14045b4babfaa947d0b63
 msgid "Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance,"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:4
+# 6143970e7dab4ef0ba88d4cd40fa36d8
 msgid "Pouvoir renommer un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:5
+# 8faa56feff624039a0d4b65494733072
 msgid "Pouvoir accéder et modifier son profil utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:6
+# 7356954991944a8f8e9ac3dd117cca8e
 msgid "Amélioration de l’affichage du menu déroulant (menu principale)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:7
+# 35403396c17442a484213c0654aed0d8
 msgid "Amélioration du bouton qui permet d’affichage/masquer le bloc de droite"
 msgstr ""
 
@@ -299,461 +384,619 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e2398efb5a2e4dd28723413ef57f26f0
+# b7cf2783bf7c40b696e95747c3c14c1b
+# 9a419fe17c4246f693b7edd77ff90599
+# 7e84e5981c374527b53dd61f9a81cb76
+# 38999fe941994692a5bb2ab036f1880b
+# d5ad1a31bc1641e3bf2d05b0065f1bad
+# a8daf01b698d401fa46903cc4f16574e
+# 8edf0fadd39548e58c15fe694ff067be
+# ea81f1f1c9084ad1841e051e901303bd
+# 38c34a098f9d4c0498793ccb1dd0e1cb
+# 1419cc46389c47b18d78f7a4072906a7
+# 94fe850db50245a79ddbac0a8aaead46
+# 9ad11c0fb38f4ced80e653cac2556032
+# 082266aa78be44e49e2f8345f31b737f
+# b98dcc6d9bc646c88a6f2f3c3104a69b
+# 0207ebfd54494b1dbb444252bde60213
+# cc9c9a9d475544adb235f46f62b2bdf7
+# bcc8abf9217c479b8c3963d9736d1f89
+# 86db529fca4d4a2b9ca7b3dd2fc4ff55
+# 22f575f82fa34ae7b464fc796ee42a0a
+# c6d10a2f7aff4221aed5273a05651684
+# 58732fba848d4a5db6dcb48f7c242939
+# 8e6a039ecbc342f7af95b67b9fd64a17
+# e84dd9382f904e699ba86bbc8358e9fe
+# c2f9812a80714ff9a5d8cf7827101d90
+# c17bd7608e514b40a44c5eb185b1a1a1
+# 94c4e1003e2e4b9e8da285a61929b8fe
+# 1fdc1bed56d649f0bdbd79c53841106c
+# 44c5f1ded7984c2d88c8bced81eba0f2
+# f6a6d9ed5180451e800250d452f93654
+# 59d4f82051a34379b52726a2e1b9d833
+# cea54f0c962941c4aa0603904a7a6059
+# 7de5969997c54755b3b570c55f95622b
+# 344ed5b48a4547a6bff95b54aa8467d3
+# 9ae73c8ba71542e4aba676fb40abfb04
+# 587e34ac0c754b00b7f17aff1c158ca9
+# 5fad1fb8b79840bcb0f3b4042b879bdc
+# 0c10597b1c404339bee96f27af2621e0
+# ed04ad54ecbe4ed4a176a9e407c47bb8
+# 850fa59f549043fbb369ee8a7eca3ad4
+# 2f311696a4794b7a8b691d33bc917fc8
+# 09cb44750a334242a09c1f8afa649328
 msgid "[Community][Enterprise]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 21b0681954934af781c9046b05403083
 msgid "[4404]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 63438cc020284a5d893c50988ddda309
 msgid "Création d'une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet 'Membres'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 59f8b44ec8584d10a2e9ceaa38b48352
 msgid "[4561]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 69064abecf0a4cf0b71be7d87a542fb2
 msgid "Synchronisation des informations d'un Espace Collaboratif avec la navigation dans GoFAST File Browser"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5183305e2b7b46819c42b9570cd2f1b8
 msgid "[4694]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 6494b01b188047c089e47d8181503009
 msgid "Persistance des filtres sur le fil d'activité et affichage des filtres appliqués en haut du bloc"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e49c77253d1a48378bc24c80803d4be6
 msgid "[4798]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 2fff2d74f09c45778f30f6e7d94a6b81
 msgid "Ajout de filtres dans l’annuaire des utilisateurs bloqués"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:60
+# 75a9fa14de514b5fbf8ea308a1849e46
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 6a57ed91000c4ac2a366a1c9da38cd40
 msgid "[4198]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 123f03eb873644ce96563bb748b64ab2
 msgid "Réduction du nombre de clics lors de l’ajout d’une échéance à un document (l’heure et les minutes sont auto-attribuées par défaut)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 61c70597f3d6436abbb28bb278d7e650
 msgid "[4234]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 47aa39d9d903465cbe8105fdd66324ac
 msgid "Sélection en masse dans GoFAST File Browser : cocher plusieurs fichiers/dossiers grâce à des cases (et non seulement via les raccourcis clavier)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 9e26edccad464977b0d042ec06da9f5c
 msgid "[4282]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e33b671bae8a4bda99ff42d2d4788612
 msgid "Amélioration des notifications liées aux réunions et Webconférences"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 596a72596bb94810b22fa9fc68043c34
 msgid "[4715]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a15de40a66384486b5d4767ecca2d86f
 msgid "Amélioration du mécanisme d’autocomplétions des champs de destinataires de messages : lors de la saisie d’un texte il n’y a plus besoin de cliquer sur la suggestion pour valider le destinataire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 26916318fa654fbe8b834b5bd949094e
 msgid "[4773]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# ee6c384139f840eb8d9084bee205a905
 msgid "Dans le panier documentaire, ajout de la possibilité de supprimer tous les éléments du panier en un clic"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 25687a39eb4246679d922c8cd09d96ef
 msgid "[4791]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b1776ab32bdf45cca8b1b4b28b9dc108
 msgid "Exclusion des utilisateurs bloqués de l'autocomplétions dans les champs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 8571b219bc2149e4bd70c3cb3252b58f
 msgid "[4835]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 023c6b16d8dc4a139be4b8b5496384dd
 msgid "Enlever l'envoi de l’e-mail de notification lorsqu'un utilisateur est débloqué"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 8ea98173c91647788d3cdefdddc5c9c5
 msgid "[4903]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 56bcf645b34e494eb726abc9773bc15b
 msgid "Amélioration de l’affichage (taille) de certaines popups (commentaires, message privé, partage par e-mail, etc.)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5c67173e657c472daaa2af0cb540d38e
 msgid "[4914]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e98a3c921e7947199728b518c928e427
 msgid "Amélioration de l’affichage des Espaces Collaboratifs dont est membre un utilisateur, sur sa page de profil"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# f667106bbcfd43a8a9278e20a5663a52
 msgid "[4935]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 12595aeb56a840d883edb0d3db53d456
 msgid "Amélioration du message explicatif lors de l’affichage de la popup d'installation ITHitEditDocumentOpener"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 0c1c762be95d4fb884ee1857375288bc
 msgid "[4952]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# ea304ee065124c6096bde5610884c2d5
 msgid "Ajout des rôles finaux des espaces dans le profil de l'utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# fd9943a7a83845f2a023caac26af0c7b
 msgid "[5002]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 00dbbd04d8d542ff9b391d69263646f5
 msgid "Ajout d’un bouton d'accès à la page d'accueil (fil d’activité/tableau de bord) dans le menu principal (à côté du logo)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:80
+# af57d78b111545a4af728eec6ce50e6b
 msgid "Améliorations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 23fe6c256a59405da5b50a22b3bc9a68
 msgid "[3742]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# de164a3133aa46bc9c00e29a9d21c1ec
 msgid "Mise à jour de Bonita 7.7.4"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 1d0d395a2ed249f6a89ac8b38dcda536
 msgid "[4774]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 0b565230fab449a3ad2decb252812c8a
 msgid "Mise à jour de la Suite OnlyOffice 5.2.8"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# db77900c20a243a6bd1c94f239b00d48
 msgid "[4831]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 6e724ac9288342e8b2d1b7fe56056719
 msgid "Implémentation de hooks et altérateurs dans l'activity feed"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 4bfa5165c29a4051a892b1a8e09dc99c
+# df90afe810ea461389ce1f8bfe9a0467
 msgid "[4866]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 72c92e14bcfb49d4aa97145e204aded2
 msgid "Ajout de l’anti-virus CLAMAV"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# cf140fcd8a4f4be6abb4b162fe3ee66f
 msgid "[4876]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a28c1c8acb8f442c85217edb44a4cdf8
 msgid "Mise à jour de LibreOffice 6.2.0.3 (améliorations des prévisualisations des fichiers Office)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b344dd016c794f9dbb3eaf5e7dc8d3ac
 msgid "[4888]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 856f515b080449529b3b97347eb2ebe8
 msgid "Modification de la gestion des traductions des vues associées aux Workflows (Tableau de bord des processus, formulaires, notifications...)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# f155027cb98f434eb62adbcc7d99fb5e
 msgid "[4922]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 51f1004fd2814aa78f67aa6bbccb665c
 msgid "Mise à jour de de Jitsi-Meet r3548+"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 7fc69d9a5fc5472595e2ded5d30db934
 msgid "[4991]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 78c783479da644c5ba7e37fc2c7d8e93
 msgid "Supervision Zabbix php-fpm"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a1f76d885e7e4f209c41e3454106d023
 msgid "[4957]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# fbb62ba993dd41d7ba3ddc7f894fe4da
 msgid "Augmentation du max_open_file (ulimit) du système"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:97
+# e11a67d9d8074889b5207f1e12915784
 msgid "Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5c4b2999b07045139464e5eed8931386
 msgid "[4828]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# faa8edae924b47448edf6c58ef9d1579
 msgid "Mise à jour du thème Bootstrap 7.x-3.23 (Security update Boostrap 3.4.0)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 69b93ca7b77741f8a75c13a4dba023a1
 msgid "Ajout de l’anti-virus CLAMAV avec notification de supervision"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 69ed0530e48b476d932290f0fb5f2d22
 msgid "[4960]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a778e99394674626ac5c42c22edef9d8
 msgid "Mise à jour de sécurité de Views 7.x-3.21"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:108
+# aadcd61c42ef4567ad6890e1a05c85a7
 msgid "Bugs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b3413bc2ed3e40f1b09a03663dfb3922
 msgid "[2913]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c55e2de6790943c6ab99693f73b0877f
 msgid "Correction de la recherche de chaîne exacte entre guillemets (“ ”)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e42ce8872dcd43c4a1f504b2e97dbddd
 msgid "[3962]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 67bdaa6a45bb4444a7b1805a22f69de0
 msgid "Correction du retour sur le fil d'activité (via les boutons du navigateur) pour être ramené sur la bonne page du fil (non la 1ère page par défaut)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c31c1507949c49c1a8ac0b2708f87126
 msgid "[4770]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 8d409a7e21854087a558e4a334173d99
 msgid "Permettre l’affichage d’un dossier ayant comme titre 'Sites' dans GoFAST File Browser"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# ce06af62a1ce47659083afc0decf5e79
 msgid "[4803]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 2c7ba256db514cdc8fca6a811fd31ccc
 msgid "Correction de l’affichage des dossiers d'un Espace non archivé qui sont affichés comme archivés (dans le formulaire de gestion des emplacements)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 74097833759f4c0ebfb97455743500c7
 msgid "[4829]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 20d1c9f57ab64fdd9e8f27d355ee0b29
 msgid "Permettre le mécanisme d'exclusion de mot clé dans la recherche (via l’utilisation de l’opérateur '-' )"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 9390591df62c488ebe7d98d1411cf694
 msgid "[4837]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 5750719095844cdd8e8a59b1c20cc738
 msgid "Correction de l'option 'Conserver les filtres actuels' dans la recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 19c0b93778ac4072bc0a49811f233391
 msgid "[4850]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e2443ef3d34d401aa947e16785bc395a
 msgid "Contenus filtrés dans les autosuggestions des divers champs (ex : recherche, contenus liés…) selon les droits d’accès (pour éviter de suggérer des documents qui sont non accessibles à l’utilisateur)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 99a10a4db41949b39d8eff358b954534
 msgid "[4915]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 67d37520852f413ab0dcc605d38be2a1
 msgid "Correction du problème d’installation de GoFAST Community via image OVA"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 0660a285739349f8a35c49f6fd7345fc
+# acd04b7364354691a3d178d48428ee3d
 msgid "[Community]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 7da429ddb0cd46acbac5085a702176fc
 msgid "[4943]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# d6388ad4bb6d43e59f795ca66a2f866d
 msgid "Permettre au créateur d'un document de rechercher et filtrer les documents supprimés et les restaurer (dans la limite de conservation dans la corbeille)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 7f88c08b0440435a96eee40d13ce70e4
 msgid "[5000]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 33841ce2504e4382a31aea9c7707838a
 msgid "Récupération de l'extension de fichier lors de la création d’un document vierge"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:126
+# 322c239682a9491e8704e65a1883f0ce
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# edc9f1f5bb3144c6acfefcf1de907206
 msgid "[4769]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c9dd8ad3377e4f148932f712a772914d
 msgid "Afficher tous les emplacements existants (fil d’Ariane) sur la page d’un forum"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 1aa26961ee9e45d481f30f59462aa2a4
 msgid "[4787]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 09d2767f8e164d0a9c8a3bfe1b91e3bc
 msgid "Correction de l’affichage des éléments du bloc 'lien vers d'autres contenus' lorsqu’il y a beaucoup de contenus liés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 8afc5e9f096b40f6b8ae39589db63088
 msgid "[4800]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 530fe07f777b4400b7b63ead4d90d3ab
 msgid "Divers problèmes liés au 'sélecteur d’emplacements' dans les formulaires de gestion des emplacements des documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 4c30898ff2b947d2a551a802cdb15112
 msgid "[4862]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# d5fc3d67b00542949da68845046093c5
 msgid "Correction de l'affichage des filtres appliqués sur le résultat de recherche lorsque qu’il y a beaucoup de critères"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 084f7dfb89fd4f6196fbfd0f59f919f3
 msgid "[4870]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# fea67c89190342d2b9ef0cd382121f9c
 msgid "Correction du pré-remplissage du champs 'Titre' d’un document lors de sa création depuis un modèle (formulaire de création d’un document)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a5d2a51f951748b0a14442ba46ba381f
 msgid "[4921]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e33a6134c2da42f2ae22dfa077318fe2
 msgid "“InvalidAccessError : Failed to execute” lors webconference"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 2dc5013453c849989fcde40fde2a5084
 msgid "[Enterprise][JITSI][CHROME]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 591e65a30db8467f88bf0183979be09b
 msgid "[4939]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 7928b22a42574eb58a7498806ac708f9
 msgid "Permettre à l’utilisateur de charger une image supérieure à 1Mb pour sa photo de profil"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 281ff35ec7324e0d83b7d36cdd8b6eea
 msgid "[4945]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 602d8e319fba41e296e6beb208b4893e
 msgid "Site inaccessible si lancement avec options par defaut (à priori security)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c5dbc07497ec41a0bf4f56cd0d695dba
+# 483a48c488dc4d5bbd921d24eeb8c55e
 msgid "[Community][AWS]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e36863897f3140119d5f3965daf5bd75
 msgid "[4946]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 07d9beaae2bb41ef885e8c395c361cfb
 msgid "Champs obligatoires non indiqués comme obligatoires"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 3d416dc3e0994dc1a422e2aacdaaa80d
 msgid "[4947]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# a32f42da07864534ad293056ad8b9a9a
 msgid "Après soumission config 'This site cannot be reached' si pas d'entrée DNS"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 14b1abca988a49f584b0d8e8654668ad
 msgid "[4948]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# 886aaf8c64b74a2bb79793e7fcb7b48d
 msgid "Correction du positionnement de la popup du multi-emplacement sur la page du document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b0b354fe27db4fa8ab0614f0573c02b3
 msgid "[4974]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# d2a2146ba55f455fa7a83b6ee009f581
 msgid "Afficher des icones manquantes dans l’éditeur de texte de l'accueil d'un Espace Collaboratif"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b6b4291cccaa45c186be010e88389bd0
 msgid "[4977]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# b953c35f5b4244bc8f116e73afeac017
 msgid "Afficher l’éditeur de texte du microblogging (sur le fil d’activité)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# c3c8aaf0b6334f4598dbb59fc925dd34
 msgid "[4995]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:1
+# e202a157537d41bbbc88e3964f287197
 msgid "Dans GoFAST File Browser, activer les boutons d'actions quand les éléments sont sélectionnés par via les cases à cocher"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:149
+# 475962009a364ac8a1acceeaf42d67fb
 msgid "**Note: Mettre à jour GoFAST Community**"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.6.0.rst:148
+# b9b8d04875ed4d60859640299680313f
 msgid "Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur www.ceo-vision.com en libre téléchargement en 3.6.1 (actuellement v3.5.2)."
 msgstr ""
 

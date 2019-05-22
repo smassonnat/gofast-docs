@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-development/bonita.rst:3
+# f729b795546d4b3aa9612c696aad7a59
 msgid "GoFAST :  Bonita"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:5
+# e40e426f47f8442cb8c1aff4fd19185e
 msgid "Cette documentation donne accès aux ressources permettant de modéliser des workflows dans Bonita studio implémentables dans la plateforme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:8
+# 4f7f20c0b6ad4a7db1543c066f01c9f7
 msgid "Connecteurs"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:11
+# 62954321557641d5a13276aefe52fe1e
 msgid "Connecteur1"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:14
+# 6af1493395ad4b87a556fed26201b0a0
 msgid "Widgets"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:17
+# 548052612dcb461bbae9db77611d240f
 msgid "Widget : autocomplete"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:19
+# 7df2faf5e74b430c97deba406c0ae0e7
 msgid "Ce widget permets de bruuuuh."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:3
+# e95e53dd5bfd487199d248dd40e4df11
 msgid "GoFAST :  Version 3.2.0"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:6
+# 014a4a144e6b4e93a2a53c5c1dafeb03
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
@@ -29,6 +31,11 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# db2ecb6a91064d40be803cb14f5434c3
+# 74ade4733a6349c4aa35ee46d46cbad9
+# 0462e455e3304f67bbd8842ab0167c44
+# 9fac53faf6b74d15a5ca7d40c22bd77d
+# 8d5eaeb6bbdc40dbae0f981e4a71e741
 msgid "Ref."
 msgstr ""
 
@@ -37,6 +44,11 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 17031f42e1cb4e07a0c95df1067568fb
+# 3729686a860f46da95ece25cbad48754
+# d0601d7a3a3a4d5da5efd81907764f53
+# c381eafa3e8045109f2381c1b9ed6870
+# e763e53260974661b94a08d755b4330e
 msgid "Description"
 msgstr ""
 
@@ -45,85 +57,112 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 66ff6278569c4bf0b9540211266bd905
+# bd9e0a0b60a941b8a91537627b79dc41
+# 6786363a0c5d474daf366befdcb07e5c
+# 1b0a48117f664970bb694835b2fad4c5
+# 07d025169af64cc0b4316576e0337889
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 92c19934db684d449768dbdae8a230ff
 msgid "[2703]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 22bdddb18ff94ea2a289769471b041f2
 msgid "Nouvel onglet dans les espaces : Système de statistiques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b3bfcfef1a67429ea76eacee1838a174
+# 775d40fdf3df499c869701b3406567d2
+# cc33c0b7d4e24769b577e67ddff7ffcd
 msgid "Reporting"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 5793ad2f624749e7a97c9b94b7840c12
 msgid "[3718]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b95e47a27b514c5db5647d8a29d6073d
 msgid "Export de listes des documents sur GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 47a5dec8696e4093a3a92f3d6fd8bd66
 msgid "[3835]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d1ca90d75b694ef0ba7dc41b5cc528e5
 msgid "Export/Import de listes utilisateurs avec gestion des permissions"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:18
+# ba99f782c9cb4e0fa6012a8a6782af98
 msgid "Nouvel onglet dans les espaces : \"Statistiques\""
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:19
+# f4476d83ffb84073b1d08d9fa7190874
 msgid "Un nouvel onglet \"Statistiques\" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de visualiser l'activité des membres actifs et inactifs."
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:26
+# a20848c905fb49659ebc1786d57945b3
 msgid "Export de liste des documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:27
+# 023556db55cc4c6ca24e4049c703ae3e
 msgid "Lorsque vous êtes Administrateur de la plate-forme, de nouveaux menus apparaissent tel que \"Statistiques\". Ce menu vous permet alors de visualiser toutes les statistiques documentaires liées à un Espace et ainsi pouvoir choisir et selectionner le Groupe et le Répertoire dont vous souhaitez extraire une liste de documents. Voir Copie d'Ecran ci-dessous"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:35
+# d33bc6eded7b47f6b0c816ad9ed50d59
 msgid "Import/Export de listes utilisateurs avec gestion des permissions"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:36
+# 5e492b2f5fc64d9790526ec2bb19033c
 msgid "Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisaient partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter en automatique. Cette gestion des utilisateurs et droits d'accès est faite uniquement par Espace."
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:44
+# 0e5a8d18639c440bad0469150360c565
 msgid "Améliorations"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b4f417d55e8644ddb33bbb6004de7fa2
 msgid "[3574]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 30cbb5bce3414986abfa4f06373599ef
 msgid "Amélioration de l'apparition des fenêtres (pop-up) sur les contenus du tableau de bord : afficher les emplacements"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d83acb9c20f14725baae819ceda60db0
+# 8ae4e4bd98924357a842a86c698843be
 msgid "Notifications"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 8d4e6f9164b7453ebadb2c39be48c9ad
 msgid "[3603]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 838df57c75fe4c4ab4baf32d97afca43
 msgid "Possibilité d'ajouter un lieu et les membres d'un espace comme participant dans la visio-conférence"
 msgstr ""
 
@@ -133,35 +172,49 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 77f4dd0523cd4e9db09952c13f2addf3
+# de63e343aaa7485c8291dbba72a393a3
+# 2ef161769d494a5880648aa31435f47b
+# 56302565d9fd4055a7ff4a6c04b7f8cf
+# 5c13986922f74b3c9c7f567af4162d37
+# d421227435a14a2f9f004b56e135479f
 msgid "Visio-conférence"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 51008658e6fa4b0cb401b8ae64be02d5
 msgid "[3754]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 97d2bb55225647668f3237a37270a69a
 msgid "Mise à jour JSXC 3.3.X : Les composants pour une meilleure performance de la fonctionnalité Chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 1c7d423afbfa4fc18159787c19787e1b
+# 873147b8dd2d4c1fbff591cbf08c6123
 msgid "Chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 03702ddeddb04679866d0279bc15e25e
 msgid "[3780]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 49747edacae84352b9496b90973a4e2e
 msgid "E-mail notifiant la création utlisateur : Adapter la délégation d'authenfication + amélioration du thême"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 095887e016784420a5fc6c81f7d8e273
 msgid "[3827]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d4c5b83084cc4437ae2eadd953755568
 msgid "Amélioration du temps de chargement de la page d'un document"
 msgstr ""
 
@@ -169,436 +222,555 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# a841eebf837b40f6ab2c814fe22cb7aa
+# 8c9a95ff87564aec9f527ea961602c43
+# e672e47bfebe44f9be4d61a672ecbc9c
+# 72ab6651ef834588953dc1b5bd1d058c
 msgid "Performance"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2ad431b96cef47a8aacda7fbb901ee7e
 msgid "[3929]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b08a681696ba4a47a3fcfa11bb302cbf
 msgid "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 72216433bf6649c1a56638ced888152e
 msgid "Retour d'informations"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:60
+# 28c1ed8b715c45d78f5d0b2a9c405db6
 msgid "Correction des bugs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:63
+# ef0bbe9573824059bde769ee9f76f46e
 msgid "HOTFIX"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 89c89c8c3ea6469cb8d2f500dca80155
 msgid "[3810]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b0c3fbe4e4ac466ab15cd4078a0f724a
 msgid "Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - JavaScript)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# bc1b061c309d48e2bfeacd3402d0b590
 msgid "[3907]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 919b0c0e31c54b7e9ce9af7961b6c2aa
 msgid "Pas de notification e-mail suite à la création d'une visio-conférence"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# adb33d11bc9449e2ab730327d7e46561
 msgid "[3908]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d510c0962d4f4170800c90c81814a7a9
 msgid "Evènements créés de visio-conférences ne sont pas repris dans le calendrier"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# cb8e40ba705c4d7c9e0df6d4ed548a19
 msgid "[3919]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 56d0b638b0cb4aab8f07c9a76f5e14fa
 msgid "Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 0b8440e13fbb4b7e9e4fd58aec7d4f33
+# a7e105204a904171ba1744f288f7898f
+# 9c2046214ab647f6ad2e5d997bd1160d
 msgid "Explorateur Web"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# a80fb2311d374f9088b092be33e7df8b
 msgid "[3923]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d8300683091448c3884599972023bd85
 msgid "Pas de pré-visualisation après la création d'un fichier sous format de fichier Modèles"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# a1105db0bfe04834887328a5c6d45a62
+# a54eafe4ca5f4f64a1d1bf6c6a92ffff
 msgid "Pré-visualisation"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 0abc783713d94caea70d367b688c6bcc
 msgid "[3952]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7c9e044cc4e146a4830137e676210c62
 msgid "Problème de pagination dans les commentaires sous un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 0c83ab7c73ed42548c3ef212a43b70f8
+# 91dba13425224fcd97a2a04b28ece742
 msgid "Commentaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 998fc868b9904029bf207c72a7d9e409
 msgid "[3953]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 1486a2377a614ae5a42d2b2ab70d3dbc
 msgid "Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# f295692ec25c4853b4b49b84917ba5bd
 msgid "Publication"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2b9248db633d44dd8bc9849825b3e181
 msgid "[3954]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 106e4333a9944895bf4e93ec67eab3b2
 msgid "Problème d'auto-correction du type MIME (notamment pptx et version tecnique)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 4055396301194a84ba9357d6fd5ec83b
+# b21a6bd846d6472f840f20be5552242c
 msgid "Type MIME / Extension"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2e8859d580044b72a4b10c0fdbb5c2e5
 msgid "[3955]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 07faaf59c08d4cffb1a7e07c0cd7585f
 msgid "Lenteur du fil d'ariane"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d5c774418708470e8f047277d453750b
 msgid "[3957]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# f4dddf56ce054b5ab8178585b33df68a
 msgid "Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 52f9bb3010664279b64279957037a570
+# a81c54030b3243fabd1432885e39d43f
 msgid "Affichage"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# a986147d7431423ead56970b2cf7b061
 msgid "[3959]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# ab5cc02e7178419da4c6b65083203f56
 msgid "La liste des workflows n'apparait pas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# e86ac034a34040cb8652738c8dd3f3fa
+# d3b3c90b02a041b8bb2e77fadfa8b39c
 msgid "Workflow"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:83
+# da0817645de640c9aaa1d4b1f213e657
 msgid "Bugs majeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7c15c566a20d49f991ddffe363ddd784
 msgid "[3069]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 6f856a70ae784378a418e4737cd52255
 msgid "Lors d'une recherche, aucun résultat ne s'affiche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 54b065d8e7f94e468dfc2fcb4093fc40
 msgid "Recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 85bdb8547467417b8772ac872503c41e
 msgid "[3074]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 88500c54f61c404ca8ff7942ebc437e0
 msgid "Document non trouvé, après un clic pour mener au répertoire concerné"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# ef9f726b5a154493a250cd1b4d80ed00
 msgid "[3211]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 957cb0548a5c49b9aa3b4c1a75ceedff
 msgid "Lors de la création d'un sous-espace, pas de pré-validation de l'espace parent"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 947babe4eeef45f88cb6acdebd20142b
 msgid "Création d'espace"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# e7184c537d7442d78e94ea65cadc3458
 msgid "[3570]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 5701ff6980804a37a378bd9029d092e7
 msgid "Affichage des dates : ne s'affiche pas de partout sous format JJ/MM/AAAA"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 6696ae552a294438a50b4d92cbeb1473
 msgid "[3808]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# bf30cf38847d4ce69fa83f0f25daffa1
 msgid "Le formulaire de publication ne se charge pas, si un trop grand nombre d'espaces séléctionnés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 778b9413eaf342e5ab91b890e4fd3166
 msgid "Formulaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# ba136fc4f57c4ab9820ca791d82f4458
 msgid "[3849]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 4321550e40984d2c9bbf2db533a5baff
 msgid "Lorsqu'on lie deux documents ensemble, aucune visibilité des documents pointant vers celui-ci"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# c66b850cc3c64c059d121eca0113cbc4
 msgid "Contenus liés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 06469d99379242dcb4478f21f7f7d652
 msgid "[3854]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 5304e1347c2948f6ad2bdbc9b30e4bb4
 msgid "Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b3d7365c715a4d908fdb8977adc4370a
+# 6d03f93b4fa0437dbaa7e5aa9e27fe95
 msgid "Renommer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 10bfd1cf0e1a454e824ae59e18ce91ae
 msgid "[3877]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7bb29ff574634b7ba0b5ae36ffbeeec9
 msgid "Renommer un document fait perdre le type MIME du document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2a1cae3fda9b45138d04a01d9c3b51d7
 msgid "[3878]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2931c636ca6b43f7bcd84dbb58fd9d5f
 msgid "Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# c3b50c38e1d24fc7849b4724f693203d
 msgid "[3930]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 3092b16220b4414799d4080e6ad3bf5a
 msgid "Métadonnées se mettent automatiquement sur des documents ce qui mène à un comportement étrange"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 76da97500ac24e8d9cd9608769768e94
 msgid "Technique"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# b5ef5560a83346bab898c582b48a58c8
 msgid "[3934]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# cfea434b851c4bcc9f573c87bd3d4318
 msgid "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 5645fd9ca615493db95783bf6e6af52e
+# addfe7fe3ead4062ae816aa461d70db2
 msgid "Utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 8d3931a4ff0a444aa4b3990473f63bea
 msgid "[3883]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 15859562eb994421bd794de4d8ff4308
 msgid "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7f1d70895262483f8eb8891a8b7df87f
 msgid "Règles de prévention"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:103
+# 137c6706b3224233bdc17c210171a86b
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 8c1e9cc67fe442349579d6fdc3a92cb3
 msgid "[3265]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 21e388e682564324a7d285d82622bc3d
 msgid "Lors de la mise à jour d'un document, problème d'affichage des annotations"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# f926f3252a4f4290b80ca94d38f8baa9
 msgid "[3439]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 5c7c7a3f122144f383ee81606eee0292
 msgid "Problème d'ajout d'un tag lors de la gestion en masse de la Taxonomie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 3eb148ecf6ef47bab661a3ef0f6d7972
 msgid "Tag"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 6cffdd52158342c58162c76d1c953bff
 msgid "[3532]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# c28eef49d2ef429fb4d2b9124efc11e8
 msgid "Problème d'affichage du champs poste dans la carte de visite de l'annuaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 6a95d730f0b44758a67a1694aafa9f84
+# a53c6cfa90be4f608939a767116024cb
 msgid "Annuaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 2aad6d6f17494912b2de758262b4745f
 msgid "[3811]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# c684450178764fa18870342f7e678c7c
 msgid "Problème de partage d'écran sous Google Chrome - (installation Plug-in)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# f14e47e870fd409aa7582582da992f71
 msgid "[3855]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 35727e583293429c8b09ca2ca714e184
 msgid "Impossible d'avoir 2 visio-conférences sous le même nom"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# fc6dbd9ccc0c497e96dd54525888e562
 msgid "[3861]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# e6a1f23791f14fc897138e87c6b7a56f
 msgid "Filtres persistants dans l'annuaire utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 3efa435e74eb45aab9e5f727a88b6dc7
 msgid "[3869]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 899194df9f5b45039cee86a5716b6a72
 msgid "Problème de navigation dans le forum"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 4fe9d7ce024048929c673f84ca7ced1c
 msgid "Forum"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7f940900d29b42d799893dc93bdc3ee4
 msgid "[3873]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 83289129a5fe4d7594a28bbe614a5d6b
 msgid "Problème des liens URL générés dans les workflow"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 0580eeb5b11e4597874de455401f4bce
 msgid "[3894]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 9df7dac87c8649a4bae93670b7fa9fd6
 msgid "Le clic -Renommer Dossier- fait disparaître le texte (nom du dossier)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 9e033bcf32ed456c87ad7d656e5942e7
 msgid "[3904]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 132d9492890a46b79f506ffc66868d10
 msgid "Problème de la pré-visualisation du format Office"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 245c3961ecdb425cb736e6a0ba13aad2
 msgid "[3921]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7762cacc62364b2a9e512c23cdb5c36a
 msgid "Problème de suppression d'un message privé. Réapparait quand on raffraichit la page"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 6447a36cc14c47609ec85264272841a1
 msgid "[3925]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 1d96efef19804c5db012d5b7aa811ffe
 msgid "Pas le bon avatar affiché lorsqu'une action est faite par un autre utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# bea8e8c027c24a72a87826b3d9ca8112
 msgid "[3932]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# c8872b0ab7fa41199127bb02d25f7259
 msgid "L'explorateur de fichiers ne s'intancie pas dans certains cas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# d43c935d0e704e19b6d13e5a97654b87
 msgid "Explorateurs Web"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# dc50241b5836441d92917433b9b6a193
 msgid "[3937]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# a9b333fd0a4840af9ffc8c96b31615fa
 msgid "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# eef1b6304f784d1e8417ac2806fed353
 msgid "[3946]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 38e35c8eedc449318e157d46386c3cc1
 msgid "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 7cdd4d8f763b4b8cb545cda9a6f2ad85
 msgid "[3949]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# 8069878ef359438cb0ad266c12a3af73
 msgid "Eviter les collisions lorsque plusieurs modifications sont faite simultanément"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.0.rst:1
+# e4efd8cc949744d792d80e09116179db
 msgid "Modification document"
 msgstr ""
 

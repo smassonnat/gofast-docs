@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:3
+# c3dfceb48de54a9999423079bbb9a3c0
 msgid "GoFAST :  Version 3.4.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:7
+# e4a8f19a9f3b4be9b97bd8784f943769
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
@@ -30,6 +32,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 75e8c7fcb9bc4451be882b9e2b5c2d1d
+# 6c855b93ac9c414c81fd953ac37047fb
+# ac3542c09be74e2aa872fd6a1fff0d5f
+# b4e3a3320a584b2497552d874139ed53
+# 29f44578dce247b9a369c3e366e98dc1
+# 9a5941125af9403bb0c23469b8a55ec0
 msgid "Ref."
 msgstr ""
 
@@ -39,6 +47,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# dc32333f53a7492cbcd03d87196fa71d
+# afed07365a4046ed9c59d32e25603b0b
+# ee39e769cef04402a63a8eabb034fd82
+# b2a92440fac349d3a23bf63b380c2c2f
+# f0ab805298524d1e801f1faaf31503c7
+# a698534323d14ef195b90d52fbdc5a01
 msgid "Description"
 msgstr ""
 
@@ -48,650 +62,817 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 67142ccc91ba48fc98fe93ce1822b8f6
+# 1de9cc42eba14668bed20fa5b4ce5281
+# 9eab77b0dd584965ba1f2e46765511e2
+# 2c6ab34c3b3041438aaacf96cd1256c3
+# bcfb445f85ae4a4e924c2e222ef98834
+# 480c02c136ce43408405b1d1ea998b95
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b6c6e2620c6c456e896bb73c22173cb2
 msgid "[4347]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 339bc84e397f4c1cb7724a679f3ea76a
 msgid "L'arrivée sur le tableau de bord n'est pas ergonomique"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 6a2045760914408690cca794d6a537b7
 msgid "[4393]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# d3cbc6333ae0489591d72dde91ee0807
 msgid "Les rappels de réunions survenant juste avant la réunion sont à supprimer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 4dd48e27ffd44321bdf84251b0195b0f
 msgid "[4394]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# dc9f03c8ff574199bd0528152fb036ae
 msgid "Création réunion : Possibilité de décocher des users non invités même s'ils font partie de l'espace à inviter"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 218e24c00660492797a8cc983c7f6605
 msgid "[4418]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# fcbce4395bb34ea1bae296aff804f8c3
 msgid "Nombre de lignes augmenté pour les Favoris"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 66dfcc7c46d349bd904497950d6adfe5
 msgid "[4436]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 9e9a3fd8dfad496db2d9d0d1609f707e
 msgid "Adaptation de PDF.js à la charte graphique GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 86bb78ef1b1d4d96b2545880ada28e13
 msgid "[4443]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 0493c40533dc465ea0a6894828303b62
 msgid "Différencier les dossier TEMPLATES (rouge) dans GFBrowser"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5bd7152597e944c6b2ff409fb3c01be4
 msgid "[4456]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# d12c954023a04ddb9d7c67c38673bbb5
 msgid "Amélioration de la création de la traduction d'un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1c76f570ba1b4f13a73c6cb823575f4c
 msgid "[4473]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5090525046bc4ac9a724c9f930568c71
 msgid "Message indiquant une 'Prévisualisation en cours'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 02e0d13740564964b7bbc3487aacf6a7
 msgid "[4474]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# d547dc8753fd400aaee475a2133e33a0
 msgid "Menu déroulant pour : Documentation - Forum - A propos de - Swap version mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5707241563bc496da375b8b970b00138
 msgid "[4481]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5340c04a4bed4844a902df371e4bc422
 msgid "Renommer la fonction 'Conférence' en 'Réunion'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# fd5b1ba0b9f841e2b771f02b2ddaf5c3
 msgid "[4498]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1c84149c71ca408ba79a2e77481fcce5
 msgid "Amélioration de l'ergonomie 'Calendrier mobile'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5052c475032f4b6089ff384bb049b512
 msgid "[4501]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# deb639def886488a984cbb8ac0179817
 msgid "Améliorer la gestion des actions dans l'explorateur de fichiers sur tablette"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 3a13a1ec2fde4888b7d196b3d14ae6b2
 msgid "[4502]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 0a8b6a4c9ddf4b30ae76aa8551de2dab
 msgid "Fil d'ariane sur les documents (version mobile)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 96a2717db6cd41db83490ce603c70537
 msgid "[4531]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1f43d7f67f284e2db2cea3c359a10bdb
 msgid "Affichage des réunions sous format texte simple pour les appareils ne pouvant pas décoder le HTML"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 870904f0b66743a59cbbbeb06985b1ff
 msgid "[4577]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# c9c47185b8e3447da4b8de35500ec589
 msgid "Thème spécifique pour les notifications"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f2fc649f1e604d65a74c3e84dd9bd71e
 msgid "[4585]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 49f5a19f03664133a0d69a9b8f2465f0
 msgid "L'action 'Supprimer' a été ajoutée (version mobile)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:32
+# 60348452bf954d5c84ff3305fbba8fd8
 msgid "Améliorations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a1381a8ca86f4d979e9fb8ac59e93f0f
 msgid "[4370]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a576385162b04be38e8515452ebb76b3
 msgid "Le format 'rtf' n'est pas identifié comme format 'text'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 2211638630fe4538adf9562c8afcda59
 msgid "[4420]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# cbc9e8dc9aa645f29d5227d7c4be8056
 msgid "Mise à jour WebDAV Ajax Library 5.7.3252.0"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f0f74554b14246cabbc84ac9904e0e14
 msgid "[4468]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b7565dca50904c6ba63e4561871fae54
 msgid "Optimiser le temps de réponse du fil d'activité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:44
+# cc41961cf8af41c0a04c4590b750eec0
 msgid "Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f427788d3d0242a3887ad9b6790e349a
 msgid "[4452]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 8a52bcaae4074cc5b73b1a20782a0af1
 msgid "L1TF - L1 Terminal Fault Attack - CVE-2018-3620 & CVE-2018-3646"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:54
+# ca2b2426aeb64cdebe46cad56b652656
 msgid "HOTFIX (Enterprise)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# ae5b3a010c2b41cb8925d2dfafa0b966
 msgid "[3644]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# c2d587602d194454b000767d8054b48b
 msgid "Si le champ 'Téléphone' est rempli avec un caractère espace, l'utilisateur n'est pas créé"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 54c3ebbaf4f54ec786f997a182094965
 msgid "[4494]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 81c53bd120e1463ea1734175c43fab7c
 msgid "Terme 'Activité' changé par 'Accueil' dans le menu mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 09b05d42e88444308f7ecaa408137750
 msgid "[4495]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7ec615e4ff8d4d9ea6dd3daaa8e41998
 msgid "Rôle 'Lecture seule' : l'action 'Partager par email' manque dans le menu des actions rapides"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 465fe86067474f8291fedd758238614e
 msgid "[4497]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 43cadae1e7fd4780b61ff68654a37d06
 msgid "Création de réunion : Problème d'affichage liste des documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# ea03ec20c56e4ccda5695818f82b2e90
 msgid "[4503]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# c5ddbe7de5b542eaae9310a3f73e0078
 msgid "Après la suppression d'un document sur la version mobile, on reste sur la page"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a08c8768467847baac78c751f70f7d5e
 msgid "[4515]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7dc0434b22be48429514333f72f0dd22
 msgid "Ajouter un espace en participant réinitialise la date de la conférence"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 45873a4d630742f4bc8eeb17d2504809
 msgid "[4520]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7474044154a94d778a99bae658b3df48
 msgid "Export des documents depuis les stats : Erreur pour téléchanger l'export"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# dfd27927afc743f6812b7afe8cb4618c
 msgid "[4523]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# fe095ef2cce0444ca3b250bf4026addb
 msgid "Bouton 'Partager par email' dans les actions sur la version mobile est manquant"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7140dc57236d443b82c074894bc20fb5
 msgid "[4524]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 341513f89e944777b96f7965fbb42de7
 msgid "Le titre sur la page d'une réunion est manquant sur la version mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# c4e0c91e4ed64e52a8af3ffb71f2e5ff
 msgid "[4525]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 56326056287940e8975308f4a463b39e
 msgid "Les actions rapides sur la recherche mobile sont manquantes"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 306fb05f350e49659369fbe1746fd025
 msgid "[4545]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 40611facf94e4545af2780282afcefb7
 msgid "Fil d'activité sur mobile et tablette : affichage cassé dans certain cas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# abddfb0617924bd09b34e27119bb6c84
 msgid "[4557]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 4d55203852884af7a46a60ee9135a4a2
 msgid "Le bouton 'Accéder à mon calendrier' sur le tableau de bord redirige vers l'explorateur de fichiers"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 06ba9f6def6b4f19b4b65aa2c4bef670
 msgid "[4559]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 864f764625aa4d34a42b2244a646abfe
 msgid "Le fil d'ariane dans les espaces sur la version mobile est manquant"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b1b8875893d646bd847537077c1cc4b0
 msgid "[4560]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 9df5c323fc0d41219ddf4894f9015dc6
 msgid "Le bouton 'Ajouter documents dans le GFBrowser' ne marche pas sur iPad"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f816e9a8d3144f88879c6fa33b8faadf
 msgid "[4562]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 143e05a288ec454bb98cf3da19b86f73
 msgid "La page d'espace sur version mobile n'est pas thémée (pour les non membre)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 975c275d9c5a44d9953541c25eb4266e
 msgid "[4572]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 645de7330378426291f42b2aea8f3d79
 msgid "Après l'ajout de document par 'Glisser/déposer' sur l'accueil : fichier de 0k"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7c3a410a3b6941acae2102712730f51e
 msgid "[4573]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 2bf03fd627d040cdb5b29dbbab51732f
 msgid "Ajout de participants à une conférence : Problème quand ajout avec une virgule"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b7785eba6b684808a61901696ab1ba6c
 msgid "[4580]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 824748b53f354a41bba3d85f748f5295
 msgid "Action dans le fil d'activité : mauvais utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# d420a91aa39b4ffbabd6f6465c7fed0a
 msgid "[4582]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 4989548a08b545c9993944f1bb20a46a
 msgid "Copier/coller un document et l'ouvrir dans GFBrowser redirige vers document d'origine si on n'actualise pas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# cc611938e05a49638c84e6fe7140eb77
 msgid "[4589]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 4831db55ca364539843989df73d6232f
 msgid "Scroll intempestif quand on arrive sur la page d'un espace depuis le fil d'ariane (version mobile)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 90411e194b9946e19c509cd8cddfb27d
 msgid "[4591]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 30b2354223be4f6aa5711fec9641971a
 msgid "Impossible d'annoter sous iOS (iPAD)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 00f0d2584feb49dd9b5bc349e09a4c6f
 msgid "[4617]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7fc97ca2c53d488f94481d02c6c9f2ad
 msgid "La gestion de taxonomie (classification) en masse ne fonctionne pas correctement"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:85
+# 16e4068d4fb048b5b144ab5908d5012f
 msgid "Bugs majeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f07d518e59c3480e9f03e06f436bc26d
 msgid "[3750]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 16686467972141ed9740d94ee99ee1ad
 msgid "Mobile : workflow manquant dans les informations sur les documents quand le document est dans un workflow"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 66439b69a6f74c62a2d0f8d17f1d2434
 msgid "[3796]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 72bcf60941da4f55977a383152896b97
 msgid "Affichage des dates pour les visioconférences : La date de fin apparaît en version anglo-saxonne"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 3be6aad63e3c480f98ffcc8f4c797df8
 msgid "[4058]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f163e461382946e7bc337e4ab2b8d859
 msgid "Gestion des membres en masse : liste des membres non visible l'explorateur d'espaces pour certains espace"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 3d313ce5203c4a37aa9dcfcb47ad5006
 msgid "[4327]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 9eaf7148ad6b43bfb9eb122a4a2f5f98
 msgid "Le fil d'activité pose problème d'affichage quand il est vide"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 60a85ef41ce644de8e31d80507386245
 msgid "[4348]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# fe6314dfffa5430a9519f85dee7572c3
 msgid "Certaines vues sur mobile ne sont pas centrées (lecture sur Ipad)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 46c0356a005242f28d6a9734fe1f25ae
 msgid "[4351]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# d15eba4d83024f319119b811eb8a6f33
 msgid "Perte de l'affichage du calendrier mobile sur la version optimisée"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f9c5f35f0a644e2da136faa26e8bd745
 msgid "[4373]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# bcf47931e4f14cacb7f834d2c48fe22f
 msgid "Commentaires sur la version mobile : un seul s'affiche lors du chargement de la page"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f7725c89cddf487c9ac4bd4bf6a9dbe8
 msgid "[4376]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 93ca848d2fa44ae09bca47669841f0e2
 msgid "Problème d'affichage des réunions dans les calendriers suite à une création/modification"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 98c30a9dd1a64830ba232d600c0c93a7
 msgid "[4388]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# e4801360d2d04054bbb323712077774d
 msgid "Problèmes divers dans les notifications et manque le 'suivi' des réunions dans Outlook (dont 2010)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5c1f06235ce1434993526ea2f04dd2ef
 msgid "[4390]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 93c41291e8414b1090c871d2d6d9baa0
 msgid "Les réunions sont indiquées à la mauvaise heure dans le calendrier"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# afc41df36c7e438b8f71e9ac8a2d893a
 msgid "[4396]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f107651e66814abcb85b94c6028736ef
 msgid "Le logo est surdimensionné dans les notifications de réunion (Outlook 2010)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 25d711a27f0b4c7084d13232d089ef62
 msgid "[4397]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 46d576f272334ce5afcd65d74641591f
 msgid "L'emplacement de la réunion n'est pas repris dans le calendrier Outlook (2010)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1abfd92324cf4f459d8f9800fd8857e4
 msgid "[4399]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 43e0df6611c342b998ec05ddd5adb4bd
 msgid "Problème d'affichage dans certains blocs sur le tableau de bord"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 6507b1812bec4936938b74604de903e5
 msgid "[4401]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1aa808291478419d8f03128c9adce2c3
 msgid "Affichage des filtres de recherche à améliorer sur version mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 89312286fe81429bb62002dbd61283f9
 msgid "[4403]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 72393f27c056443488ec726f7a55eca5
 msgid "Les actions non autorisées sont affichées dans le menu des actions sur mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 0b7a2547900e42899a6f13fdb39f00a5
 msgid "[4417]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 1f3da6b0be2241f6b57025ce8620a476
 msgid "Edition d'un livre dans un article : Message d'erreur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# c940d77f89a34854b3a067e2565d062b
 msgid "[4422]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f77c30ff04174715a54fc913fff6c75a
 msgid "Un point (.) dans le nom d'un espace coupe son nom dans le fil d'ariane"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7bcc7bc943df44d786b26b28ab8c4da8
 msgid "[4434]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 9c9494f7dfd7457ab206e553c9d24a70
 msgid "Le microblogging ne fonctionne pas sur la version mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f90260a6a0f94c06a85a8e791e6eb729
 msgid "[4454]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b9304191a7344ac7bf3c203a381cff6c
 msgid "Impossible de créer un nouveau contenu après avoir fait un 'glisser-déposer' sur la page 'Activité'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# ec660137e60a4fd59428765ebd9b5ad5
 msgid "[4458]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# ec88cd831242429bada4f74d98e543c1
 msgid "Les permaliens vers les commentaires ne fonctionnent plus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 0d28a5b4f0c44358a3a8f70a4db5da55
 msgid "[4461]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 634ed9627cdf4a409076b567015ae37a
 msgid "Modifier un événement (article) après l'avoir créé génère une erreur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 745b7f62746e4f7182e8147399bbce49
 msgid "[4466]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7bb3c7bdac0d428691b5ab6d1bcdec45
 msgid "L'action 'Créer Document' est très lente"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 40d79800ab174f74bdb3c9b772171da8
 msgid "[4470]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a7b7de24cc674da38448073440b430c3
 msgid "Chargement de la liste des dossiers/documents par le GFB : colonne de droite revient à la ligne par dessus colonne de gauche, ce qui créer un bug graphique"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# db838ae6ec674e21bc4502070387f210
 msgid "[4480]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# fe6810e0f3e44d4ab638efd2ec6ce1b3
 msgid "Envoi d'email à un groupe : dysfonctionnement"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5acd813c39414db39d285cd47bb0a521
 msgid "[4483]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a1a1586085a744ccb180673501df2602
 msgid "L'affichage du résumé d'un document n'apparaît pas pour les utilisateurs en lecture seule"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:119
+# dcd96cb0e895483d910d6dbdc31fea23
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# f7809aafd9a542d7b337c93ae6b361b6
 msgid "[4285]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5bd12eae6ce34c579ff4000bb062e416
 msgid "Onglet 'Catégorie de la configuration' : Les langues autre que FR, NL et EN sont à enlever"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# a39dd678f28741619b8043665e6e9bc4
 msgid "[4335]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 4656fa997ed34ecabf27c209f9dc7a61
 msgid "Le menu déroulant est masqué lors du résultat de recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 16210b4e961f4a888b949983f2d186ac
 msgid "[4344]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 7ff4fabcf9534bc68e2c19632929b967
 msgid "Impossible de supprimer en masse sur l'explorateur de fichiers (menu de gauche)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# cd52b3a618f84adfb6390487550e4961
 msgid "[4407]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 8b7f0445d6c84ebfb0e429ac2259dc5d
 msgid "Favoris : Après avoir ajouté un fichier dans les favoris, 'Ajouter aux favoris publics' restent afficher à la place de 'Retirer des favoris publics'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# b1110014b265442e8b5edacefc7e96e5
 msgid "[4432]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# bbd80168fcc4451497396d44bdfdee03
 msgid "Suppression d'une publication : Le bouton 'Cancel' ne ferme pas la page et n'a pas de style"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# e756d34f6eb54bc6885954fa301d4efb
 msgid "[4448]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 98ceae8513d1465fb252158f4ecff738
 msgid "Après récupération du mot de passe, l'explorateur de gauche est déployé et ne veut plus se masquer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# cf58074f3a4f46c883cbb54834c66056
 msgid "[4476]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 12b476ccd78644bbb55a3ed84f7dd2b1
 msgid "Partage par email : Notification de téléchargement incorrecte"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 0a1b1ea993e5498ca924f3091ed17a96
 msgid "[4479]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 40434071f8384d4498b7002bf9446ce7
 msgid "Modifier le résumé : Le bouton 'Modifier le résumé' apparaît"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 17df189f3865450885b7f4820ffd1c81
 msgid "[4486]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# ab82a06ab01b48ee91b6ee97ecbf38b7
 msgid "Le fil d'activité n'affiche plus la personne qui ajoute ou modifie un commentaire"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 89e4418676ac4346a2a6aaf778f5fbee
 msgid "[4487]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 40dcc9c000094fa59b359a4136475f99
 msgid "Perte des émoticônes dans le chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 342c1f6e09954524a9d5360f17458791
 msgid "[4504]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.4.1.rst:1
+# 5a8f1cadeebf4caea2f069d1bf52d06a
 msgid "La zone 'Glisser-Déposer' est affichée sur le tableau de bord"
 msgstr ""
 

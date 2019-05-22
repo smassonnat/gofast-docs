@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-05-22 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:3
+# d5abc9f9eb7d4cc9bc6edf06765e30f1
 msgid "GoFAST :  Version 3.2.2"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:6
+# 8c5e842466cc4aa0b88f4d3e65a77ce2
 msgid "Améliorations"
 msgstr ""
 
@@ -28,6 +30,10 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 10421a09f5014c9ead2c03a294c10f89
+# ecdc721f86164aea82075325f0c6182d
+# f94970a3ae524554b6ec722fe3e438ab
+# 599cf1b817ff4f59a1e186964fb97f09
 msgid "Ref."
 msgstr ""
 
@@ -35,6 +41,10 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 85ae734118124c609aa9b20db0f7ac50
+# e685ef01a3344265aea35405ff9b3593
+# bdde64f14c0145cc86744892403eb9ae
+# 7127ee2b28bf4a819cf4c443c849e619
 msgid "Description"
 msgstr ""
 
@@ -43,269 +53,342 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 17b0fd1b71f74c238688bec618bb1488
+# 7b4fe47a24fd4b4e8f508a2df12a082a
+# debb82d9fb2e4250bea5084c1f7aa07d
+# 3a209d2506a64fa8a25f89b7b117b0a9
+# f6a369d88db54e28bece00f052627268
 msgid "Catégorie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 2ca1c26435c24d22b9a9a025d6472b52
 msgid "[4096]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 360fb97c915943108226ec174bfabed4
 msgid "Incohérence de permission de lien de partage si l'utilisateur est déjà connecté sur GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 891b4ce42d644a69b4b92e8dc0f16642
 msgid "Permission"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:15
+# 5762d716ca004e8aba10d624e4712e02
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 6949d94c1d6a4be38c2c9e2aa7145558
 msgid "[3276]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# cba46913477b4e71a81121371dee180a
 msgid "Suppression d'un espace : ne s'ouvre pas en modal (boite de dialogue/pop-up)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 06e3fec0086d419497f8636def8a6000
+# e028e60cd38e4633974e8e6f51835bc9
+# 30fcef9e60f24e1aa63fd6707973cd75
 msgid "Suppression"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 626e9a3961994adcbea61aece961dc85
 msgid "[3933]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# da31b02734874ea2b51651c1856af6ea
 msgid "Impossible de créer un compte utilisateur avec le rôle par défaut administrateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 62b95f98aaaf40e79637a2f4e251dc09
+# 7e9e2a6fa4804f75be5657cfa09b219f
 msgid "Compte utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# b10543d144e4469cad1b217046f9477c
 msgid "[3972]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 4796ddc4168348f1926b5286e46aecda
 msgid "Lorsque un document et répliqué, on ne récupère pas la date de création du document pour le noeud Drupal"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# d2ed906d13734b6c8465cf09a94eea98
 msgid "Historique documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 760ea9aa42694e10ad06f153a6326cd5
 msgid "[3980]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 97f6651196da4378b100a36fce8b1d54
 msgid "[Workflow] : Problème visuel dans le tableau de bord depuis un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 9e547619605146c990e55c4ab918a3d1
 msgid "Workflow"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# fba222895a7d4fa39b5eb0de61a91818
 msgid "[4065]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 04284ebba5e04009bfc3f8d0552b5496
 msgid "Lors du téléchargement de l'applicatif *ITHitDocumentOpener* sous Chrome ne comprend pas le format de la fênetre de téléchargement"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 808185226d254a0a9611d5cb9218cda2
 msgid "Applicatif"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 575004e68ab74613a31c593d85d1a39b
 msgid "[4071]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 7b5db6625e1a45e08eadefbbf5b0080f
 msgid "Le rôle *Broadcaster* : ne fonctionne pas pour les types différents d'alfresco-item"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 76f15429fdf84bacb0460a8d22a61f78
 msgid "Rôle utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 5e5bbc6d6f79461891304c2f06237228
 msgid "[4087]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 3d3d860ff0804ce9b4bae44076be816c
 msgid "Impossible de faire un export de statistiques documentaires : Message d'erreur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 2a678e0f03e64f949814153970db4648
 msgid "Statistique"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 0eec4a0ff3b64dc5923ad14c19cd8e42
 msgid "[4089]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 252277253c414ea98f1217edf0e289ee
 msgid "Possible dans certains cas de supprimer un document en multi-emplacement dans des espaces où on n'a pas le droit de suppression"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 419f3e74a3404b318ad1e7e47b5e505d
 msgid "[4093]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 889541644474406c81144c217716b45d
 msgid "Boite de dialogue mal dimensionnée pour les commentaires"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 409dc7db438f457286fee9fcc772071d
 msgid "Boite de dialogue"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 673ede282a9e48528481712a431b96e9
 msgid "[4094]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# f89fb4455970491ab40381d64873ba30
 msgid "Ne plus rendre l'aspect gofast:nodeproperties obligatoire pour les dossiers"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 74c30ef9f54c449b8bbc77bb78ab48e5
 msgid "Technique"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 111c325538444b43ac71f4cc63275a78
 msgid "[4095]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# d68a39affa2f44debd3061cd8c891dec
 msgid "Création depuis *Modèles* : menu pas toujours visible sur la CLOUD"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# f8431df49f0e44a89e9f01c9f3d257aa
 msgid "Modèle"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 075e944e439a43008e2eea4498046eea
 msgid "[4101]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 1dae0a30de5a4cc8b762d68b05ffd364
 msgid "Lors de la suppression d'un dossier, la réplication vers Drupal ne remonte plus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 696c9d798c8040dfb2bc1d9240a0aa3e
 msgid "[4107]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# d8e53852e3a84b0cbc6b4a97127793ec
 msgid "Portrait technique dans le fil d'activité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 6c86a65bf3b3455bb1e5e42584a21629
 msgid "Fil d'activité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:37
+# 415fc77e8958492d85ef0898c2992a20
 msgid "Bugs majeurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 319a4ff295b2474ca2b067e3fad758a1
 msgid "[4022]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 217fadf6608445508dcd31551b0cc0b0
 msgid "Webconference n'est plus fonctionnelle au dessus de 2 utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 8ad1a6e315af4927a7e1e4982411e534
 msgid "Webconference"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 4398cc59ddd84212a37240d06d218351
 msgid "[4033]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 6e9bb907374f4ddd8ebd08068423a86f
 msgid "Problème d'arborescence / multi-emplacement pour les contenus non Alfresco"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# b94e87bd79d7411bb2f21b5566817442
 msgid "Affichage"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 1a0d80bc14814e7ba56c2ef570f58743
 msgid "[4056]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# ff66ce06ff5d44d993553fc3529a7a61
 msgid "Création catégories (et états ?) en doublons"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# b2b86053fb51486f94c94493e3fd0c17
 msgid "[4061]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 76bae5c701144ebaaee6f06bc9e10fb9
 msgid "La récupération du mot de passe utilisateur pour l'authentification vers Bonita et le Chat n'est pas asynchrone"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 2ce2ff693404412ba7fad1d031ac4808
 msgid "Identification"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 1df96a3c4d6547b8a0a5112236b21dd1
 msgid "[4084]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# f7e26fea0cd142fa9a0cc459d86dcaf2
 msgid "Lorsque on se connecte par le lien de perte de mot de passe, ne pas faire d'appels vers Bonita et Alfresco"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:51
+# f6cca94ae2ae47a2880f3e30ea238896
 msgid "Hotfix"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 78bd667566d44e9ea0009756173070dc
 msgid "[3932]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# b25004eb7abb4951b6519ba0e543fe6b
 msgid "[ITHIT] ITHit ne s’instancie pas dans certains cas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# fd9b9202716b4cf0a8ecd64e7bd980dc
 msgid "Explorateur de fichiers"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 6f3ed0baba2d448a995194aa69e463f4
 msgid "[4036]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 8100d9b9af854a0a9d3e5508040e68b6
 msgid "Corruption ODT suite à l'édition avec OnlyOffice (+ perte previsualisation)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 36d9278139eb46f0ab647d821280feab
 msgid "Edition OnlyOffice"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 465940b912af457eab65f7aaf8d908dd
 msgid "[4111]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# 61424ea7d7a44265b01f57570b01578b
 msgid "Le lien du menu parent *Annuaire* est obsolète"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.2.2.rst:1
+# a1d1a961a88b428091159bac293583c5
 msgid "Annuaire"
 msgstr ""
 
