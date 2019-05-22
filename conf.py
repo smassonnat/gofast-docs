@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import os
+
 from __future__ import division, print_function, unicode_literals
 
 from datetime import datetime
@@ -36,8 +38,7 @@ gettext_compact = False
 
 
 def source_read_handler(app, docname, source):
-    print('do something here...')
-	sphinx-build -b html -D language=en . _build/html/en
+    os.system('sphinx-build -b html -D language=en . _build/html/en')
 
 def setup(app):
     app.connect('env-before-read-docs', source_read_handler)
