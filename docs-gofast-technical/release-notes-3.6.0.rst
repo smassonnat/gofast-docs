@@ -2,6 +2,7 @@
 GoFAST :  Version 3.6.0
 ********************************************
 
+blablabla
 
 Nouvelles fonctionnalités
 *************************
