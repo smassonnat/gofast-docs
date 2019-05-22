@@ -34,6 +34,13 @@ locale_dirs = [
 ]
 gettext_compact = False
 
+
+def source_read_handler(app, docname, source):
+    print('do something here...')
+
+def setup(app):
+    app.connect('source-read', source_read_handler)
+	
 #make gettext
 #sphinx-intl update -p locale en
 
