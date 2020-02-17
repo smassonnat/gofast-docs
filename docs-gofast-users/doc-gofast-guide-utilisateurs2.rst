@@ -1,3 +1,6 @@
+Annexes : Quelques bonnes pratiques (suite)
+===================================
+
 **Objectif 6: Diminuer le volume papier**
 
 
