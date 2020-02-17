@@ -18,7 +18,9 @@ Documentation GoFAST
    :maxdepth: 1
    :caption: Documentation Utilisateurs GoFAST 
    
+   .. _user-docs-basics:
    docs-gofast-users/doc-gofast-guide-utilisateurs*
+   
    docs-gofast-users/doc-gofast-utilisation-avancee
    docs-gofast-users/doc-gofast-administration-plateforme
 
