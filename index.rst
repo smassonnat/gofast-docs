@@ -19,7 +19,8 @@ Documentation GoFAST
    :caption: Documentation Utilisateurs GoFAST 
    :glob:
    
-   docs-gofast-users/doc-gofast-guide-utilisateurs*
+   docs-gofast-users/doc-gofast-guide-utilisateurs
+   GoFAST : Guide Utilisateurs <docs-gofast-users/doc-gofast-guide-utilisateurs2>
    docs-gofast-users/doc-gofast-utilisation-avancee
    docs-gofast-users/doc-gofast-administration-plateforme
 
