@@ -4396,3 +4396,6 @@ Annexes : Quelques bonnes pratiques
    tableur.
 -  Je signe électroniquement les PDF avec certificat sécurisé plutôt que
    de les imprimer pour les signer et les re-scanner.
+
+
+.. include:: doc-gofast-guide-utilisateurs2.rst
